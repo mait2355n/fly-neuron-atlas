@@ -5,21 +5,15 @@ Read-only. stdout: JSON; exit 0 on agreement, 1 on inconsistency.
 This validates snapshot arithmetic, not biological function or source truth.
 """
 import csv
-import gzip
 import json
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from table_contracts import (BILATERAL_SIGNALS, COMPLETE_IO_STATES, MAIN_BILATERAL_FLIES,
+                             THRESHOLDS, finite, rows, validate)
+
 ROOT = Path(__file__).resolve().parents[1]
-THRESHOLDS = (1, 3, 5, 10)
-COMPLETE_IO_STATES = {'complete_previous_same_snapshot', 'complete_additional_same_snapshot'}
-
-
-def rows(path):
-    opener = gzip.open if str(path).endswith('.gz') else open
-    with opener(path, 'rt', encoding='utf-8', newline='') as stream:
-        yield from csv.DictReader(stream)
 
 
 def unique_rows(path, key):
@@ -35,13 +29,14 @@ def unique_rows(path, key):
 
 def compute(root=ROOT):
     d = root / 'data'
-    checks, result = {}, {}
+    contracts = validate(root)
+    checks, result = dict(contracts['checks']), {}
     motors = unique_rows(d/'motor_atlas.csv', 'bodyId')
     groups = {p: r['group_id'] for p, r in unique_rows(d/'motor_groups.csv', 'bodyId').items()}
     candidates = unique_rows(d/'shared_candidates.csv', 'bodyId')
     studied_rows = unique_rows(d/'studied_cells.csv', 'bodyId')
     sensitivity_rows = unique_rows(d/'annotation_sensitivity.csv', 'bodyId')
-    excluded = set(json.loads((d/'snapshot.json').read_text())['excluded_annotation_only_motor_ids'])
+    excluded = set(json.loads((d/'snapshot.json').read_text(encoding='utf-8'))['excluded_annotation_only_motor_ids'])
     studied = set(studied_rows)
     denominator_rows = list(rows(d/'studied_totals.csv'))
     expected_grid = Counter((p, direction, t) for p in studied for direction in ('incoming', 'outgoing') for t in THRESHOLDS)
@@ -105,13 +100,13 @@ def compute(root=ROOT):
     result['studied_io'] = io_summary
     inv, ch, pairs = [list(rows(d/f'activity/{f}.csv')) for f in ('inventory','channels','pairs')]
     result['activity'] = {'records':len(inv), 'voltage_channels':len(ch), 'available_seconds':round(sum(float(r['available_ephys_s']) for r in inv),2), 'aligned_seconds':round(sum(float(r['analyzed_s']) for r in inv),2), 'technical_valid_seconds':round(sum(float(r['valid_no_stim_s']) for r in inv),2)}
-    checks['activity_record_channel_mapping'] = len({r['fly'] for r in inv}) == len(inv) and Counter({r['fly']:len(r['neurons'].split(';')) for r in inv}) == Counter(r['fly'] for r in ch)
-    result['dna02_bilateral'] = {p: {r['signal']:float(r['r150']) for r in pairs if r['fly'] == p and r['signal'] in ('A_minus_B','A_plus_B')} for p in ('a2_d_08','a2_d_12','a2_d_13')}
-    checks['dna02_difference_stronger_than_sum'] = all(abs(v['A_minus_B']) > abs(v['A_plus_B']) for v in result['dna02_bilateral'].values())
-    expected = json.loads((d/'expected_summary.json').read_text())
+    # Exact channel labels and pair keys are validated in table_contracts.
+    result['dna02_bilateral'] = {p: {r['signal']:float(r['r150']) for r in pairs if r['fly'] == p and r['signal'] in BILATERAL_SIGNALS and r['target'] == 'yaw' and finite(r['r150'], -1, 1)} for p in MAIN_BILATERAL_FLIES}
+    checks['dna02_difference_stronger_than_sum'] = all(set(v) == set(BILATERAL_SIGNALS) and abs(v['A_minus_B']) > abs(v['A_plus_B']) for v in result['dna02_bilateral'].values())
+    expected = json.loads((d/'expected_summary.json').read_text(encoding='utf-8'))
     checks['published_summary_matches_reaggregation'] = result == expected
     # These correlations are reported table values; no raw-voltage recalculation here.
-    return {'schema_version':'fly-neuron-atlas-reproduction/v1','status':'pass' if all(checks.values()) else 'fail','checks':checks,'results':result,'scope':'Included snapshot arithmetic and cross-table consistency; activity correlations are read from saved analysis, not re-estimated from raw voltage.'}
+    return {'schema_version':'fly-neuron-atlas-reproduction/v1','status':'pass' if all(checks.values()) else 'fail','checks':checks,'table_contracts':contracts,'results':result,'scope':'Included snapshot arithmetic and cross-table consistency; activity correlations are read from saved analysis, not re-estimated from raw voltage.'}
 
 
 if __name__ == '__main__':

@@ -4,6 +4,14 @@ An evidence and data snapshot of completed analyses of fly neural connectivity,
 activity, and motor function, covering 16 research bundles through 2026-09-15.
 The detailed findings are in Japanese; table headers and runnable tools are in English.
 
+The September 15 implementation revision rejects missing or inconsistent analyses
+and isolates voltage processing at clock resets. All 23 raw records were rerun.
+The three principal bilateral DNa02 records retain their original numerical
+results; two clock-reset records have documented changes. See the
+[remediation record](docs/audit-remediation.md), [saved-result comparator](docs/ephys-comparison.md),
+and [sensitivity generator](docs/sensitivity.md). `data/activity` remains the
+original publication baseline; versioned corrected results are in `data/reanalysis`.
+
 ## Included results
 
 - An atlas of all **815 motor-annotated neurons** in MaleCNS v1.0, with 330,888 direct incoming edges (total weight 3,224,310).

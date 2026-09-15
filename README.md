@@ -4,6 +4,8 @@
 
 [English overview](README.en.md) · [完了範囲](docs/coverage.md) · [研究成果](docs/findings-body-and-activity.md) · [再計算](docs/reproducing.md) · [データ辞書](docs/data-dictionary.md) · [出典](docs/sources.md)
 
+2026年9月15日の実装修正：欠測・系列不足・表間不整合の検出と、時計区間ごとの独立処理を追加した。原電位23記録を再実行し、DNa02双側の主3記録は従来値と一致した。時計リセット2記録の変化、修正版の基礎表と追補解析は[修正内容と検証範囲](docs/audit-remediation.md)にある。`data/activity`は公開時の保存基線、`data/reanalysis`は版を分けた再解析結果である。
+
 ## 何が完了したか
 
 |対象|完了した範囲|直接使えるもの|

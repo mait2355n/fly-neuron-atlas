@@ -12,8 +12,8 @@
   "files": [
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 541,
-      "sha256": "addb2df0fce747e4d0d81ee8057252dae1e73d019ae023f10fba8ac5ed5d8f60"
+      "bytes": 908,
+      "sha256": "ab1abb640320986440b707d1fe453c603a655ebea4b819055db6bf6ab11537c1"
     },
     {
       "path": ".gitignore",
@@ -37,13 +37,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 2883,
-      "sha256": "b98c46acf340d539e752b7c86201a7d6709ab60e626b144fbc6b847909893450"
+      "bytes": 3453,
+      "sha256": "60fd2a4b31a52176547128333dd13f612add8536f42b53612046b99ff099f463"
     },
     {
       "path": "README.md",
-      "bytes": 4758,
-      "sha256": "d0ff471b3a0cb7d65e3c23988c4c62fe4c8185d5fb608c7540c57891cc987650"
+      "bytes": 5239,
+      "sha256": "c8b2024da9218e1288c8f391438fe901dfe1014d36fff27e58702c83722a2e0d"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -231,6 +231,131 @@
       "sha256": "40d27f7a5486240b573ad591e3db3625f27ef7d495e34ef396b04e5ebf039825"
     },
     {
+      "path": "data/reanalysis/PROVENANCE.json",
+      "bytes": 21026,
+      "sha256": "8916117f613a24a45bc63a5d706a0e9408b8f886512851e4ccaaed41c9f8a38c"
+    },
+    {
+      "path": "data/reanalysis/comparison-v1.json",
+      "bytes": 152323,
+      "sha256": "86cc6e18b9e63122e01eacaba7c01ec02375e5a3a0231e8629381800d230b4d4"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/RUN.json",
+      "bytes": 6350,
+      "sha256": "23b80eddfe27c19dd0f134d35c4572825274d49b59c05c7ea473dadddcfc2d8e"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/channels.csv",
+      "bytes": 21152,
+      "sha256": "49300db0221c89852d51d98057be9ab288608857ac8c152c688f0c172c7daf4e"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/inventory.csv",
+      "bytes": 13206,
+      "sha256": "d306dfaf6c3440dc10e098bfe9e1e16fb86bd9c47b26871038a81c364a254dc3"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/lag_curves.csv",
+      "bytes": 314659,
+      "sha256": "f3313f7991b02077371dc1471954604beb5ac23ea38142c517c0257adbba951a"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/pairs.csv",
+      "bytes": 7501,
+      "sha256": "793e04197f96d8fd9d822df8938a882450cd2b2dc90492410445844b671c6fc2"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/sensitivity.csv",
+      "bytes": 7791,
+      "sha256": "79b378970f8655341e039956f78796b6b3c15b6534ae0324030515f182000632"
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/RUN.json",
+      "bytes": 11529,
+      "sha256": "9c18433a427467b4119a7ebd00db3cbaf8bfa92f2e342af6f54cae3df7e59cbc"
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/channels.csv",
+      "bytes": 2685,
+      "sha256": "48b84ee0614851679fc0c31af7c41297f303f689c660d4dc27d3ab604cd89335"
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/figures/a2_d_12_0.8-1.3s.png",
+      "bytes": 225245,
+      "sha256": "4165db1d395db60dd418dc43205ba95b447878cf5f378043fa169b1b8b850faf"
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/pairs.csv",
+      "bytes": 2527,
+      "sha256": "e78bc80202d42a8f49ff4d8e30bf7101c8528ffee739c6f2e9afa667a975a195"
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/source-reference-RUN.json",
+      "bytes": 6350,
+      "sha256": "952ad4659e4b160fe20587c575dd7a066a0ba8742865b21b0c5297524df24448"
+    },
+    {
+      "path": "data/reanalysis/repeat-comparison.json",
+      "bytes": 21682,
+      "sha256": "6a4d847c94459ca5aadbe59dc75f88d4378a34baeb6e8939f078aff4621524f3"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/SENSITIVITY.json",
+      "bytes": 8940,
+      "sha256": "aacc4a7657a4aaf9667afb13db96c03fa5d6aea596f80a3ad36c780af82b9f9b"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/clock_boundary_sensitivity.csv",
+      "bytes": 3116,
+      "sha256": "ba775610ab272d58ae30715be38b1e20ea5a868f8db0f7873fa9b5a111e5827e"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/pair_sensitivity.csv",
+      "bytes": 4027,
+      "sha256": "4e3e962325faceda408d4e6831e52234578a79efbb1d896ebb40c234bf8bcc87"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/paired_threshold_sensitivity.csv",
+      "bytes": 5110,
+      "sha256": "f613540f9c719077e829820694a3eaffd541d2afff0fcb9864bb0997c4034a09"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/source_example_comparison.csv",
+      "bytes": 4482,
+      "sha256": "1ffa0b06c5acb8b9079a6d5e0afa1bb60522088f6db5edb249d7790446f2378a"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/threshold_lag_sensitivity.csv",
+      "bytes": 16492,
+      "sha256": "29ddf2c06a43c6d71b07078446668beba554bbf3cd6147f429fc3e38b3458177"
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/voltage_sensitivity.csv",
+      "bytes": 14417,
+      "sha256": "b4582ee78bb1f0a2430c23c5c9c834dd72b79499782203767bff958378c6f872"
+    },
+    {
+      "path": "data/reanalysis/shared-null-10/RUN.json",
+      "bytes": 7390,
+      "sha256": "1c89d40394d500780216c9a271be45da600d35bef9c359c712bd08716a8aa177"
+    },
+    {
+      "path": "data/reanalysis/shared-null-10/per_cell.csv",
+      "bytes": 117546,
+      "sha256": "bdd3ce0d2abf5660f3efb239888166272e1d6584e21b86a0f7537dd78bd058cb"
+    },
+    {
+      "path": "data/reanalysis/shared-null-30/RUN.json",
+      "bytes": 7392,
+      "sha256": "0c2f455b749fffbc173d692a2d9ea80c9834b648cd106d77775bc83865acbd30"
+    },
+    {
+      "path": "data/reanalysis/shared-null-30/per_cell.csv",
+      "bytes": 117446,
+      "sha256": "6c8070090f285f88c8829e6f132c9184382382e52486328422d53355fd8a6c04"
+    },
+    {
       "path": "data/right_t2_six_candidates.csv",
       "bytes": 1027,
       "sha256": "64c1508676be872d40011e292e98afa0f202781c352a19c4832199e41141ac45"
@@ -271,6 +396,11 @@
       "sha256": "f8c0e461271b4a41b5e6558e7aea93fa34e0445609e142a153bce49ba9b1cd81"
     },
     {
+      "path": "docs/audit-remediation.md",
+      "bytes": 7564,
+      "sha256": "6de3548739cfc1a6f3e58824ac31667607072c95fbe88772a8665f4e61a0b6e9"
+    },
+    {
       "path": "docs/coverage.md",
       "bytes": 4364,
       "sha256": "20b31f157d558c3df413ffda7140ff55367da95452bcc464b069870490299171"
@@ -279,6 +409,11 @@
       "path": "docs/data-dictionary.md",
       "bytes": 5246,
       "sha256": "c6b794c662d1e538d38e140a3cc0b48be5a964325530ed370a8cd9c052f184f6"
+    },
+    {
+      "path": "docs/ephys-comparison.md",
+      "bytes": 3925,
+      "sha256": "2b1ef390f8159805f6d219aff9c75776ff14fef551a93191da3d34caee7a5da7"
     },
     {
       "path": "docs/findings-body-and-activity.md",
@@ -296,9 +431,24 @@
       "sha256": "2196bea0a6db2e6ddc657e73e7755059f25f3e59f7cf816fb71be96d8142cae5"
     },
     {
+      "path": "docs/normalization-sensitivity.md",
+      "bytes": 6873,
+      "sha256": "24a5cb30946765eef0ca50079ef80b9caa88a080cdcb84e72c4070ea44a53c51"
+    },
+    {
       "path": "docs/reproducing.md",
-      "bytes": 6635,
-      "sha256": "ef9d0ddbde545573ae24aa7b534a2267322bef8799de794465c152029b69673f"
+      "bytes": 8880,
+      "sha256": "6c1404197df45dfbb0bcc990f8b2e645d6e0b905d3a43d45dcd81a5774e0d32a"
+    },
+    {
+      "path": "docs/sensitivity.md",
+      "bytes": 6875,
+      "sha256": "79521b70688a0a3120e93d47ccbf7ab31fe4616400017249c99596a1ccca4d14"
+    },
+    {
+      "path": "docs/shared-connectivity-null.md",
+      "bytes": 3675,
+      "sha256": "e87ce8d0ee6fba5c4872097a2cf5f5ebd606c35bfebecadb7f27cf2d864b6c81"
     },
     {
       "path": "docs/sources.md",
@@ -306,9 +456,14 @@
       "sha256": "0a17b3b4e0ca64941d5c404a8f0962e677968870c0d33b7c74f7b406c8a42e94"
     },
     {
+      "path": "docs/table-contracts.md",
+      "bytes": 7482,
+      "sha256": "bc3d4d6225116660ba4d8d2bcda9f98a16a72b3e8773935f8a5796dbd95ddcb9"
+    },
+    {
       "path": "docs/validation-notes.md",
-      "bytes": 2428,
-      "sha256": "8cf213653a882811d1ccf5f8dcfce4508bb7a31c2e7d5f01f40d9b96bc4b9a64"
+      "bytes": 2496,
+      "sha256": "872208facc3403d9f63a7c38be38714a902059d0934c5b2007d13bbacbc5f498"
     },
     {
       "path": "licenses/Wilson-Lab-MIT.txt",
@@ -321,29 +476,104 @@
       "sha256": "9d4370bc99b210319a02e89886f4ab3e93262f709475d9c176717e9186ac09d8"
     },
     {
+      "path": "scripts/compare_ephys.py",
+      "bytes": 12056,
+      "sha256": "66dc90d312faa4b3a18b637b5ea6b886d2f8b12fbf333422e2477be1221577a3"
+    },
+    {
       "path": "scripts/ephys_core.py",
-      "bytes": 13909,
-      "sha256": "72ee78a9d28013f0a0fd2588265ffd63de2013d82186a3eaea5027d17366d114"
+      "bytes": 22995,
+      "sha256": "40a040c7b5a30e7b5495ba13464b637a6335a89a26004a4f68c65d946078cc44"
+    },
+    {
+      "path": "scripts/normalization_sensitivity.py",
+      "bytes": 16184,
+      "sha256": "bc6adf2b45cffc5df9c220dc65dc7dc4c3e3c1b01aa6a939e60045bc56c7d8d9"
     },
     {
       "path": "scripts/reanalyze_ephys.py",
-      "bytes": 5123,
-      "sha256": "e581dad639d289abc6d595f21e39f8979393a8b06452cfd154e1ae8ee5b4aa97"
+      "bytes": 11737,
+      "sha256": "b137ebf9b9989daab5aea3fd4fe5f897d9af6d0b485a9cf52e59c82a0b2ce966"
     },
     {
       "path": "scripts/reproduce.py",
-      "bytes": 7918,
-      "sha256": "311cd9c75a3cea4a9aac325cff41c2122c541bb47d80bc1b0a893b566a627587"
+      "bytes": 7824,
+      "sha256": "84ee9e9532ec60ab6e1ad88552c059cbac26fb39f2b40227a18de54cc4b774a1"
+    },
+    {
+      "path": "scripts/reproduce_sensitivity.py",
+      "bytes": 21179,
+      "sha256": "dde27b35b4a006d896aed2f13816937b3289bbb3a82b0ece99cebb6351bd9a6d"
+    },
+    {
+      "path": "scripts/shared_connectivity_null.py",
+      "bytes": 7192,
+      "sha256": "a517573309e5f331709663c2d9c1b69d16a632601e2955195aec5ce96038562f"
+    },
+    {
+      "path": "scripts/table_contracts.py",
+      "bytes": 12300,
+      "sha256": "9dd330ce1d8d41c38881b2c2fd3e0b7bbf074c6681c61cb136d764aeddde3f26"
     },
     {
       "path": "scripts/verify.py",
-      "bytes": 3085,
-      "sha256": "ddd25321f7732f6ec1dff88349b738d2cd6822d950ea273b9dd76eb415515333"
+      "bytes": 6161,
+      "sha256": "2f543c867b561a439db2fc9625e105a2cc36e726ae0ca13c7df3c77f47256ef5"
+    },
+    {
+      "path": "tests/ephys_fixtures.py",
+      "bytes": 2307,
+      "sha256": "7b3b062ccb53a1c00d291ca0bac85e999b6b540b18f7be392984da3a0f209c6a"
+    },
+    {
+      "path": "tests/test_connectivity_null.py",
+      "bytes": 1422,
+      "sha256": "b761d64b4aec3ed2e9145b56f7324356a0b19fd9fe58ea5a13b7f53cce69ee2e"
+    },
+    {
+      "path": "tests/test_downloads.py",
+      "bytes": 2871,
+      "sha256": "30fedc6808643a117801105600d1c2e04d0b5c4bf3b61381173c8b33db1ad340"
+    },
+    {
+      "path": "tests/test_ephys_compare.py",
+      "bytes": 7155,
+      "sha256": "2db7fd22d71fc53803da58ff3c719d54bbc426fd1e9638782607fe5ecf28abac"
+    },
+    {
+      "path": "tests/test_ephys_core.py",
+      "bytes": 12289,
+      "sha256": "018ff8bc93d88c041522da105cc2ae580e9c8c98344d3889b96f677b64626412"
+    },
+    {
+      "path": "tests/test_generated_provenance.py",
+      "bytes": 6747,
+      "sha256": "248134e21ace64b199f3b5c9217bc7aacdc13930827be534ffa3cecbd2da7edf"
+    },
+    {
+      "path": "tests/test_normalization.py",
+      "bytes": 9511,
+      "sha256": "d6d192eee1aa6f8db1d78f24e6ebbb3591f6bc60ea49ae17ce1f7ed78cd0c2ba"
+    },
+    {
+      "path": "tests/test_reanalysis_cli.py",
+      "bytes": 12794,
+      "sha256": "5b7ad7e1669803e80536fead5373972c60d1a533169e3779968dbbea8a881918"
     },
     {
       "path": "tests/test_reproduction.py",
-      "bytes": 3627,
-      "sha256": "6c98e2a19d3299c93dbdd557122f2654da1ed5c285a968e22cb385861bce2b44"
+      "bytes": 3697,
+      "sha256": "b111e5e6f0c86440624bfee3d6e30c6fb99e0deddae97b0afe821d28fd32503e"
+    },
+    {
+      "path": "tests/test_sensitivity.py",
+      "bytes": 11656,
+      "sha256": "da04faff759a648c49129738e52dcbff8945a144dab2a1e05ea166bb60c3ec54"
+    },
+    {
+      "path": "tests/test_table_contracts.py",
+      "bytes": 13505,
+      "sha256": "4150086039144d007141027fae0cd5c70eaae657eef83ba338928d7817c29dae"
     }
   ]
 }

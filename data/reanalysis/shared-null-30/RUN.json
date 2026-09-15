@@ -1,0 +1,299 @@
+{
+  "schema_version": "fly-neuron-atlas-shared-null/v1",
+  "status": "exploratory",
+  "dataset": "male-cns:v1.0",
+  "threshold": 10,
+  "source_neurons": 4702,
+  "selected_motor_neurons": 166,
+  "target_groups": 42,
+  "eligible_edges": 12935,
+  "replicates": 32,
+  "attempts_per_edge": 30,
+  "seed": 20261915,
+  "observed_shared_candidates": 2155,
+  "null_shared_mean": 3072.4375,
+  "null_shared_min": 3065,
+  "null_shared_max": 3082,
+  "descriptive_upper_tail_fraction": 1.0,
+  "preserved": [
+    "binary degree of each source neuron at the threshold",
+    "binary degree of each target motor neuron at the threshold",
+    "motor-to-group membership and group cell counts",
+    "edge count and absence of duplicate edges"
+  ],
+  "not_preserved": [
+    "edge weights",
+    "spatial geometry",
+    "cell type matching",
+    "anatomical wiring constraints"
+  ],
+  "limitations": [
+    "Finite swap chains; mixing/uniform sampling is not established.",
+    "Replicates restart from the observed graph, not biological replicates.",
+    "Conditional graph comparison does not establish causal coordination.",
+    "Per-cell summaries are exploratory, not multiplicity-corrected significance tests."
+  ],
+  "input_sha256": {
+    "data/motor_atlas.csv": "54e0ea92ecd7d2ac2c0c81f9bd8d60b023fbbe2117a260cea459430f465dbb1e",
+    "data/motor_groups.csv": "26a59e431fc8464e3b41931623e7880f0a2dc31424f01cb85dd01bcc5fd49ba8",
+    "data/connectivity/motor_inputs.csv.gz": "5fad46290541d6eaa0ed910529cfb86d2a4357ad70b4d76de1c021c0dd2d72a4"
+  },
+  "trials": [
+    {
+      "replicate": 0,
+      "seed": 20261915,
+      "attempts": 388050,
+      "accepted_swaps": 348186,
+      "shared_candidates": 3077,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 1,
+      "seed": 20261916,
+      "attempts": 388050,
+      "accepted_swaps": 348186,
+      "shared_candidates": 3077,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 2,
+      "seed": 20261917,
+      "attempts": 388050,
+      "accepted_swaps": 348128,
+      "shared_candidates": 3075,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 3,
+      "seed": 20261918,
+      "attempts": 388050,
+      "accepted_swaps": 348643,
+      "shared_candidates": 3065,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 4,
+      "seed": 20261919,
+      "attempts": 388050,
+      "accepted_swaps": 348557,
+      "shared_candidates": 3074,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 5,
+      "seed": 20261920,
+      "attempts": 388050,
+      "accepted_swaps": 348279,
+      "shared_candidates": 3073,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 6,
+      "seed": 20261921,
+      "attempts": 388050,
+      "accepted_swaps": 348452,
+      "shared_candidates": 3078,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 7,
+      "seed": 20261922,
+      "attempts": 388050,
+      "accepted_swaps": 348291,
+      "shared_candidates": 3067,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 8,
+      "seed": 20261923,
+      "attempts": 388050,
+      "accepted_swaps": 348052,
+      "shared_candidates": 3079,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 9,
+      "seed": 20261924,
+      "attempts": 388050,
+      "accepted_swaps": 348079,
+      "shared_candidates": 3073,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 10,
+      "seed": 20261925,
+      "attempts": 388050,
+      "accepted_swaps": 348375,
+      "shared_candidates": 3070,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 11,
+      "seed": 20261926,
+      "attempts": 388050,
+      "accepted_swaps": 348441,
+      "shared_candidates": 3073,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 12,
+      "seed": 20261927,
+      "attempts": 388050,
+      "accepted_swaps": 348060,
+      "shared_candidates": 3076,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 13,
+      "seed": 20261928,
+      "attempts": 388050,
+      "accepted_swaps": 348335,
+      "shared_candidates": 3076,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 14,
+      "seed": 20261929,
+      "attempts": 388050,
+      "accepted_swaps": 348208,
+      "shared_candidates": 3082,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 15,
+      "seed": 20261930,
+      "attempts": 388050,
+      "accepted_swaps": 348229,
+      "shared_candidates": 3079,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 16,
+      "seed": 20261931,
+      "attempts": 388050,
+      "accepted_swaps": 348165,
+      "shared_candidates": 3068,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 17,
+      "seed": 20261932,
+      "attempts": 388050,
+      "accepted_swaps": 348143,
+      "shared_candidates": 3068,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 18,
+      "seed": 20261933,
+      "attempts": 388050,
+      "accepted_swaps": 348305,
+      "shared_candidates": 3067,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 19,
+      "seed": 20261934,
+      "attempts": 388050,
+      "accepted_swaps": 348397,
+      "shared_candidates": 3068,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 20,
+      "seed": 20261935,
+      "attempts": 388050,
+      "accepted_swaps": 348413,
+      "shared_candidates": 3077,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 21,
+      "seed": 20261936,
+      "attempts": 388050,
+      "accepted_swaps": 348332,
+      "shared_candidates": 3069,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 22,
+      "seed": 20261937,
+      "attempts": 388050,
+      "accepted_swaps": 348406,
+      "shared_candidates": 3072,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 23,
+      "seed": 20261938,
+      "attempts": 388050,
+      "accepted_swaps": 348253,
+      "shared_candidates": 3074,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 24,
+      "seed": 20261939,
+      "attempts": 388050,
+      "accepted_swaps": 348415,
+      "shared_candidates": 3069,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 25,
+      "seed": 20261940,
+      "attempts": 388050,
+      "accepted_swaps": 348436,
+      "shared_candidates": 3065,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 26,
+      "seed": 20261941,
+      "attempts": 388050,
+      "accepted_swaps": 348216,
+      "shared_candidates": 3066,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 27,
+      "seed": 20261942,
+      "attempts": 388050,
+      "accepted_swaps": 348190,
+      "shared_candidates": 3078,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 28,
+      "seed": 20261943,
+      "attempts": 388050,
+      "accepted_swaps": 348286,
+      "shared_candidates": 3069,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 29,
+      "seed": 20261944,
+      "attempts": 388050,
+      "accepted_swaps": 348452,
+      "shared_candidates": 3072,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 30,
+      "seed": 20261945,
+      "attempts": 388050,
+      "accepted_swaps": 348855,
+      "shared_candidates": 3069,
+      "degree_invariants": true
+    },
+    {
+      "replicate": 31,
+      "seed": 20261946,
+      "attempts": 388050,
+      "accepted_swaps": 348536,
+      "shared_candidates": 3073,
+      "degree_invariants": true
+    }
+  ]
+}

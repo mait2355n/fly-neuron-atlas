@@ -23,7 +23,8 @@ class ReproductionContractTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         shutil.copytree(ROOT / 'data', self.root / 'data')
         (self.root / 'scripts').mkdir()
-        shutil.copy2(ROOT / 'scripts/reproduce.py', self.root / 'scripts/reproduce.py')
+        for name in ('reproduce.py', 'table_contracts.py'):
+            shutil.copy2(ROOT / 'scripts' / name, self.root / 'scripts' / name)
 
     def edit_table(self, name, transform):
         path = self.root / 'data' / name
@@ -38,7 +39,7 @@ class ReproductionContractTests(unittest.TestCase):
     def run_cli(self):
         run = subprocess.run(
             [sys.executable, str(self.root / 'scripts/reproduce.py')],
-            cwd=self.root, capture_output=True, text=True, timeout=90,
+            cwd=self.root, capture_output=True, text=True, encoding='utf-8', timeout=90,
         )
         return run, json.loads(run.stdout or run.stderr)
 

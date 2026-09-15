@@ -1,0 +1,723 @@
+{
+  "schema_version": "fly-neuron-atlas-ephys-comparison/v1",
+  "status": "pass",
+  "generated": "data/reanalysis/epoch-v2",
+  "reference": "earlier independent full corrected run",
+  "selected_flies": [
+    "a1_a2_d_01",
+    "a1_a2_d_02",
+    "a1_a2_d_03",
+    "a1_a2_d_04",
+    "a1_d_07",
+    "a1_d_09",
+    "a1_s_02",
+    "a1_s_03",
+    "a1_s_05",
+    "a1_s_06",
+    "a1_s_07",
+    "a1_s_08",
+    "a2_d_08",
+    "a2_d_12",
+    "a2_d_13",
+    "a2_d_14",
+    "a2_s_01",
+    "a2_s_03",
+    "a2_s_04",
+    "a2_s_05",
+    "a2_s_06",
+    "a2_s_07",
+    "a2_s_08"
+  ],
+  "selection_source": "generated RUN.json selected_flies",
+  "run_status": "pass",
+  "tolerance": {
+    "absolute": 1e-10,
+    "relative_to_reference": 1e-10
+  },
+  "nan_policy": {
+    "inventory": [],
+    "channels": [
+      "fraction_ISI_under2ms",
+      "fwd_r0",
+      "fwd_r150",
+      "fwd_shift1_r150",
+      "fwd_shift2_r150",
+      "lat_r0",
+      "lat_r150",
+      "lat_shift1_r150",
+      "lat_shift2_r150",
+      "rate_no_stim_mean_Hz",
+      "rate_vm_r0",
+      "source_example_yaw_r150",
+      "threshold_grid_r150_max",
+      "threshold_grid_r150_min",
+      "yaw_counts_r150",
+      "yaw_peak_abs_lag_ms",
+      "yaw_peak_abs_r",
+      "yaw_r0",
+      "yaw_r150",
+      "yaw_r150_third1",
+      "yaw_r150_third2",
+      "yaw_r150_third3",
+      "yaw_shift1_r150",
+      "yaw_shift2_r150",
+      "yaw_vm_r150"
+    ],
+    "pairs": [
+      "peak_abs_lag_ms",
+      "peak_abs_r",
+      "r0",
+      "r150",
+      "shift1_r150",
+      "shift2_r150"
+    ],
+    "lag_curves": [
+      "r"
+    ]
+  },
+  "tables": {
+    "inventory": {
+      "primary_key": [
+        "fly"
+      ],
+      "missing_files": [],
+      "missing_columns": {},
+      "duplicate_keys": {
+        "generated": [],
+        "reference": []
+      },
+      "missing_rows": [],
+      "extra_rows": [],
+      "differences": [],
+      "ignored_known_flies": [],
+      "compared_columns": [
+        "analysis_complete",
+        "analysis_status",
+        "analyzed_s",
+        "author_quality_flag",
+        "author_reference_eligible",
+        "author_spike_arrays",
+        "available_ephys_s",
+        "ball_hz",
+        "bins",
+        "end_s",
+        "ephys_hz",
+        "epoch_durations_s",
+        "expected_channel_count",
+        "expected_channels",
+        "expected_pair_count",
+        "expected_pair_series",
+        "file",
+        "file_id",
+        "fwd_lat_raw_exact_equal_fraction",
+        "main_summary_eligible",
+        "mat_fields",
+        "neurons",
+        "numerically_valid_channels",
+        "numerically_valid_pair_series",
+        "observed_channel_count",
+        "observed_channels",
+        "observed_pair_count",
+        "observed_pair_series",
+        "processing_status",
+        "reason",
+        "reasons",
+        "record_complete",
+        "source_clock_resets",
+        "source_md5_verified",
+        "start_s",
+        "status",
+        "stim_bin_fraction",
+        "stim_max",
+        "stim_min",
+        "stim_unknown_bin_fraction",
+        "stim_unknown_bins",
+        "time_coordinate",
+        "valid_no_stim_s"
+      ],
+      "reference_only_columns": [],
+      "generated_only_columns": [],
+      "excluded_runtime_columns": [
+        "processing_seconds"
+      ],
+      "generated_rows": 23,
+      "reference_rows": 23,
+      "excluded_records": {
+        "generated": [],
+        "reference": []
+      },
+      "status": "pass"
+    },
+    "channels": {
+      "primary_key": [
+        "fly",
+        "neuron"
+      ],
+      "missing_files": [],
+      "missing_columns": {},
+      "duplicate_keys": {
+        "generated": [],
+        "reference": []
+      },
+      "missing_rows": [],
+      "extra_rows": [],
+      "differences": [],
+      "ignored_known_flies": [],
+      "compared_columns": [
+        "analysis_status",
+        "author_quality_flag",
+        "author_reference_eligible",
+        "fraction_ISI_under2ms",
+        "fwd_r0",
+        "fwd_r150",
+        "fwd_shift1_r150",
+        "fwd_shift2_r150",
+        "lat_r0",
+        "lat_r150",
+        "lat_shift1_r150",
+        "lat_shift2_r150",
+        "main_summary_eligible",
+        "mat_channel",
+        "metrics_computed",
+        "n_valid_r150",
+        "noise_scale_median_mV",
+        "noise_scale_p05_mV",
+        "numerical_valid",
+        "prominence",
+        "rate_mean_Hz",
+        "rate_no_stim_mean_Hz",
+        "rate_vm_r0",
+        "reason",
+        "reasons",
+        "record_complete",
+        "side",
+        "spikes",
+        "status",
+        "type",
+        "yaw_counts_r150",
+        "yaw_peak_abs_lag_ms",
+        "yaw_peak_abs_r",
+        "yaw_r0",
+        "yaw_r150",
+        "yaw_r150_third1",
+        "yaw_r150_third2",
+        "yaw_r150_third3",
+        "yaw_shift1_r150",
+        "yaw_shift2_r150",
+        "yaw_vm_r150",
+        "zero_mad_blocks"
+      ],
+      "reference_only_columns": [],
+      "generated_only_columns": [],
+      "excluded_runtime_columns": [],
+      "generated_rows": 33,
+      "reference_rows": 33,
+      "excluded_records": {
+        "generated": [],
+        "reference": []
+      },
+      "status": "pass"
+    },
+    "pairs": {
+      "primary_key": [
+        "fly",
+        "kind",
+        "signal",
+        "target"
+      ],
+      "missing_files": [],
+      "missing_columns": {},
+      "duplicate_keys": {
+        "generated": [],
+        "reference": []
+      },
+      "missing_rows": [],
+      "extra_rows": [],
+      "differences": [],
+      "ignored_known_flies": [],
+      "compared_columns": [
+        "analysis_status",
+        "author_reference_eligible",
+        "main_summary_eligible",
+        "metrics_computed",
+        "n_valid_r150",
+        "numerical_valid",
+        "peak_abs_lag_ms",
+        "peak_abs_r",
+        "r0",
+        "r150",
+        "reason",
+        "reasons",
+        "record_complete",
+        "shift1_r150",
+        "shift2_r150",
+        "status"
+      ],
+      "reference_only_columns": [],
+      "generated_only_columns": [],
+      "excluded_runtime_columns": [],
+      "generated_rows": 30,
+      "reference_rows": 30,
+      "excluded_records": {
+        "generated": [],
+        "reference": []
+      },
+      "status": "pass"
+    },
+    "lag_curves": {
+      "primary_key": [
+        "fly",
+        "signal",
+        "target",
+        "lag_ms"
+      ],
+      "missing_files": [],
+      "missing_columns": {},
+      "duplicate_keys": {
+        "generated": [],
+        "reference": []
+      },
+      "missing_rows": [],
+      "extra_rows": [],
+      "differences": [],
+      "ignored_known_flies": [],
+      "compared_columns": [
+        "r"
+      ],
+      "reference_only_columns": [],
+      "generated_only_columns": [],
+      "excluded_runtime_columns": [],
+      "generated_rows": 6363,
+      "reference_rows": 6363,
+      "excluded_records": {
+        "generated": [],
+        "reference": []
+      },
+      "status": "pass"
+    }
+  },
+  "scope": "Selected saved table cells; independent comparison logic; no biological validation. Run completion and numerical agreement are separate statuses.",
+  "execution_evidence": {
+    "generated_run": {
+      "schema_version": "fly-neuron-atlas-ephys-run/v2",
+      "status": "pass",
+      "processing_status": "completed",
+      "analysis_status": "usable",
+      "selected_flies": [
+        "a2_s_03",
+        "a2_s_04",
+        "a2_s_05",
+        "a2_s_06",
+        "a1_s_02",
+        "a1_s_05",
+        "a1_s_08",
+        "a1_s_03",
+        "a1_s_06",
+        "a1_s_07",
+        "a2_s_01",
+        "a2_s_07",
+        "a2_s_08",
+        "a1_a2_d_01",
+        "a2_d_08",
+        "a2_d_12",
+        "a2_d_13",
+        "a1_a2_d_02",
+        "a1_a2_d_03",
+        "a2_d_14",
+        "a1_d_07",
+        "a1_d_09",
+        "a1_a2_d_04"
+      ],
+      "selected_records": 23,
+      "processed_records": 23,
+      "usable_records": 23,
+      "partial_records": 0,
+      "excluded_records": 0,
+      "analysis_method": "epoch-independent-v2",
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "source_hashes": [
+        {
+          "fly": "a2_s_03",
+          "status": "verified",
+          "md5": "5f1cb0cb5f94538a3564c000168ba021",
+          "sha256": "75a48fab5a9809189e3439719ab9c65163e37e226398a766f5720d91f6cedb67",
+          "bytes": 63045930
+        },
+        {
+          "fly": "a2_s_04",
+          "status": "verified",
+          "md5": "72ce3aac772eece7378b0acb37e4d556",
+          "sha256": "e367fa983ed6ff8afcbb684c87143f79d147bc169db83a54455b67bfa2789324",
+          "bytes": 83453966
+        },
+        {
+          "fly": "a2_s_05",
+          "status": "verified",
+          "md5": "81bdcb5da41ead8a2b55fd5a905332a9",
+          "sha256": "f36288e1d133d65def2bb8baa35ada6b39bd227785633dd1000ae3c5191e6cbf",
+          "bytes": 64719038
+        },
+        {
+          "fly": "a2_s_06",
+          "status": "verified",
+          "md5": "8d2c58ae77a139605c0e6884d7a9cdbf",
+          "sha256": "234336d42afdd9d1f4b309322657b8f60909eedc1bfc3ce1cfa32f19b5f7d61e",
+          "bytes": 65026580
+        },
+        {
+          "fly": "a1_s_02",
+          "status": "verified",
+          "md5": "6e30d51a5f980a04826a2aee10e7c7ac",
+          "sha256": "4176cfed9bbc718f7d2b92eaa1cf0bb67c34642e31575af401f73a53d8106f35",
+          "bytes": 110268333
+        },
+        {
+          "fly": "a1_s_05",
+          "status": "verified",
+          "md5": "43e5562dba45b7b2b3a3ece230ca310a",
+          "sha256": "13ba5b524d7d134fdc0fe2d02396789fd8bc6be4cd8af38d20ce8e186a5d8a4d",
+          "bytes": 93006751
+        },
+        {
+          "fly": "a1_s_08",
+          "status": "verified",
+          "md5": "bed09717e9d98d2d283b79ca7e1e7570",
+          "sha256": "5a13f9eaee5f6852d0fcf7f09ad7a723d4e6ac48b3c6815709a4aff53f518a10",
+          "bytes": 121882464
+        },
+        {
+          "fly": "a1_s_03",
+          "status": "verified",
+          "md5": "5e13f2dc051efd4240bbcc10d1093e2a",
+          "sha256": "9225f74995d6929684ba053f6360bdff2b6e15b44d3b779c1c6522dad18d0c74",
+          "bytes": 100740352
+        },
+        {
+          "fly": "a1_s_06",
+          "status": "verified",
+          "md5": "b4066ec269424ffc6d9e3e69aa487108",
+          "sha256": "b732e70216c39b8a366049e7a87312d0adb25233b346729365d3f6ef47d3ac84",
+          "bytes": 102088813
+        },
+        {
+          "fly": "a1_s_07",
+          "status": "verified",
+          "md5": "e9c04c5600c696d0f3d3ebf8027dfd2b",
+          "sha256": "84c7db9c1ef9fdfaec4ee201dcb19ec8a2b3cbfd33b81f46c5032194728d1475",
+          "bytes": 99047179
+        },
+        {
+          "fly": "a2_s_01",
+          "status": "verified",
+          "md5": "d34796d8670872e0bd49df0333c14b00",
+          "sha256": "f0a4c5964a7a7cca34a98a9b3a626d88b34553989705ffbd9ef3a1189b26f95d",
+          "bytes": 99723273
+        },
+        {
+          "fly": "a2_s_07",
+          "status": "verified",
+          "md5": "9a4f04d769a982857e1c79931da96cd7",
+          "sha256": "e8bd66964fe6d87c3fb5d190709bd6fd362fbf14b10253061103a399dad45a3a",
+          "bytes": 63145551
+        },
+        {
+          "fly": "a2_s_08",
+          "status": "verified",
+          "md5": "153e4cc8121b697a8961bb934d4d1c27",
+          "sha256": "33d917698c46d7fe82b6723c8a4aff59a1bf7d6f602f86a6ff08cb7e365d11d9",
+          "bytes": 96263498
+        },
+        {
+          "fly": "a1_a2_d_01",
+          "status": "verified",
+          "md5": "9cfaf03120f6ae7f09f4766b8dfef3c9",
+          "sha256": "f53347125aba3832bb395b9d17a5bedd6cd3379d442fb45d7b076e120250c8be",
+          "bytes": 873540800
+        },
+        {
+          "fly": "a2_d_08",
+          "status": "verified",
+          "md5": "f3d0d40d7435af8f3d4e73d004bd3f9d",
+          "sha256": "f02a345effb2fe722800dd1f43dce2c876878424307cb1fa486b5974f3d5922b",
+          "bytes": 458239048
+        },
+        {
+          "fly": "a2_d_12",
+          "status": "verified",
+          "md5": "71ed13ab29ecd3b3abcf7bf6b77940e4",
+          "sha256": "0f9a9251262f528f0b415d67cdb169bc1236a5157029ffeebace6d86136f60f7",
+          "bytes": 212825201
+        },
+        {
+          "fly": "a2_d_13",
+          "status": "verified",
+          "md5": "c3f95c76e9efc1a5b2277e7ee958143e",
+          "sha256": "a460eb313b503b039b3eeec554efd902b54119aadfd783c72210efaee2daee24",
+          "bytes": 71381032
+        },
+        {
+          "fly": "a1_a2_d_02",
+          "status": "verified",
+          "md5": "eea3f8e609abf138c4f223d56162a196",
+          "sha256": "1774c88b9627ff303318c5b2708412632c41aa3b661cfa53b8aa4b883afa6c41",
+          "bytes": 366887600
+        },
+        {
+          "fly": "a1_a2_d_03",
+          "status": "verified",
+          "md5": "0b570dce1281528e1ad032b5ec7dfda3",
+          "sha256": "ee448afcbf8239d3097262010fb15a793da139399137bfe5b6a070cfc4d26be3",
+          "bytes": 628949600
+        },
+        {
+          "fly": "a2_d_14",
+          "status": "verified",
+          "md5": "eb0950ad281d61c4473404ea126b386a",
+          "sha256": "6e5aabc4bc45d76fd24baa81a9351cc6d29530c72e697038b78f07a0da36623f",
+          "bytes": 186996111
+        },
+        {
+          "fly": "a1_d_07",
+          "status": "verified",
+          "md5": "50108c60bc0fefeb23be81d74506c3ac",
+          "sha256": "c5c10ea2157a29446dfb3d263d73c619f8b2832e47d9f03f20dd60118815673d",
+          "bytes": 253246604
+        },
+        {
+          "fly": "a1_d_09",
+          "status": "verified",
+          "md5": "cb098a94778db58a5637855882a63119",
+          "sha256": "32bcaabf9aff08cc1bf1058ffe36062a27df45a13dae7bfee91ab8fe8db05ecc",
+          "bytes": 420001760
+        },
+        {
+          "fly": "a1_a2_d_04",
+          "status": "verified",
+          "md5": "1e6301518a7c15954c26ec2743df58ec",
+          "sha256": "4fe59433276f6c68f18346c8f920a1feb8741a386bdc8459927f63c53222fadc",
+          "bytes": 873540800
+        }
+      ],
+      "errors": [],
+      "analysis_issues": [],
+      "download_notes": [],
+      "code_hashes": {
+        "scripts/ephys_core.py": "40a040c7b5a30e7b5495ba13464b637a6335a89a26004a4f68c65d946078cc44",
+        "scripts/reanalyze_ephys.py": "b137ebf9b9989daab5aea3fd4fe5f897d9af6d0b485a9cf52e59c82a0b2ce966"
+      },
+      "scope": "Raw-voltage detection and base correlations. Numerical availability and author-quality eligibility are separate. Biological ground truth is not certified."
+    },
+    "reference_run": {
+      "schema_version": "fly-neuron-atlas-ephys-run/v2",
+      "status": "pass",
+      "processing_status": "completed",
+      "analysis_status": "usable",
+      "selected_flies": [
+        "a2_s_03",
+        "a2_s_04",
+        "a2_s_05",
+        "a2_s_06",
+        "a1_s_02",
+        "a1_s_05",
+        "a1_s_08",
+        "a1_s_03",
+        "a1_s_06",
+        "a1_s_07",
+        "a2_s_01",
+        "a2_s_07",
+        "a2_s_08",
+        "a1_a2_d_01",
+        "a2_d_08",
+        "a2_d_12",
+        "a2_d_13",
+        "a1_a2_d_02",
+        "a1_a2_d_03",
+        "a2_d_14",
+        "a1_d_07",
+        "a1_d_09",
+        "a1_a2_d_04"
+      ],
+      "selected_records": 23,
+      "processed_records": 23,
+      "usable_records": 23,
+      "partial_records": 0,
+      "excluded_records": 0,
+      "analysis_method": "epoch-independent-v2",
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "source_hashes": [
+        {
+          "fly": "a2_s_03",
+          "status": "verified",
+          "md5": "5f1cb0cb5f94538a3564c000168ba021",
+          "sha256": "75a48fab5a9809189e3439719ab9c65163e37e226398a766f5720d91f6cedb67",
+          "bytes": 63045930
+        },
+        {
+          "fly": "a2_s_04",
+          "status": "verified",
+          "md5": "72ce3aac772eece7378b0acb37e4d556",
+          "sha256": "e367fa983ed6ff8afcbb684c87143f79d147bc169db83a54455b67bfa2789324",
+          "bytes": 83453966
+        },
+        {
+          "fly": "a2_s_05",
+          "status": "verified",
+          "md5": "81bdcb5da41ead8a2b55fd5a905332a9",
+          "sha256": "f36288e1d133d65def2bb8baa35ada6b39bd227785633dd1000ae3c5191e6cbf",
+          "bytes": 64719038
+        },
+        {
+          "fly": "a2_s_06",
+          "status": "verified",
+          "md5": "8d2c58ae77a139605c0e6884d7a9cdbf",
+          "sha256": "234336d42afdd9d1f4b309322657b8f60909eedc1bfc3ce1cfa32f19b5f7d61e",
+          "bytes": 65026580
+        },
+        {
+          "fly": "a1_s_02",
+          "status": "verified",
+          "md5": "6e30d51a5f980a04826a2aee10e7c7ac",
+          "sha256": "4176cfed9bbc718f7d2b92eaa1cf0bb67c34642e31575af401f73a53d8106f35",
+          "bytes": 110268333
+        },
+        {
+          "fly": "a1_s_05",
+          "status": "verified",
+          "md5": "43e5562dba45b7b2b3a3ece230ca310a",
+          "sha256": "13ba5b524d7d134fdc0fe2d02396789fd8bc6be4cd8af38d20ce8e186a5d8a4d",
+          "bytes": 93006751
+        },
+        {
+          "fly": "a1_s_08",
+          "status": "verified",
+          "md5": "bed09717e9d98d2d283b79ca7e1e7570",
+          "sha256": "5a13f9eaee5f6852d0fcf7f09ad7a723d4e6ac48b3c6815709a4aff53f518a10",
+          "bytes": 121882464
+        },
+        {
+          "fly": "a1_s_03",
+          "status": "verified",
+          "md5": "5e13f2dc051efd4240bbcc10d1093e2a",
+          "sha256": "9225f74995d6929684ba053f6360bdff2b6e15b44d3b779c1c6522dad18d0c74",
+          "bytes": 100740352
+        },
+        {
+          "fly": "a1_s_06",
+          "status": "verified",
+          "md5": "b4066ec269424ffc6d9e3e69aa487108",
+          "sha256": "b732e70216c39b8a366049e7a87312d0adb25233b346729365d3f6ef47d3ac84",
+          "bytes": 102088813
+        },
+        {
+          "fly": "a1_s_07",
+          "status": "verified",
+          "md5": "e9c04c5600c696d0f3d3ebf8027dfd2b",
+          "sha256": "84c7db9c1ef9fdfaec4ee201dcb19ec8a2b3cbfd33b81f46c5032194728d1475",
+          "bytes": 99047179
+        },
+        {
+          "fly": "a2_s_01",
+          "status": "verified",
+          "md5": "d34796d8670872e0bd49df0333c14b00",
+          "sha256": "f0a4c5964a7a7cca34a98a9b3a626d88b34553989705ffbd9ef3a1189b26f95d",
+          "bytes": 99723273
+        },
+        {
+          "fly": "a2_s_07",
+          "status": "verified",
+          "md5": "9a4f04d769a982857e1c79931da96cd7",
+          "sha256": "e8bd66964fe6d87c3fb5d190709bd6fd362fbf14b10253061103a399dad45a3a",
+          "bytes": 63145551
+        },
+        {
+          "fly": "a2_s_08",
+          "status": "verified",
+          "md5": "153e4cc8121b697a8961bb934d4d1c27",
+          "sha256": "33d917698c46d7fe82b6723c8a4aff59a1bf7d6f602f86a6ff08cb7e365d11d9",
+          "bytes": 96263498
+        },
+        {
+          "fly": "a1_a2_d_01",
+          "status": "verified",
+          "md5": "9cfaf03120f6ae7f09f4766b8dfef3c9",
+          "sha256": "f53347125aba3832bb395b9d17a5bedd6cd3379d442fb45d7b076e120250c8be",
+          "bytes": 873540800
+        },
+        {
+          "fly": "a2_d_08",
+          "status": "verified",
+          "md5": "f3d0d40d7435af8f3d4e73d004bd3f9d",
+          "sha256": "f02a345effb2fe722800dd1f43dce2c876878424307cb1fa486b5974f3d5922b",
+          "bytes": 458239048
+        },
+        {
+          "fly": "a2_d_12",
+          "status": "verified",
+          "md5": "71ed13ab29ecd3b3abcf7bf6b77940e4",
+          "sha256": "0f9a9251262f528f0b415d67cdb169bc1236a5157029ffeebace6d86136f60f7",
+          "bytes": 212825201
+        },
+        {
+          "fly": "a2_d_13",
+          "status": "verified",
+          "md5": "c3f95c76e9efc1a5b2277e7ee958143e",
+          "sha256": "a460eb313b503b039b3eeec554efd902b54119aadfd783c72210efaee2daee24",
+          "bytes": 71381032
+        },
+        {
+          "fly": "a1_a2_d_02",
+          "status": "verified",
+          "md5": "eea3f8e609abf138c4f223d56162a196",
+          "sha256": "1774c88b9627ff303318c5b2708412632c41aa3b661cfa53b8aa4b883afa6c41",
+          "bytes": 366887600
+        },
+        {
+          "fly": "a1_a2_d_03",
+          "status": "verified",
+          "md5": "0b570dce1281528e1ad032b5ec7dfda3",
+          "sha256": "ee448afcbf8239d3097262010fb15a793da139399137bfe5b6a070cfc4d26be3",
+          "bytes": 628949600
+        },
+        {
+          "fly": "a2_d_14",
+          "status": "verified",
+          "md5": "eb0950ad281d61c4473404ea126b386a",
+          "sha256": "6e5aabc4bc45d76fd24baa81a9351cc6d29530c72e697038b78f07a0da36623f",
+          "bytes": 186996111
+        },
+        {
+          "fly": "a1_d_07",
+          "status": "verified",
+          "md5": "50108c60bc0fefeb23be81d74506c3ac",
+          "sha256": "c5c10ea2157a29446dfb3d263d73c619f8b2832e47d9f03f20dd60118815673d",
+          "bytes": 253246604
+        },
+        {
+          "fly": "a1_d_09",
+          "status": "verified",
+          "md5": "cb098a94778db58a5637855882a63119",
+          "sha256": "32bcaabf9aff08cc1bf1058ffe36062a27df45a13dae7bfee91ab8fe8db05ecc",
+          "bytes": 420001760
+        },
+        {
+          "fly": "a1_a2_d_04",
+          "status": "verified",
+          "md5": "1e6301518a7c15954c26ec2743df58ec",
+          "sha256": "4fe59433276f6c68f18346c8f920a1feb8741a386bdc8459927f63c53222fadc",
+          "bytes": 873540800
+        }
+      ],
+      "errors": [],
+      "analysis_issues": [],
+      "download_notes": [],
+      "code_hashes": {
+        "scripts/ephys_core.py": "40a040c7b5a30e7b5495ba13464b637a6335a89a26004a4f68c65d946078cc44",
+        "scripts/reanalyze_ephys.py": "a06bd954f2c743f9c313d798b2df3a9e5ac461284917fd3b6e00f6a973cb9acd"
+      },
+      "scope": "Raw-voltage detection and base correlations. Numerical availability and author-quality eligibility are separate. Biological ground truth is not certified."
+    },
+    "note": "The final wrapper additionally rejects wrong record/kind identities and r0 failures. The core is identical. All selected common result cells agree; runtime is excluded."
+  }
+}
