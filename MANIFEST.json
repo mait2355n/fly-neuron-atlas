@@ -11,6 +11,11 @@
   ],
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 127,
+      "sha256": "2de193292d90af18753959da3d5561c89722f84f821149f00964a860adc9e4d0"
+    },
+    {
       "path": ".github/workflows/verify.yml",
       "bytes": 908,
       "sha256": "ab1abb640320986440b707d1fe453c603a655ebea4b819055db6bf6ab11537c1"

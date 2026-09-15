@@ -1,0 +1,2 @@
+# Preserve the exact bytes of generated CSVs recorded by the run receipts.
+data/reanalysis/**/*.csv -text whitespace=cr-at-eol
