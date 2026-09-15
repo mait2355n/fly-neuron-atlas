@@ -1,0 +1,9 @@
+scenario,pre_T1_reference_group,post_T1_reference_group,edges,weight
+six_candidates,13As-i,13As-i,9,20
+six_candidates,13As-i,13As-ii,7,427
+six_candidates,13As-ii,13As-i,7,446
+six_candidates,13As-ii,13As-ii,0,0
+exclude_approximate_801910,13As-i,13As-i,9,20
+exclude_approximate_801910,13As-i,13As-ii,4,327
+exclude_approximate_801910,13As-ii,13As-i,4,136
+exclude_approximate_801910,13As-ii,13As-ii,0,0

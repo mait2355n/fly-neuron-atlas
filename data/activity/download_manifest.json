@@ -1,0 +1,193 @@
+{
+  "dataset_doi": "10.7910/DVN/0NCLP1",
+  "dataset_version": "1.2",
+  "license": "CC0-1.0",
+  "selection": "All 23 MAT files with /ephys_data_ in directoryLabel",
+  "total_bytes": 5508020284,
+  "files": [
+    {
+      "fly": "a2_s_03",
+      "filename": "161208_lexAOpCsChrimson_gfp_83blexA_ss730_03_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634643,
+      "bytes": 63045930,
+      "md5": "5f1cb0cb5f94538a3564c000168ba021",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634643"
+    },
+    {
+      "fly": "a2_s_04",
+      "filename": "161208_lexAOpCsChrimson_gfp_83blexA_ss730_04_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634644,
+      "bytes": 83453966,
+      "md5": "72ce3aac772eece7378b0acb37e4d556",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634644"
+    },
+    {
+      "fly": "a2_s_05",
+      "filename": "161208_lexAOpCsChrimson_gfp_83blexA_ss730_05_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634645,
+      "bytes": 64719038,
+      "md5": "81bdcb5da41ead8a2b55fd5a905332a9",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634645"
+    },
+    {
+      "fly": "a2_s_06",
+      "filename": "161210_lexAOpCsChrimson_gfp_83blexA_ss730_06_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634646,
+      "bytes": 65026580,
+      "md5": "8d2c58ae77a139605c0e6884d7a9cdbf",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634646"
+    },
+    {
+      "fly": "a1_s_02",
+      "filename": "161218_lexAOpCsChrimson_gfp_83blexA_ss731_02_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634632,
+      "bytes": 110268333,
+      "md5": "6e30d51a5f980a04826a2aee10e7c7ac",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634632"
+    },
+    {
+      "fly": "a1_s_05",
+      "filename": "170721_lexAOpCsChrimson_gfp_83blexA_ss731_05_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634634,
+      "bytes": 93006751,
+      "md5": "43e5562dba45b7b2b3a3ece230ca310a",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634634"
+    },
+    {
+      "fly": "a1_s_08",
+      "filename": "170726_lexAOpCsChrimson_gfp_83blexA_ss731_08_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634637,
+      "bytes": 121882464,
+      "md5": "bed09717e9d98d2d283b79ca7e1e7570",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634637"
+    },
+    {
+      "fly": "a1_s_03",
+      "filename": "170802_gfp_ss731_03_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634633,
+      "bytes": 100740352,
+      "md5": "5e13f2dc051efd4240bbcc10d1093e2a",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634633"
+    },
+    {
+      "fly": "a1_s_06",
+      "filename": "170803_gfp_ss731_06_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634635,
+      "bytes": 102088813,
+      "md5": "b4066ec269424ffc6d9e3e69aa487108",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634635"
+    },
+    {
+      "fly": "a1_s_07",
+      "filename": "170803_gfp_ss731_07_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634636,
+      "bytes": 99047179,
+      "md5": "e9c04c5600c696d0f3d3ebf8027dfd2b",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634636"
+    },
+    {
+      "fly": "a2_s_01",
+      "filename": "170804_gfp_ss730_01_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634642,
+      "bytes": 99723273,
+      "md5": "d34796d8670872e0bd49df0333c14b00",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634642"
+    },
+    {
+      "fly": "a2_s_07",
+      "filename": "170808_gfp_ss730_07_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634647,
+      "bytes": 63145551,
+      "md5": "9a4f04d769a982857e1c79931da96cd7",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634647"
+    },
+    {
+      "fly": "a2_s_08",
+      "filename": "170808_gfp_ss730_08_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634648,
+      "bytes": 96263498,
+      "md5": "153e4cc8121b697a8961bb934d4d1c27",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634648"
+    },
+    {
+      "fly": "a1_a2_d_01",
+      "filename": "170816_2xGFP_ss731_75C10_01_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634626,
+      "bytes": 873540800,
+      "md5": "9cfaf03120f6ae7f09f4766b8dfef3c9",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634626"
+    },
+    {
+      "fly": "a2_d_08",
+      "filename": "180410_gfp_3G_ss730_dual_08_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634638,
+      "bytes": 458239048,
+      "md5": "f3d0d40d7435af8f3d4e73d004bd3f9d",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634638"
+    },
+    {
+      "fly": "a2_d_12",
+      "filename": "180430_gfp_3G_ss730_dual_12_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634639,
+      "bytes": 212825201,
+      "md5": "71ed13ab29ecd3b3abcf7bf6b77940e4",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634639"
+    },
+    {
+      "fly": "a2_d_13",
+      "filename": "180501_gfp_3G_ss730_dual_13_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634640,
+      "bytes": 71381032,
+      "md5": "c3f95c76e9efc1a5b2277e7ee958143e",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634640"
+    },
+    {
+      "fly": "a1_a2_d_02",
+      "filename": "180503_2xGFP_ss731_75C10_02_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634627,
+      "bytes": 366887600,
+      "md5": "eea3f8e609abf138c4f223d56162a196",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634627"
+    },
+    {
+      "fly": "a1_a2_d_03",
+      "filename": "180503_2xGFP_ss731_75C10_03_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634628,
+      "bytes": 628949600,
+      "md5": "0b570dce1281528e1ad032b5ec7dfda3",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634628"
+    },
+    {
+      "fly": "a2_d_14",
+      "filename": "180517_gfp_3G_ss730_dual_14_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634641,
+      "bytes": 186996111,
+      "md5": "eb0950ad281d61c4473404ea126b386a",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634641"
+    },
+    {
+      "fly": "a1_d_07",
+      "filename": "180603_gfp_3G_ss731_dual_07_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634630,
+      "bytes": 253246604,
+      "md5": "50108c60bc0fefeb23be81d74506c3ac",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634630"
+    },
+    {
+      "fly": "a1_d_09",
+      "filename": "180614_gfp_3G_ss731_dual_09_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634631,
+      "bytes": 420001760,
+      "md5": "cb098a94778db58a5637855882a63119",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634631"
+    },
+    {
+      "fly": "a1_a2_d_04",
+      "filename": "190313_2xGFP_ss731_75C10_04_data_for_SH_with_lat_vel.mat",
+      "file_id": 11634629,
+      "bytes": 873540800,
+      "md5": "1e6301518a7c15954c26ec2743df58ec",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/11634629"
+    }
+  ]
+}

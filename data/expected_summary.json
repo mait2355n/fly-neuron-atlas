@@ -1,0 +1,63 @@
+{
+  "motor_count": 815,
+  "motor_input_edges": 330888,
+  "motor_input_weight": 3224310,
+  "presynaptic_body_ids": 90166,
+  "presynaptic_neuron_labeled_ids": 20457,
+  "selected_motor_count": 166,
+  "selected_group_count": 42,
+  "shared_candidate_counts": {
+    "1": 6339,
+    "3": 4327,
+    "5": 3360,
+    "10": 2155
+  },
+  "candidate_categories": {
+    "leg_and_nonleg": 75,
+    "multiple_legs": 375,
+    "nonleg_only": 272,
+    "same_leg_knee_root": 802,
+    "same_leg_same_joint": 631
+  },
+  "annotation_sensitivity": {
+    "excluded_motor_count": 44,
+    "retained_candidates": 1927,
+    "studied_retained": 38,
+    "studied_lost": [
+      "11074",
+      "801214"
+    ]
+  },
+  "studied_cells": 40,
+  "studied_io": {
+    "incoming": {
+      "edges": 39909,
+      "weight": 412072
+    },
+    "outgoing": {
+      "edges": 323398,
+      "weight": 632972
+    }
+  },
+  "activity": {
+    "records": 23,
+    "voltage_channels": 33,
+    "available_seconds": 53855,
+    "aligned_seconds": 53854.54,
+    "technical_valid_seconds": 51816.18
+  },
+  "dna02_bilateral": {
+    "a2_d_08": {
+      "A_minus_B": -0.37966585475298054,
+      "A_plus_B": -0.03062002565816584
+    },
+    "a2_d_12": {
+      "A_minus_B": -0.7119838534002212,
+      "A_plus_B": 0.036666630158649724
+    },
+    "a2_d_13": {
+      "A_minus_B": -0.2957955219966956,
+      "A_plus_B": 0.09755243589462063
+    }
+  }
+}

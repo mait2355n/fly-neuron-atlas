@@ -1,0 +1,7 @@
+dataset,bodyId,type,side,neuromere,literature_group_T1,match_status,output_Ti_extensor_weight,output_Ti_flexor_weight,output_accessory_Ti_flexor_weight,output_all58_MN_weight,incoming_total_weight,incoming_sensory_including_tbc_weight,incoming_sensory_fraction,target_activity_measured,experience_update_measured
+male-cns:v1.0,800389,IN13A001,R,T2,13As-i,typed_T2_candidate,0,124,58,447,12336,119,0.00964656290531777,False,False
+male-cns:v1.0,800524,IN13A002,R,T2,13As-i,typed_T2_candidate,0,153,17,195,3743,1556,0.41570932407160033,False,False
+male-cns:v1.0,800546,IN13A009,R,T2,13As-i,typed_T2_candidate,2,109,109,847,6598,846,0.12822067293119127,False,False
+male-cns:v1.0,903700,IN13A005,R,T2,13As-i,typed_T2_candidate,0,216,80,307,7190,1556,0.21641168289290683,False,False
+male-cns:v1.0,902313,IN13A014,R,T2,13As-ii,typed_T2_candidate,238,1,0,272,7623,74,0.009707464252918798,False,False
+male-cns:v1.0,801910,IN13A015,R,T2,13As-ii,approximate_T1_match_then_T2_candidate,291,0,4,314,1820,347,0.19065934065934065,False,False

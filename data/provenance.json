@@ -1,0 +1,1167 @@
+{
+  "schema_version": "fly-neuron-atlas-provenance/v1",
+  "research_cutoff": "2026-09-15",
+  "entries": [
+    {
+      "path": "data/motor_atlas.csv",
+      "rows": 815,
+      "columns": [
+        "dataset",
+        "bodyId",
+        "type",
+        "instance",
+        "annotation_bodypart",
+        "subclass",
+        "superclass",
+        "somaSide",
+        "somaNeuromere",
+        "exitNerve",
+        "statusLabel",
+        "target_muscle",
+        "joint",
+        "anatomical_or_literature_action",
+        "action_mapping_status",
+        "evidence_source",
+        "evidence_table",
+        "limits",
+        "physiological_record_of_this_bodyId",
+        "incoming_edges",
+        "incoming_weight",
+        "top_3_presynaptic_bodies"
+      ],
+      "source_ids": [
+        "malecns",
+        "muscle-atlas",
+        "body-function-literature"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/MOTOR_ATLAS.csv",
+        "sha256": "40a59ba319135208f62c42550b4be6f5bc2b52d60fe44a3a09ecefe80c4868ed"
+      },
+      "transformation": "All rows/columns retained; evidence_table rewritten to repository-root relative paths; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/connectivity/motor_inputs.csv.gz",
+      "rows": 330888,
+      "columns": [
+        "bodyId_pre",
+        "bodyId_post",
+        "weight",
+        "weightHP",
+        "weightHR",
+        "preIsNeuron",
+        "preType",
+        "preInstance",
+        "preSuperclass",
+        "preSubclass",
+        "preSomaSide",
+        "preSomaNeuromere",
+        "prePredictedNt",
+        "prePredictedNtConfidence",
+        "preConsensusNt",
+        "preStatus",
+        "preStatusLabel"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/connectivity/all_motor_incoming_edges.csv",
+        "sha256": "8eaf18e5aa05dfe6110a989e66259ceaae2b3ca58e8dfe338f17a6dd4b3495de"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/motor_groups.csv",
+      "rows": 166,
+      "columns": [
+        "group_id",
+        "canonical",
+        "leg",
+        "joint",
+        "bodyId",
+        "type",
+        "instance",
+        "somaSide",
+        "somaNeuromere",
+        "display_evidence_class",
+        "legacy_comparison",
+        "physiological_action_in_this_cell_measured"
+      ],
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_control_20260915/structure/group_membership.csv",
+        "sha256": "54517a4d8700ec6527abc984a24d4f2e7ca7edbf872248402bfe33f7230323e2"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/shared_candidates.csv",
+      "rows": 2155,
+      "columns": [
+        "threshold",
+        "bodyId",
+        "preIsNeuron",
+        "preType",
+        "preInstance",
+        "preSuperclass",
+        "preSubclass",
+        "preSomaSide",
+        "preSomaNeuromere",
+        "prePredictedNt",
+        "prePredictedNtConfidence",
+        "preConsensusNt",
+        "preStatus",
+        "preStatusLabel",
+        "source_class",
+        "is_motor_source",
+        "primary_candidate_t10",
+        "group_count",
+        "target_group_ids",
+        "selected_motor_weight",
+        "selected_motor_edge_count",
+        "all_815_motor_weight_at_threshold",
+        "all_815_motor_weight_raw",
+        "all_815_motor_target_count_at_threshold",
+        "all_815_motor_target_count_raw",
+        "selected_fraction_of_815_motor_weight_at_threshold",
+        "selected_fraction_of_815_motor_weight_raw",
+        "largest_group_weight_share_within_selected",
+        "breadth_category",
+        "leg_count",
+        "nonleg_group_count",
+        "target_legs",
+        "has_same_leg_same_joint_pair",
+        "has_same_leg_knee_root_pair",
+        "has_multiple_legs",
+        "has_leg_and_nonleg",
+        "group_count_t1",
+        "selected_motor_weight_t1",
+        "group_count_t3",
+        "selected_motor_weight_t3",
+        "group_count_t5",
+        "selected_motor_weight_t5",
+        "group_count_t10",
+        "selected_motor_weight_t10",
+        "weight_retention_t10_over_t1",
+        "dataset",
+        "entity_id",
+        "compact_ref",
+        "target_parts",
+        "target_group_pairs",
+        "target_pair_relation_counts",
+        "display_repeated14_target_ids",
+        "display_repeated14_target_weight_t10",
+        "classification_state",
+        "previous_full_io",
+        "selected_additional",
+        "selection_reasons",
+        "selection_track",
+        "full_io_state",
+        "physiology_link_state",
+        "functional_role_state"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/breadth/all_candidates.csv",
+        "sha256": "64f19f8b0cd5528259d5772f54ef01b88a271c464c705a666d9e3070608ec25a"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/studied_cells.csv",
+      "rows": 40,
+      "columns": [
+        "threshold",
+        "bodyId",
+        "preIsNeuron",
+        "preType",
+        "preInstance",
+        "preSuperclass",
+        "preSubclass",
+        "preSomaSide",
+        "preSomaNeuromere",
+        "prePredictedNt",
+        "prePredictedNtConfidence",
+        "preConsensusNt",
+        "preStatus",
+        "preStatusLabel",
+        "source_class",
+        "is_motor_source",
+        "primary_candidate_t10",
+        "group_count",
+        "target_group_ids",
+        "selected_motor_weight",
+        "selected_motor_edge_count",
+        "all_815_motor_weight_at_threshold",
+        "all_815_motor_weight_raw",
+        "all_815_motor_target_count_at_threshold",
+        "all_815_motor_target_count_raw",
+        "selected_fraction_of_815_motor_weight_at_threshold",
+        "selected_fraction_of_815_motor_weight_raw",
+        "largest_group_weight_share_within_selected",
+        "breadth_category",
+        "leg_count",
+        "nonleg_group_count",
+        "target_legs",
+        "has_same_leg_same_joint_pair",
+        "has_same_leg_knee_root_pair",
+        "has_multiple_legs",
+        "has_leg_and_nonleg",
+        "group_count_t1",
+        "selected_motor_weight_t1",
+        "group_count_t3",
+        "selected_motor_weight_t3",
+        "group_count_t5",
+        "selected_motor_weight_t5",
+        "group_count_t10",
+        "selected_motor_weight_t10",
+        "weight_retention_t10_over_t1",
+        "dataset",
+        "entity_id",
+        "compact_ref",
+        "target_parts",
+        "target_group_pairs",
+        "target_pair_relation_counts",
+        "display_repeated14_target_ids",
+        "display_repeated14_target_weight_t10",
+        "classification_state",
+        "previous_full_io",
+        "selected_additional",
+        "selection_reasons",
+        "selection_track",
+        "full_io_state",
+        "physiology_link_state",
+        "functional_role_state"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/breadth/all_candidates.csv",
+        "sha256": "64f19f8b0cd5528259d5772f54ef01b88a271c464c705a666d9e3070608ec25a"
+      },
+      "transformation": "Select 40 bodyIds present in studied_totals, comprising initial six and additional 34; all columns retained",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/studied_totals.csv",
+      "rows": 320,
+      "columns": [
+        "direction",
+        "target_bodyId",
+        "target_type",
+        "observation_source",
+        "threshold",
+        "edge_count",
+        "weight",
+        "weightHP",
+        "weightHR",
+        "weight_fraction_of_t1",
+        "all_relationship_edges",
+        "excluded_missing_weight_edges",
+        "excluded_below1_edges"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/breadth/totals.csv",
+        "sha256": "35a45054410c7798edd1678a5249af1330d27ad6a11038c1c2add68e3235a7fa"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/connectivity/studied_incoming.csv.gz",
+      "rows": 39909,
+      "columns": [
+        "bodyId_pre",
+        "bodyId_post",
+        "weight",
+        "weightHP",
+        "weightHR",
+        "preIsNeuron",
+        "preType",
+        "preSuperclass",
+        "postIsNeuron",
+        "postType",
+        "postSuperclass"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/breadth/incoming_edges.csv",
+        "sha256": "836e1ab76aa2179062073d3058cd6e10e9f68f1c14624da191ba3b0497320b21"
+      },
+      "transformation": "Selected columns; UTF-8 LF CSV; deterministic gzip if .gz",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/connectivity/studied_outgoing.csv.gz",
+      "rows": 323398,
+      "columns": [
+        "bodyId_pre",
+        "bodyId_post",
+        "weight",
+        "weightHP",
+        "weightHR",
+        "preIsNeuron",
+        "preType",
+        "preSuperclass",
+        "postIsNeuron",
+        "postType",
+        "postSuperclass"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/breadth/outgoing_edges.csv",
+        "sha256": "78ea0faec60bbc31c12586291ba16d28381d2980b847fd7c29eb1e51360d7d40"
+      },
+      "transformation": "Selected columns; UTF-8 LF CSV; deterministic gzip if .gz",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/annotation_sensitivity.csv",
+      "rows": 2155,
+      "columns": [
+        "bodyId",
+        "type",
+        "studied_full_io",
+        "original_group_count",
+        "retained_group_count",
+        "shared_retained",
+        "original_group_weights",
+        "retained_group_weights"
+      ],
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/verification/ANNOTATION_SENSITIVITY.csv",
+        "sha256": "89d8e69318b432cdfefe0052ac66567d37c69d72da28b802f9c67a04b9cf0950"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/inventory.csv",
+      "rows": 23,
+      "columns": [
+        "fly",
+        "file",
+        "file_id",
+        "author_quality_flag",
+        "status",
+        "source_md5_verified",
+        "mat_fields",
+        "source_clock_resets",
+        "epoch_durations_s",
+        "time_coordinate",
+        "reason",
+        "ephys_hz",
+        "ball_hz",
+        "available_ephys_s",
+        "analyzed_s",
+        "start_s",
+        "end_s",
+        "bins",
+        "author_spike_arrays",
+        "neurons",
+        "fwd_lat_raw_exact_equal_fraction",
+        "stim_bin_fraction",
+        "valid_no_stim_s",
+        "stim_min",
+        "stim_max"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/inventory.csv",
+        "sha256": "6d535fc8665e97baf50fdba858e9fb0f234c0b591eaa641eb0332ab847efc04b"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/channels.csv",
+      "rows": 33,
+      "columns": [
+        "fly",
+        "neuron",
+        "type",
+        "side",
+        "mat_channel",
+        "status",
+        "spikes",
+        "rate_mean_Hz",
+        "rate_no_stim_mean_Hz",
+        "fraction_ISI_under2ms",
+        "prominence",
+        "main_summary_eligible",
+        "author_quality_flag",
+        "noise_scale_median_mV",
+        "noise_scale_p05_mV",
+        "zero_mad_blocks",
+        "yaw_r0",
+        "yaw_r150",
+        "yaw_shift1_r150",
+        "yaw_shift2_r150",
+        "yaw_peak_abs_r",
+        "yaw_peak_abs_lag_ms",
+        "fwd_r0",
+        "fwd_r150",
+        "fwd_shift1_r150",
+        "fwd_shift2_r150",
+        "lat_r0",
+        "lat_r150",
+        "lat_shift1_r150",
+        "lat_shift2_r150",
+        "yaw_counts_r150",
+        "yaw_vm_r150",
+        "rate_vm_r0",
+        "yaw_r150_third1",
+        "yaw_r150_third2",
+        "yaw_r150_third3",
+        "source_example_prominence",
+        "source_example_spikes",
+        "source_example_yaw_r150",
+        "threshold_grid_r150_min",
+        "threshold_grid_r150_max",
+        "threshold_grid_sign_stable",
+        "all_thirds_yaw_sign_agree",
+        "threshold_grid_all_estimable",
+        "threshold_grid_finite_n"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/channels.csv",
+        "sha256": "105d3a8761e8293fff87155f6efddffa4590296438fb9699a3d05a0d7f4beee5"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/pairs.csv",
+      "rows": 30,
+      "columns": [
+        "fly",
+        "kind",
+        "signal",
+        "target",
+        "r0",
+        "r150",
+        "shift1_r150",
+        "shift2_r150",
+        "peak_abs_r",
+        "peak_abs_lag_ms",
+        "main_summary_eligible"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/pairs.csv",
+        "sha256": "cab8721a07f6086bbd1c93b4c6bd77675ca3c22821eada3f6b6178deb1c62643"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/paired_threshold_sensitivity.csv",
+      "rows": 50,
+      "columns": [
+        "fly",
+        "kind",
+        "multiplier",
+        "difference_r150",
+        "difference_peak_lag_ms",
+        "difference_peak_r"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/paired_threshold_sensitivity.csv",
+        "sha256": "ef8dc0043353343bb7cd919bdcac9b7fcf5da10c3af6480298ae9488f1d752c9"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/pair_sensitivity.csv",
+      "rows": 24,
+      "columns": [
+        "fly",
+        "prominence",
+        "source_notebook_example",
+        "main_file_eligible",
+        "difference_r150",
+        "sum_r150",
+        "left_r150",
+        "right_r150",
+        "difference_peak_abs_lag_ms",
+        "difference_peak_abs_r"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/pair_sensitivity.csv",
+        "sha256": "8194cb888bde0e6ce7e6dfc684ede791d89cb683f8ba5a71be07e413f37b5e62"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/clock_boundary_sensitivity.csv",
+      "rows": 12,
+      "columns": [
+        "fly",
+        "method",
+        "signal",
+        "target",
+        "r150",
+        "peak_abs_lag_ms",
+        "peak_abs_r",
+        "valid_s"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/clock_boundary_sensitivity.csv",
+        "sha256": "247fc84c180a2fdcb654baee3f77a0d0bfb45b11bcce1f1ee8214d8de0b58414"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/lag_curves.csv",
+      "rows": 6363,
+      "columns": [
+        "fly",
+        "signal",
+        "target",
+        "lag_ms",
+        "r"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/lag_curves.csv",
+        "sha256": "c49a0dd0541bcbaeb92309955656ae883beb906fcf1f98b8b4100426fc2324bd"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/source_example_comparison.csv",
+      "rows": 33,
+      "columns": [
+        "fly",
+        "neuron",
+        "source_example_prominence",
+        "source_example_spikes",
+        "source_example_yaw_r150",
+        "threshold_grid_sign_stable",
+        "threshold_grid_all_estimable",
+        "threshold_grid_finite_n",
+        "threshold_grid_r150_min",
+        "threshold_grid_r150_max"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/source_example_comparison.csv",
+        "sha256": "442f578cd6a6ea7ea4c6eea7bdc0008e05a4972608a7ec3475dbff6de49842cf"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/threshold_lag_sensitivity.csv",
+      "rows": 156,
+      "columns": [
+        "fly",
+        "neuron",
+        "absolute_prominence",
+        "prominence_multiplier",
+        "spikes",
+        "r150",
+        "peak_abs_lag_ms",
+        "peak_abs_r"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/dynamics/analysis/threshold_lag_sensitivity.csv",
+        "sha256": "0112697ae5a7f55d1450f2a1479b3f224d62b7693095c3a7434ed82619f93f25"
+      },
+      "transformation": "Preserve scientific columns; omit execution runtime column if present; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/activity/voltage_sensitivity.csv",
+      "rows": 63,
+      "columns": [
+        "fly",
+        "signal",
+        "kind",
+        "r150",
+        "vm_cutoff_r150",
+        "baseline_valid_bins",
+        "vm_cutoff_valid_bins",
+        "vm_cutoff_fraction_retained",
+        "main_summary_eligible",
+        "interpretation"
+      ],
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/verification/INDEPENDENT_ACTIVITY.csv",
+        "sha256": "aa27668a4f1ed552fb82ffff1ea099eff012947acd659fe46996693d51fec330"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/physiology_evidence.csv",
+      "rows": 23,
+      "columns": [
+        "entity_id",
+        "ref",
+        "bodyId",
+        "type",
+        "instance",
+        "somaSide",
+        "somaNeuromere",
+        "dataset",
+        "connectome_sex",
+        "target_groups_t10",
+        "predictedNt",
+        "evidence_level",
+        "experimental_type",
+        "experiment_sex",
+        "recording_or_intervention_side",
+        "driver",
+        "activity_correlation",
+        "sufficiency",
+        "necessity",
+        "data_access",
+        "primary_sources",
+        "type_mapping_evidence",
+        "limitations",
+        "same_physical_recorded_cell"
+      ],
+      "source_ids": [
+        "malecns",
+        "functional-literature"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/physiology/evidence_ledger.csv",
+        "sha256": "7b170d55b7b0133473e8cf01d66170debf48ba8a2f8ce719302c6aebd5a8d6a1"
+      },
+      "transformation": "Preserve rows and evidence distinctions; replace internal prior-study source pointer with public structural data pointers",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/leg_muscle_actions.csv",
+      "rows": 381,
+      "columns": [
+        "dataset",
+        "versioned_body_id",
+        "bodyId",
+        "type",
+        "instance",
+        "leg_position_from_subclass",
+        "subclass",
+        "somaSide",
+        "rootSide",
+        "somaNeuromere",
+        "exitNerve",
+        "superclass",
+        "mancBodyid",
+        "mancType",
+        "mancSerial",
+        "mcnsSerial",
+        "serialMotif",
+        "matchingNotes",
+        "status",
+        "statusLabel",
+        "leg",
+        "joint",
+        "anatomical_action",
+        "action_source",
+        "muscle_label_available",
+        "action_known",
+        "muscle_identity_evidence",
+        "legacy_targets",
+        "legacy_match_count",
+        "physiological_action_in_this_cell_measured"
+      ],
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/legs/all_six_leg_muscle_actions.csv",
+        "sha256": "fbe9d269f635c0a0febcf5b799dfb1530bed680fcdd27e3adfc2210e528c5525"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/legacy_muscle_differences.csv",
+      "rows": 120,
+      "columns": [
+        "bodyId",
+        "leg",
+        "current_type",
+        "current_mancType",
+        "mancBodyid",
+        "legacy_systematic_type",
+        "legacy_target",
+        "legacy_exit_nerve",
+        "legacy_class",
+        "comparison",
+        "maleCNS_leg_MN_same_manc_id_count",
+        "legacy_source_line",
+        "decision"
+      ],
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/legs/legacy_target_differences.csv",
+        "sha256": "848e66fac5f8f89bf9f2d176c28654ff1eb4a7e5c990b86f9d2ef4dd3faa6354"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/nonleg_muscle_evidence.csv",
+      "rows": 434,
+      "columns": [
+        "bodyId",
+        "type",
+        "instance",
+        "superclass",
+        "subclass",
+        "somaSide",
+        "rootSide",
+        "somaNeuromere",
+        "exitNerve",
+        "mancBodyid",
+        "mancType",
+        "flywireType",
+        "status",
+        "statusLabel",
+        "literature_muscle",
+        "literature_action",
+        "literature_sources",
+        "muscle_bridge_status",
+        "limits"
+      ],
+      "source_ids": [
+        "malecns",
+        "body-function-literature"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/flight_head/OUTPUT_MUSCLE_EVIDENCE.csv",
+        "sha256": "8f594077ce2ac5084c3f65b40685f9eb170c7b1a206573546ae05d0ba5a232ec"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/functional_partition.csv",
+      "rows": 6,
+      "columns": [
+        "dataset",
+        "target_scope",
+        "postType",
+        "pre_role",
+        "direct_mn58_status",
+        "unique_pre",
+        "edge_count",
+        "weight",
+        "weightHP",
+        "weightHR",
+        "fraction_of_all_target_input_weight"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_functional_partition_20260915/graph/partition_summary.csv",
+        "sha256": "e120a85bbffce88f0a173e731c9e452e9b8d20bbaa2927ce507f43a7e94449c6"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/direct_bridges.csv",
+      "rows": 54,
+      "columns": [
+        "threshold",
+        "source_bodyId",
+        "source_type",
+        "source_is_t10_candidate",
+        "target_bodyId",
+        "target_type",
+        "edge_synapses",
+        "fraction_of_all_target_input_raw",
+        "source_predictedNt",
+        "target_predictedNt"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_shared_roles_20260915/bridges/direct_bridges.csv",
+        "sha256": "abb536459a24e2cd8070e2965e5458b135c9f70e5267deee116c9ba9dacafc3b"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/right_t2_six_candidates.csv",
+      "rows": 6,
+      "columns": [
+        "dataset",
+        "bodyId",
+        "type",
+        "side",
+        "neuromere",
+        "literature_group_T1",
+        "match_status",
+        "output_Ti_extensor_weight",
+        "output_Ti_flexor_weight",
+        "output_accessory_Ti_flexor_weight",
+        "output_all58_MN_weight",
+        "incoming_total_weight",
+        "incoming_sensory_including_tbc_weight",
+        "incoming_sensory_fraction",
+        "target_activity_measured",
+        "experience_update_measured"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_research_summary_20260914/tables/six_candidates.csv",
+        "sha256": "f6f671ff4e01d701d752a600da6748b2dad6dedb6f25995764622cb4b5f3d6bc"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/bodypart_counts.csv",
+      "rows": 11,
+      "columns": [
+        "subclass",
+        "bodypart",
+        "bodypart_label_ja",
+        "n_neurons",
+        "soma_L",
+        "soma_R",
+        "cb_motor",
+        "vnc_motor",
+        "n_nonnull_type_labels",
+        "n_missing_type",
+        "n_missing_nerve",
+        "soma_neuromere_counts",
+        "exit_nerve_counts",
+        "assignment_status",
+        "classification_sources",
+        "caveat"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/inventory/bodypart_counts.csv",
+        "sha256": "92161a28c0f55cabbaacefc174d1ff369279e05478f9c8913c39900f25c19166"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/bodypart_sharing.csv",
+      "rows": 784,
+      "columns": [
+        "edge_threshold",
+        "row_block",
+        "column_block",
+        "shared_pre",
+        "row_input_from_shared",
+        "row_input_weight",
+        "row_fraction"
+      ],
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_bodywide_control_20260915/connectivity/pairwise_input_sharing.csv",
+        "sha256": "d878d3aa8a71ced2af93d7022d1605f350fdfdc2552bcbc6d89ce8ad1985800e"
+      },
+      "transformation": "All columns retained; UTF-8 LF CSV",
+      "license": "CC-BY-4.0 for original curation; upstream terms and attribution retained"
+    },
+    {
+      "path": "data/structure/right_t2_axis_map.csv",
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_joint_control_20260914/axis_map.csv",
+        "sha256": "8b3712862f992e728d084f5b1fee54b322f838d3f02d2e0cb2eaf66450aad9f0"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "前脚の筋作用と右T2型注釈の対応。右T2の末梢実験でなく、Praを2軸に掲出する行は別細胞を意味しない。",
+      "rows": 8,
+      "columns": [
+        "axis",
+        "motor_type",
+        "relation",
+        "anatomical_action",
+        "source",
+        "evidence_scope",
+        "right_T2_body_ids"
+      ]
+    },
+    {
+      "path": "data/structure/six_candidate_internal_groups.csv",
+      "source_ids": [
+        "malecns"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_joint_control_20260914/parent_review/functional_internal_by_group.csv",
+        "sha256": "ffd31771ae7f2a7d054720b0ae1129aa63fc6fb916312def49a733a344895dab"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "six_candidatesとexclude_approximate_801910は感度条件。行数を独立標本数にしない。群サイズの差も本文に残す。",
+      "rows": 8,
+      "columns": [
+        "scenario",
+        "pre_T1_reference_group",
+        "post_T1_reference_group",
+        "edges",
+        "weight"
+      ]
+    },
+    {
+      "path": "data/navigation/prestate_summary.csv",
+      "source_ids": [
+        "pires"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_activity_mechanisms_20260914/navigation/results/posthoc_prestate_summary.csv",
+        "sha256": "e1ac18ddca1151a89f633de392d4cf9389abe4b2c45eed82f48adb06787910aa"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "本文の92.8°/17.7°にはprestate=pre60_stable_10s,quality_only=True,window=5-10sを使用。32行は条件重複を含み独立試行ではない。",
+      "rows": 32,
+      "columns": [
+        "prestate",
+        "quality_only",
+        "group",
+        "window",
+        "n_trials",
+        "n_flies",
+        "phase_equal_fly_circmean_deg",
+        "n_returned",
+        "n_phase_closer_0",
+        "n_0_preferred_not_returned",
+        "activity_mae_equal_fly_deg",
+        "fixed0_mae_equal_fly_deg",
+        "fixed90_mae_equal_fly_deg",
+        "shifted_mae_equal_fly_deg",
+        "conditioned_shift_n_trials",
+        "conditioned_shift_n_flies",
+        "conditioned_shift_actual_mae_equal_fly_deg",
+        "conditioned_shift_control_mae_equal_fly_deg"
+      ]
+    },
+    {
+      "path": "data/navigation/pfl3_cell_prediction_errors.csv",
+      "source_ids": [
+        "pires"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_activity_mechanisms_20260914/pfl3/cell_errors.csv",
+        "sha256": "a2a821d04341626e899e156913d2ce6c30c9303bf2c31e75a401ebc628c3bc84"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "各列はHz^2の細胞別MSE。RMSEはsqrt(mean(MSE over cells))。細胞数と区画数を加重混同せず、softplusを唯一最良としない。",
+      "rows": 15,
+      "columns": [
+        "cell",
+        "n_bins",
+        "constant_mse",
+        "heading_mse",
+        "goal_mse",
+        "additive_harmonic_mse",
+        "interaction_harmonic_mse",
+        "additive_bins_mse",
+        "softplus_heading_mse",
+        "softplus_mse"
+      ]
+    },
+    {
+      "path": "data/learning/huang_corrected_summary.json",
+      "source_ids": [
+        "huang"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_discrepancy_resolution_20260914/huang/derived/source_comparison.json",
+        "sha256": "4f6cf81e071edee398523f33154234208283fffafa47320f8b525ba582462dd4"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "原表再現の基線は[2,5)秒。旧基線も比較候補としてJSON内に残る。1時間の区間は零を跨ぎ、Fly03記録重複を併記する。",
+      "format": "json",
+      "top_level_keys": [
+        "records",
+        "tolerance_Hz",
+        "candidate_generation",
+        "candidates",
+        "fly3_source_cells",
+        "source_bias_summary",
+        "bootstrap_method"
+      ]
+    },
+    {
+      "path": "data/action/pfl3_intervention_fly_means.csv",
+      "source_ids": [
+        "pires"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_action_grounding_20260914/pfl3_effect/fly_effects.csv",
+        "sha256": "16dab6ae06fae6eb0ae2fdb74bedd83a878c2cc73131a492a74c520e9f4a55a6"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "mean_ipsiは刺激側正の旋回速度deg/s。fly_idはgenotype内だけで有効。全24個体をPFL3のnとしない。",
+      "rows": 24,
+      "columns": [
+        "genotype",
+        "fly_id",
+        "mean_ipsi"
+      ]
+    },
+    {
+      "path": "data/action/agrawal_13b_joint_response.csv",
+      "source_ids": [
+        "agrawal"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_joint_control_20260914/calibration/derived/fig3_summary.csv",
+        "sha256": "272bba07815d1c4c9a49378925e36ad2d0b334cf967e3cd80af281dbfdb9a087"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "左前脚の断頭固定個体。13B刺激時刻原点が未確定で窓は標本単位。荷重差は群間で個体対応なし。",
+      "rows": 12,
+      "columns": [
+        "condition",
+        "joint",
+        "window_samples",
+        "stimulus_mean_deg",
+        "control_mean_deg",
+        "n_flies",
+        "mean_deg",
+        "median_deg",
+        "sd_deg",
+        "sem_deg",
+        "min_deg",
+        "max_deg"
+      ]
+    },
+    {
+      "path": "data/action/agrawal_9a_joint_response.csv",
+      "source_ids": [
+        "agrawal"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_joint_control_20260914/calibration/derived/fig6_summary.csv",
+        "sha256": "41842442cb32d52071060097b34383569eec67a3213cccd85d6cfe70da50edac"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "平均約5°のFeTiを典型個体の効果としない。重複条件の別系統20257は除外済み。",
+      "rows": 6,
+      "columns": [
+        "condition",
+        "joint",
+        "stimulus_mean_deg",
+        "control_mean_deg",
+        "n_flies",
+        "mean_deg",
+        "median_deg",
+        "sd_deg",
+        "sem_deg",
+        "min_deg",
+        "max_deg"
+      ]
+    },
+    {
+      "path": "data/activity/agrawal_13balpha_angle_summary.json",
+      "source_ids": [
+        "agrawal"
+      ],
+      "derived_from": {
+        "research_artifact": "malecns_activity_update_20260914/typed_activity/derived/13Balpha_rampandhold_summary.json",
+        "sha256": "489b0e8b148cc9cb146a36f3bbaf257e1bbdfe3667b3110f225b88c51f0f5ddb"
+      },
+      "transformation": "All data retained; UTF-8 serialized copy",
+      "license": "CC-BY-4.0 original curation; upstream terms retained",
+      "caption": "対象6候補の活動値ではない。>120°対<60°の記述対比。過渡と履歴未統制、Caから発火/潜時を推定しない。",
+      "format": "json",
+      "top_level_keys": [
+        "n_flies",
+        "contrast",
+        "differences_DFF",
+        "mean_difference_DFF",
+        "limitation"
+      ]
+    }
+  ]
+}

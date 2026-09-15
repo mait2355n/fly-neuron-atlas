@@ -1,0 +1,12 @@
+{
+  "source": "malecns_shared_roles_20260915/dynamics/analysis/analyze.py",
+  "sha256": "4b4ef349854486a32b7a15e90c6aecd37469ff194f649e2317a667c9c99bc3c8",
+  "changes": [
+    "remove original command-line entrypoint",
+    "replace local-environment docstring",
+    "paths assigned by wrapper; computation preserved"
+  ],
+  "upstream_algorithm": "https://github.com/wilson-lab/rayshubskiy_elife_102230_secondary_analysis_code/tree/7e2895349266b5cc5fa1bf53ad56e8ecc6c842e8",
+  "public_path": "scripts/ephys_core.py",
+  "license_notice": "licenses/Wilson-Lab-MIT.txt"
+}

@@ -1,0 +1,121 @@
+bodyId,leg,current_type,current_mancType,mancBodyid,legacy_systematic_type,legacy_target,legacy_exit_nerve,legacy_class,comparison,maleCNS_leg_MN_same_manc_id_count,legacy_source_line,decision
+825516,T1L,Acc. ti flexor MN,Acc. ti flexor MN,29554,MNfl46,Ta depressor,ProLN_L,motor neuron,different_joint_or_action,1,502,retain_as_separate_legacy_correspondence; no_overwrite
+867630,T1L,Acc. ti flexor MN,Acc. ti flexor MN,13156,MNfl45,ltm,ProLN_L,motor neuron,different_joint_or_action,1,384,retain_as_separate_legacy_correspondence; no_overwrite
+819278,T1L,Ta depressor MN,Ta depressor MN,18554,MNfl42,Acc. ti flexor,ProLN_L,motor neuron,different_joint_or_action,1,456,retain_as_separate_legacy_correspondence; no_overwrite
+1050403926,T1L,Ta depressor MN,Ta depressor MN,15023,MNfl43,Acc. ti flexor,ProLN_L,motor neuron,different_joint_or_action,2,421,retain_as_separate_legacy_correspondence; no_overwrite
+1050660827,T1L,Ta depressor MN,Ta depressor MN,166374,MNfl42,Acc. ti flexor,ProLN_L,motor neuron,different_joint_or_action,1,457,retain_as_separate_legacy_correspondence; no_overwrite
+1050111955,T1L,Ta levator MN,Ta levator MN,25674,MNfl47,Ta depressor,ProLN_L,motor neuron,different_joint_or_action,1,492,retain_as_separate_legacy_correspondence; no_overwrite
+819384,T1L,Ti flexor MN,Ti flexor MN,17885,MNfl28,Acc. ti flexor,ProLN_L,motor neuron,different_muscle_label_same_mapped_action,2,452,retain_as_separate_legacy_correspondence; no_overwrite
+803412,T1L,Tr extensor MN,Tr extensor MN,11657,MNfl41,Ti extensor,ProLN_L,motor neuron,different_joint_or_action,1,366,retain_as_separate_legacy_correspondence; no_overwrite
+911453,T1L,ltm MN,ltm MN,173560,MNfl37,Tr extensor,ProLN_L,motor neuron,different_joint_or_action,1,405,retain_as_separate_legacy_correspondence; no_overwrite
+822047,T1L,ltm1-tibia MN,ltm1-tibia MN,19092,MNfl23,ltm,ProLN_L,motor neuron,long_tendon_location_or_granularity_difference,1,440,retain_as_separate_legacy_correspondence; no_overwrite
+805309,T1L,ltm2-femur MN,ltm2-femur MN,20612,MNfl19,ltm1-tibia,ProLN_L,motor neuron,long_tendon_location_or_granularity_difference,1,430,retain_as_separate_legacy_correspondence; no_overwrite
+1050340850,T1R,,,16658,MNfl23,ltm,ProLN_R,motor neuron,legacy_named_current_unresolved,1,441,retain_as_separate_legacy_correspondence; no_overwrite
+833140,T1R,Acc. ti flexor MN,Acc. ti flexor MN,16897,MNfl48,Ta depressor,ProLN_R,motor neuron,different_joint_or_action,1,445,retain_as_separate_legacy_correspondence; no_overwrite
+909713,T1R,Acc. ti flexor MN,Acc. ti flexor MN,16492,MNfl49,Ta depressor,ProLN_R,motor neuron,different_joint_or_action,1,439,retain_as_separate_legacy_correspondence; no_overwrite
+1050005026,T1R,Acc. ti flexor MN,Acc. ti flexor MN,154804,MNfl47,Ta depressor,ProLN_R,motor neuron,different_joint_or_action,1,493,retain_as_separate_legacy_correspondence; no_overwrite
+1050306082,T1R,Acc. tr flexor MN,Acc. tr flexor MN,13563,MNfl30,Ti flexor,ProLN_R,motor neuron,different_joint_or_action,1,373,retain_as_separate_legacy_correspondence; no_overwrite
+805313,T1R,Pleural remotor/abductor MN,Pleural remotor/abductor MN,21241,MNfl06,Sternal posterior rotator,ProAN_R,motor neuron,different_joint_or_action,2,475,retain_as_separate_legacy_correspondence; no_overwrite
+801079,T1R,Sternotrochanter MN,Sternotrochanter MN,18440,MNfl07,Tr flexor,VProN_R,motor neuron,different_joint_or_action,1,470,retain_as_separate_legacy_correspondence; no_overwrite
+803698,T1R,Sternotrochanter MN,Sternotrochanter MN,13819,MNfl27,Acc. ti flexor,ProLN_R,motor neuron,different_joint_or_action,1,400,retain_as_separate_legacy_correspondence; no_overwrite
+1050248133,T1R,Ta depressor MN,Ta depressor MN,20373,MNfl43,Acc. ti flexor,ProLN_R,motor neuron,different_joint_or_action,1,422,retain_as_separate_legacy_correspondence; no_overwrite
+1050380236,T1R,Ta depressor MN,Ta depressor MN,26658,MNfl42,Acc. ti flexor,ProLN_R,motor neuron,different_joint_or_action,1,458,retain_as_separate_legacy_correspondence; no_overwrite
+1050815462,T1R,Ta depressor MN,Ta depressor MN,26777,MNfl42,Acc. ti flexor,ProLN_R,motor neuron,different_joint_or_action,1,459,retain_as_separate_legacy_correspondence; no_overwrite
+801824,T1R,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN,11706,MNfl39,Ti extensor,ProLN_R,motor neuron,different_joint_or_action,1,369,retain_as_separate_legacy_correspondence; no_overwrite
+815678,T1R,Ti extensor MN,Ti extensor MN,22126,MNfl20,Tergotr.,VProN_R,motor neuron,different_joint_or_action,1,465,retain_as_separate_legacy_correspondence; no_overwrite
+817640,T1R,Tr flexor MN,Tr flexor MN,14783,MNfl14,Acc. tr flexor,ProLN_R,motor neuron,different_muscle_label_same_mapped_action,1,410,retain_as_separate_legacy_correspondence; no_overwrite
+1050013851,T1R,ltm MN,ltm MN,15317,MNfl15,ltm2-femur,ProLN_R,motor neuron,long_tendon_location_or_granularity_difference,1,424,retain_as_separate_legacy_correspondence; no_overwrite
+1050251718,T1R,ltm2-femur MN,ltm2-femur MN,15720,MNfl19,ltm1-tibia,ProLN_R,motor neuron,long_tendon_location_or_granularity_difference,1,431,retain_as_separate_legacy_correspondence; no_overwrite
+803086,T2L,MNml29,MNml29,19773,MNml29,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,122,retain_as_separate_legacy_correspondence; no_overwrite
+822185,T2L,MNml77,MNml77,103416,MNml77,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,224,retain_as_separate_legacy_correspondence; no_overwrite
+895449,T2L,MNml78,MNml78,20551,MNml78,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,189,retain_as_separate_legacy_correspondence; no_overwrite
+907422,T2L,MNml78,MNml78,25956,MNml80,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,2,153,retain_as_separate_legacy_correspondence; no_overwrite
+1050119039,T2L,MNml78,MNml78,30709,MNml78,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,190,retain_as_separate_legacy_correspondence; no_overwrite
+1050151215,T2L,MNml78,MNml78,167919,MNml78,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,191,retain_as_separate_legacy_correspondence; no_overwrite
+820632,T2L,MNml80,MNml80,17697,MNml80,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,152,retain_as_separate_legacy_correspondence; no_overwrite
+822742,T2L,MNml80,MNml80,14775,MNml27,Acc. ti flexor,MesoLN_L,motor neuron,legacy_named_current_unresolved,1,133,retain_as_separate_legacy_correspondence; no_overwrite
+1050046221,T2L,MNml80,MNml80,25956,MNml80,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,2,153,retain_as_separate_legacy_correspondence; no_overwrite
+903508,T2L,MNml81,MNml81,13036,MNml81,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,128,retain_as_separate_legacy_correspondence; no_overwrite
+803480,T2L,MNml82,MNml82,101909,MNml82,middle leg,MesoLN_L,motor neuron,both_muscle_unresolved,1,221,retain_as_separate_legacy_correspondence; no_overwrite
+816018,T2L,Sternal adductor MN,Sternal adductor MN,156233,MNml07,Tr flexor,MesoLN_L,motor neuron,different_joint_or_action,1,228,retain_as_separate_legacy_correspondence; no_overwrite
+824041,T2L,Ti flexor MN,Ti flexor MN,14665,MNml27,Acc. ti flexor,MesoLN_L,motor neuron,different_muscle_label_same_mapped_action,1,132,retain_as_separate_legacy_correspondence; no_overwrite
+800589,T2L,Tr flexor MN,Tr flexor MN,13817,MNml16,Sternal adductor,MesoLN_L,motor neuron,different_joint_or_action,2,138,retain_as_separate_legacy_correspondence; no_overwrite
+802232,T2L,Tr flexor MN,Tr flexor MN,13817,MNml16,Sternal adductor,MesoLN_L,motor neuron,different_joint_or_action,2,138,retain_as_separate_legacy_correspondence; no_overwrite
+813603,T2L,ltm MN,ltm MN,17964,MNml79,middle leg,MesoLN_L,motor neuron,current_named_legacy_unresolved,1,179,retain_as_separate_legacy_correspondence; no_overwrite
+824689,T2L,ltm MN,ltm MN,17419,MNml15,ltm2-femur,MesoLN_L,motor neuron,long_tendon_location_or_granularity_difference,1,175,retain_as_separate_legacy_correspondence; no_overwrite
+825681,T2L,ltm MN,ltm MN,15873,MNml38,ltm1-tibia,MesoLN_L,motor neuron,long_tendon_location_or_granularity_difference,1,158,retain_as_separate_legacy_correspondence; no_overwrite
+826996,T2L,ltm2-femur MN,ltm2-femur MN,25447,MNml23,ltm,MesoLN_L,motor neuron,long_tendon_location_or_granularity_difference,1,126,retain_as_separate_legacy_correspondence; no_overwrite
+909255,T2R,Acc. ti flexor MN,Acc. ti flexor MN,39941,MNml78,middle leg,MesoLN_R,motor neuron,current_named_legacy_unresolved,1,193,retain_as_separate_legacy_correspondence; no_overwrite
+1052521030,T2R,Acc. ti flexor MN,Acc. ti flexor MN,16017,MNml85,middle leg,MesoLN_R,motor neuron,current_named_legacy_unresolved,1,160,retain_as_separate_legacy_correspondence; no_overwrite
+867926,T2R,Acc. tr flexor MN,Acc. tr flexor MN,218885,MNml07,Tr flexor,MesoLN_R,motor neuron,different_muscle_label_same_mapped_action,1,229,retain_as_separate_legacy_correspondence; no_overwrite
+807395,T2R,MNml29,MNml29,104697,MNml06,Sternal posterior rotator,MesoLN_R,motor neuron,legacy_named_current_unresolved,1,227,retain_as_separate_legacy_correspondence; no_overwrite
+1050160593,T2R,MNml76,MNml76,156505,MNml76,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,231,retain_as_separate_legacy_correspondence; no_overwrite
+907387,T2R,MNml77,MNml77,30781,MNml78,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,192,retain_as_separate_legacy_correspondence; no_overwrite
+814983,T2R,MNml78,MNml78,162868,MNml24,Acc. ti flexor,MesoLN_R,motor neuron,legacy_named_current_unresolved,1,137,retain_as_separate_legacy_correspondence; no_overwrite
+817990,T2R,MNml78,MNml78,35950,MNml78,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,194,retain_as_separate_legacy_correspondence; no_overwrite
+905559,T2R,MNml79,MNml79,32253,MNml79,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,180,retain_as_separate_legacy_correspondence; no_overwrite
+903844,T2R,MNml80,MNml80,15616,MNml80,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,154,retain_as_separate_legacy_correspondence; no_overwrite
+905236,T2R,MNml80,MNml80,16497,MNml84,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,165,retain_as_separate_legacy_correspondence; no_overwrite
+1050673969,T2R,MNml80,MNml80,18664,MNml27,Acc. ti flexor,MesoLN_R,motor neuron,legacy_named_current_unresolved,1,135,retain_as_separate_legacy_correspondence; no_overwrite
+801477,T2R,MNml81,MNml81,14828,MNml81,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,129,retain_as_separate_legacy_correspondence; no_overwrite
+800230,T2R,MNml82,MNml82,13746,MNml27,Acc. ti flexor,MesoLN_R,motor neuron,legacy_named_current_unresolved,1,134,retain_as_separate_legacy_correspondence; no_overwrite
+820574,T2R,MNml83,MNml83,200065,MNml77,middle leg,MesoLN_R,motor neuron,both_muscle_unresolved,1,225,retain_as_separate_legacy_correspondence; no_overwrite
+801813,T2R,Sternal anterior rotator MN,Sternal anterior rotator MN,102786,MNml34,Sternal posterior rotator,MesoLN_R,motor neuron,different_joint_or_action,1,217,retain_as_separate_legacy_correspondence; no_overwrite
+801761,T2R,Sternal posterior rotator MN,Sternal posterior rotator MN,12196,MNml29,middle leg,MesoLN_R,motor neuron,current_named_legacy_unresolved,1,123,retain_as_separate_legacy_correspondence; no_overwrite
+822013,T2R,Ti flexor MN,Ti flexor MN,162827,MNml86,middle leg,MesoLN_R,motor neuron,current_named_legacy_unresolved,1,232,retain_as_separate_legacy_correspondence; no_overwrite
+801058,T2R,Tr flexor MN,Tr flexor MN,10461,MNml41,Ti extensor,MesoLN_R,motor neuron,different_joint_or_action,1,115,retain_as_separate_legacy_correspondence; no_overwrite
+824997,T2R,ltm MN,ltm MN,162830,MNml19,ltm1-tibia,MesoLN_R,motor neuron,long_tendon_location_or_granularity_difference,1,220,retain_as_separate_legacy_correspondence; no_overwrite
+852673,T2R,ltm2-femur MN,ltm2-femur MN,13033,MNml23,ltm,MesoLN_R,motor neuron,long_tendon_location_or_granularity_difference,1,127,retain_as_separate_legacy_correspondence; no_overwrite
+1051680335,T3L,,,13192,MNhl21,Ti flexor,MetaLN_L,motor neuron,legacy_named_current_unresolved,1,284,retain_as_separate_legacy_correspondence; no_overwrite
+817374,T3L,Acc. ti flexor MN,Acc. ti flexor MN,163009,MNhl73,hind leg,MetaLN_L,motor neuron,current_named_legacy_unresolved,1,362,retain_as_separate_legacy_correspondence; no_overwrite
+843389,T3L,Acc. ti flexor MN,Acc. ti flexor MN,21186,MNhl07,Tr flexor,MetaLN_L,motor neuron,different_joint_or_action,1,338,retain_as_separate_legacy_correspondence; no_overwrite
+934519,T3L,Acc. ti flexor MN,Acc. ti flexor MN,25599,MNhl63,hind leg,MetaLN_L,motor neuron,current_named_legacy_unresolved,1,306,retain_as_separate_legacy_correspondence; no_overwrite
+1050123559,T3L,Acc. ti flexor MN,Acc. ti flexor MN,27733,MNhl04,ltm,MetaLN_L,motor neuron,different_joint_or_action,1,347,retain_as_separate_legacy_correspondence; no_overwrite
+809604,T3L,Acc. tr flexor MN,Acc. tr flexor MN,162913,MNhl07,Tr flexor,MetaLN_L,motor neuron,different_muscle_label_same_mapped_action,1,337,retain_as_separate_legacy_correspondence; no_overwrite
+821154,T3L,Acc. tr flexor MN,Acc. tr flexor MN,13095,MNhl66,hind leg,MetaLN_L,motor neuron,current_named_legacy_unresolved,1,274,retain_as_separate_legacy_correspondence; no_overwrite
+1050038433,T3L,Acc. tr flexor MN,Acc. tr flexor MN,37741,MNhl72,hind leg,MetaLN_L,motor neuron,current_named_legacy_unresolved,1,352,retain_as_separate_legacy_correspondence; no_overwrite
+1050730563,T3L,Acc. tr flexor MN,Acc. tr flexor MN,24668,MNhl12,Tr flexor,MetaLN_L,motor neuron,different_muscle_label_same_mapped_action,1,327,retain_as_separate_legacy_correspondence; no_overwrite
+1051236875,T3L,Acc. tr flexor MN,Acc. tr flexor MN,23117,MNhl05,Tr flexor,MetaLN_L,motor neuron,different_muscle_label_same_mapped_action,1,343,retain_as_separate_legacy_correspondence; no_overwrite
+807160,T3L,MNhl01,MNhl01,221983,MNhl01,hind leg,AbN1_L,motor neuron,both_muscle_unresolved,1,308,retain_as_separate_legacy_correspondence; no_overwrite
+816501,T3L,MNhl02,MNhl02,27479,MNhl62,hind leg,AbN1_L,motor neuron,both_muscle_unresolved,1,331,retain_as_separate_legacy_correspondence; no_overwrite
+804078,T3L,MNhl29,MNhl29,102123,MNhl29,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,302,retain_as_separate_legacy_correspondence; no_overwrite
+802731,T3L,MNhl59,MNhl59,11809,MNhl59,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,254,retain_as_separate_legacy_correspondence; no_overwrite
+1050274189,T3L,MNhl60,MNhl60,100824,MNhl69,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,353,retain_as_separate_legacy_correspondence; no_overwrite
+801736,T3L,MNhl62,MNhl62,11813,MNhl02,hind leg,AbN1_L,motor neuron,both_muscle_unresolved,1,244,retain_as_separate_legacy_correspondence; no_overwrite
+822252,T3L,MNhl64,MNhl64,29474,MNhl64,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,291,retain_as_separate_legacy_correspondence; no_overwrite
+936696,T3L,MNhl65,MNhl65,19480,MNhl65,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,280,retain_as_separate_legacy_correspondence; no_overwrite
+811137,T3L,MNhl87,MNhl87,17761,MNhl87,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,310,retain_as_separate_legacy_correspondence; no_overwrite
+804847,T3L,MNhl88,MNhl88,17905,MNhl88,hind leg,MetaLN_L,motor neuron,both_muscle_unresolved,1,293,retain_as_separate_legacy_correspondence; no_overwrite
+902310,T3L,Pleural remotor/abductor MN,Pleural remotor/abductor MN,15278,MNhl34,Sternal posterior rotator,MetaLN_L,motor neuron,different_joint_or_action,2,247,retain_as_separate_legacy_correspondence; no_overwrite
+801492,T3L,Sternal posterior rotator MN,Sternal posterior rotator MN,14168,MNhl17,Pleural remotor/abductor,MetaLN_L,motor neuron,different_joint_or_action,1,295,retain_as_separate_legacy_correspondence; no_overwrite
+801715,T3L,Sternal posterior rotator MN,Sternal posterior rotator MN,18286,MNhl31,Pleural remotor/abductor,MetaLN_L,motor neuron,different_joint_or_action,2,299,retain_as_separate_legacy_correspondence; no_overwrite
+803147,T3L,Ti flexor MN,Ti flexor MN,176866,MNhl28,Acc. ti flexor,MetaLN_L,motor neuron,different_muscle_label_same_mapped_action,2,258,retain_as_separate_legacy_correspondence; no_overwrite
+804919,T3L,Ti flexor MN,Ti flexor MN,176866,MNhl28,Acc. ti flexor,MetaLN_L,motor neuron,different_muscle_label_same_mapped_action,2,258,retain_as_separate_legacy_correspondence; no_overwrite
+819112,T3L,Ti flexor MN,Ti flexor MN,15893,MNhl23,ltm,MetaLN_L,motor neuron,different_joint_or_action,1,313,retain_as_separate_legacy_correspondence; no_overwrite
+929376,T3L,Ti flexor MN,Ti flexor MN,14339,MNhl68,hind leg,MetaLN_L,motor neuron,current_named_legacy_unresolved,1,239,retain_as_separate_legacy_correspondence; no_overwrite
+1050166426,T3L,Ti flexor MN,Ti flexor MN,15038,MNhl26,Acc. ti flexor,MetaLN_L,motor neuron,different_muscle_label_same_mapped_action,1,268,retain_as_separate_legacy_correspondence; no_overwrite
+823405,T3L,ltm MN,ltm MN,19074,MNhl27,Acc. ti flexor,MetaLN_L,motor neuron,different_joint_or_action,1,265,retain_as_separate_legacy_correspondence; no_overwrite
+1050080384,T3L,ltm MN,ltm MN,14343,MNhl15,ltm2-femur,MetaLN_L,motor neuron,long_tendon_location_or_granularity_difference,1,297,retain_as_separate_legacy_correspondence; no_overwrite
+801932,T3R,,,12758,MNhl26,Acc. ti flexor,MetaLN_R,motor neuron,legacy_named_current_unresolved,2,269,retain_as_separate_legacy_correspondence; no_overwrite
+852881,T3R,,,23390,MNhl04,ltm,MetaLN_R,motor neuron,legacy_named_current_unresolved,1,342,retain_as_separate_legacy_correspondence; no_overwrite
+801637,T3R,Acc. ti flexor MN,Acc. ti flexor MN,15550,MNhl63,hind leg,MetaLN_R,motor neuron,current_named_legacy_unresolved,1,307,retain_as_separate_legacy_correspondence; no_overwrite
+1050460102,T3R,Acc. ti flexor MN,Acc. ti flexor MN,21991,MNhl21,Ti flexor,MetaLN_R,motor neuron,different_muscle_label_same_mapped_action,1,286,retain_as_separate_legacy_correspondence; no_overwrite
+1050102118,T3R,Acc. tr flexor MN,Acc. tr flexor MN,96565,MNhl05,Tr flexor,MetaLN_R,motor neuron,different_muscle_label_same_mapped_action,1,344,retain_as_separate_legacy_correspondence; no_overwrite
+905792,T3R,MNhl01,MNhl01,15735,MNhl01,hind leg,AbN1_R,motor neuron,both_muscle_unresolved,1,309,retain_as_separate_legacy_correspondence; no_overwrite
+801267,T3R,MNhl02,MNhl02,11274,MNhl02,hind leg,AbN1_R,motor neuron,both_muscle_unresolved,1,245,retain_as_separate_legacy_correspondence; no_overwrite
+816022,T3R,MNhl29,MNhl29,14649,MNhl29,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,303,retain_as_separate_legacy_correspondence; no_overwrite
+801335,T3R,MNhl59,MNhl59,13543,MNhl59,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,255,retain_as_separate_legacy_correspondence; no_overwrite
+939950,T3R,MNhl60,MNhl60,27205,MNhl60,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,346,retain_as_separate_legacy_correspondence; no_overwrite
+903090,T3R,MNhl62,MNhl62,17970,MNhl62,hind leg,AbN1_R,motor neuron,both_muscle_unresolved,1,332,retain_as_separate_legacy_correspondence; no_overwrite
+800358,T3R,MNhl64,MNhl64,13740,MNhl64,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,292,retain_as_separate_legacy_correspondence; no_overwrite
+869369,T3R,MNhl65,MNhl65,13144,MNhl65,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,281,retain_as_separate_legacy_correspondence; no_overwrite
+812899,T3R,MNhl87,MNhl87,15857,MNhl87,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,311,retain_as_separate_legacy_correspondence; no_overwrite
+809055,T3R,MNhl88,MNhl88,13883,MNhl88,hind leg,MetaLN_R,motor neuron,both_muscle_unresolved,1,294,retain_as_separate_legacy_correspondence; no_overwrite
+808685,T3R,Ti flexor MN,Ti flexor MN,13512,MNhl68,hind leg,MetaLN_R,motor neuron,current_named_legacy_unresolved,1,240,retain_as_separate_legacy_correspondence; no_overwrite
+823665,T3R,Ti flexor MN,Ti flexor MN,12758,MNhl26,Acc. ti flexor,MetaLN_R,motor neuron,different_muscle_label_same_mapped_action,2,269,retain_as_separate_legacy_correspondence; no_overwrite
+840740,T3R,Ti flexor MN,Ti flexor MN,12504,MNhl67,hind leg,MetaLN_R,motor neuron,current_named_legacy_unresolved,1,251,retain_as_separate_legacy_correspondence; no_overwrite
+910178,T3R,Ti flexor MN,Ti flexor MN,12800,MNhl66,hind leg,MetaLN_R,motor neuron,current_named_legacy_unresolved,1,275,retain_as_separate_legacy_correspondence; no_overwrite
+1050013311,T3R,Ti flexor MN,Ti flexor MN,22465,MNhl12,Tr flexor,MetaLN_R,motor neuron,different_joint_or_action,1,329,retain_as_separate_legacy_correspondence; no_overwrite
+1050303231,T3R,Ti flexor MN,Ti flexor MN,12474,MNhl28,Acc. ti flexor,MetaLN_R,motor neuron,different_muscle_label_same_mapped_action,1,259,retain_as_separate_legacy_correspondence; no_overwrite
+1050091102,T3R,ltm MN,ltm MN,11480,MNhl67,hind leg,MetaLN_R,motor neuron,current_named_legacy_unresolved,1,250,retain_as_separate_legacy_correspondence; no_overwrite
+914837,T3R,ltm1-tibia MN,ltm1-tibia MN,15380,MNhl32,ltm,MetaLN_R,motor neuron,long_tendon_location_or_granularity_difference,1,305,retain_as_separate_legacy_correspondence; no_overwrite

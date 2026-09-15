@@ -1,0 +1,11 @@
+{
+  "n_flies": 3,
+  "contrast": "all finite samples >120deg minus <60deg; descriptive",
+  "differences_DFF": [
+    0.9545607945141603,
+    0.8395841329882098,
+    0.9312367820727375
+  ],
+  "mean_difference_DFF": 0.9084605698583692,
+  "limitation": "author-processed calcium; transient/history effects not controlled; no spike or latency inference"
+}

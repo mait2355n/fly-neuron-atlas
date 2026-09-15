@@ -1,0 +1,233 @@
+{
+  "schema_version": "fly-neuron-atlas-sources/v1",
+  "sources": [
+    {
+      "title": "MaleCNS v1.0 annotation and connectome data",
+      "paper": "Berg et al. (2026), Sexual dimorphism in the complete Drosophila male central nervous system connectome",
+      "paper_url": "https://doi.org/10.1016/j.cell.2026.08.015",
+      "data_url": "https://male-cns.janelia.org/download/",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Berg et al. 2026; MaleCNS project, FlyEM (HHMI Janelia), University of Cambridge, MRC LMB, Google Research; male-cns:v1.0; original data link; CC BY 4.0 link; describe selection and aggregation.",
+      "download_entry": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "boundary": "Dataset license is not a license for neuPrint software, site source code, or third-party FlyWire/hemibrain transformed assets. Do not mix specimens or versions.",
+      "id": "malecns",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Rayshubskiy et al. steering electrophysiology",
+      "paper": "Rayshubskiy et al. (2025), Neural circuit mechanisms for steering control in walking Drosophila, Version of Record",
+      "paper_url": "https://doi.org/10.7554/eLife.102230.3",
+      "data_url": "https://doi.org/10.7910/DVN/0NCLP1",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Rayshubskiy, Holtz, Wilson and colleagues; dataset DOI and v1.2; paper DOI; describe own spike detection and selection. CC0 does not impose attribution, but scholarly credit is retained.",
+      "download_entry": "https://dataverse.harvard.edu/api/access/datafile/{file_id}",
+      "api_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi%3A10.7910%2FDVN%2F0NCLP1",
+      "boundary": "Dataset license and code license are separate. DNa code-derived implementation must retain Wilson Lab MIT notice. Keep 23 MAT, 33 channels and biological specimens distinct.",
+      "id": "rayshubskiy-data",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Huang, Luo et al. voltage traces",
+      "paper_url": "https://doi.org/10.1038/s41586-024-07819-w",
+      "data_url": "https://zenodo.org/records/10998457",
+      "api_url": "https://zenodo.org/api/records/10998457",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Huang, Luo et al. 2024; data creators Huang and Schnitzer; DOI 10.5281/zenodo.10998457; cite changes and CC BY 4.0.",
+      "boundary": "Use completed 96-record tables, not baseline 76-record table. Preserve duplicate/numeric-source cautions from discrepancy-resolution analysis.",
+      "id": "huang",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "McCurdy et al. reversal-learning Source Data",
+      "paper_url": "https://doi.org/10.1038/s41467-021-21388-w",
+      "data_url": "https://www.nature.com/articles/s41467-021-21388-w",
+      "download_entry": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-021-21388-w/MediaObjects/41467_2021_21388_MOESM6_ESM.xlsx",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "McCurdy, Sareen, Davoudian and Nitabach (2021), paper DOI; Source Data workbook/sheet/cell; describe recomputed windows and contrasts.",
+      "boundary": "Author is McCurdy et al., not Zhao et al. Preserve corrected 19-value window and source inconsistencies; this check does not license unrelated publisher assets.",
+      "id": "mccurdy",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Mussells Pires et al. navigation data",
+      "paper_url": "https://doi.org/10.1038/s41586-023-07006-3",
+      "data_url": "https://zenodo.org/records/10145317",
+      "api_url": "https://zenodo.org/api/records/10145317",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Mussells Pires et al. 2024; data DOI 10.5281/zenodo.10145317; CC BY 4.0; identify selected H5 records and independent phase/behavior calculations.",
+      "boundary": "Pires code archive 10.5281/zenodo.10232698 v1.0.0 also explicitly CC BY 4.0; translated/adapted upstream code must not be labelled solely MIT. EPG and FC2 are separate fly groups.",
+      "id": "pires",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Agrawal et al. proprioception physiology and behavior",
+      "paper_url": "https://doi.org/10.7554/eLife.60299",
+      "data_url": "https://zenodo.org/records/4307018",
+      "api_url": "https://zenodo.org/api/records/4307018",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Agrawal et al. 2020; paper and dataset DOI; original Fig.3/Fig.6 or 13Balpha records; describe new summary statistic.",
+      "boundary": "Passive female T1 physiology and decapitated left foreleg interventions do not identify six right T2 MaleCNS candidates.",
+      "id": "agrawal",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Durrieu et al. affordance experiments and silencing screen",
+      "paper_url": "https://doi.org/10.64898/2026.04.28.721021",
+      "data_url": "https://doi.org/10.7910/DVN/91R87T",
+      "api_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi%3A10.7910%2FDVN%2F91R87T",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Durrieu et al. 2026 preprint version 2; specific Dataverse DOI and selected version; changes to observation windows/trajectory summaries.",
+      "boundary": "Data CC0 does not transfer to article PDF (local record says CC BY-NC 4.0). No article or upstream code copying is proposed. Screen records may use an older pinned version; preserve source manifest.",
+      "id": "durrieu",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Rozenfeld and Parnas activity/archive data",
+      "paper_url": "https://doi.org/10.1126/sciadv.adq3016",
+      "data_url": "https://zenodo.org/records/13764295",
+      "api_url": "https://zenodo.org/api/records/13764295",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Rozenfeld and Parnas 2024 paper; Zenodo DOI 10.5281/zenodo.13764295; describe column-level reductions, nonpaired contrasts and archive/paper year difference.",
+      "boundary": "The dataset archive includes upstream code. Copying/translation of it needs CC BY notices; raw code is not included in the allowlist.",
+      "id": "rozenfeld",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Dan et al. navigation model",
+      "paper_url": "https://doi.org/10.1016/j.neuron.2024.04.036",
+      "data_url": "https://github.com/HermundstadLab/flyVisualLearning/tree/09fd7101772567eafbe390a01f84944adc711c08",
+      "license": "MIT",
+      "license_url": "https://github.com/HermundstadLab/flyVisualLearning/blob/09fd7101772567eafbe390a01f84944adc711c08/LICENSE",
+      "credit": "Dan et al. 2024; pinned commit; independent Python implementation and simulation conditions. Preserve Hermundstad Lab full MIT text when distributing adapted substantial code.",
+      "boundary": "Simulation output is not biological recording. Zenodo v1.0 archive11062515 lists CC BY 4.0; use the exact pinned GitHub code license instead of conflating archive records.",
+      "id": "dan_model",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Dan et al. behavioral and calcium imaging data v1",
+      "paper_url": "https://doi.org/10.1016/j.neuron.2024.04.036",
+      "data_url": "https://doi.org/10.25378/janelia.25655817.v1",
+      "api_url": "https://api.figshare.com/v2/articles/25655817/versions/1",
+      "license": "CC-BY-NC-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "credit": "Dan et al. 2024; exact data DOI v1; changes; source noncommercial condition.",
+      "boundary": "Do not relabel upstream fragments/derived copied numeric arrays CC BY 4.0. This is a conservative packaging recommendation, not a legal conclusion that every independent computed fact inherits NC.",
+      "id": "dan_activity",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Isakov and Buchanan locomotion recovery data",
+      "paper_url": "https://zenodo.org/records/51322",
+      "data_url": "https://doi.org/10.5281/zenodo.51322",
+      "api_url": "https://zenodo.org/api/records/51322",
+      "license": "CC-BY-NC-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "credit": "Isakov et al.; data DOI; local processing and study-selection boundary; noncommercial condition.",
+      "boundary": "Exclude thresholded_frames and numerical-table reuse from default CC BY allowlist. Own factual prose summary with primary citation can remain; no inference that pure facts are copyrighted is made.",
+      "id": "isakov",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "title": "Chen et al. synchronized GLM input ZIPs",
+      "paper_url": "https://doi.org/10.1038/s41593-023-01281-z",
+      "data_url": "https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline/tree/1dd7cbdc347f5484e22ff4ab1a5f4f132b397c76/02_Fig2_output_of_published_version/glm_input_files",
+      "license": "Apache-2.0_repository; separate_data_specific_grant_not_verified",
+      "license_url": "https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline/blob/1dd7cbdc347f5484e22ff4ab1a5f4f132b397c76/LICENSE",
+      "credit": "Chen et al. 2023; exact pinned repo input path; Apache notice for any code copy; local synchronization and ROI treatment.",
+      "boundary": "Do not silently MIT-license copied Apache source. If included under repository Apache grant, retain Apache license and any applicable notices/changes; numeric-table default allowlist omits this family pending parent scope decision.",
+      "id": "chen",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "id": "rayshubskiy-code",
+      "title": "Wilson Lab secondary analysis code",
+      "url": "https://github.com/wilson-lab/rayshubskiy_elife_102230_secondary_analysis_code/tree/7e2895349266b5cc5fa1bf53ad56e8ecc6c842e8",
+      "license": "MIT",
+      "license_url": "https://github.com/wilson-lab/rayshubskiy_elife_102230_secondary_analysis_code/blob/7e2895349266b5cc5fa1bf53ad56e8ecc6c842e8/LICENSE",
+      "credit": "Copyright (c) 2025 Wilson Lab; retained full notice in licenses/Wilson-Lab-MIT.txt",
+      "rights_checked_on": "2026-09-15"
+    },
+    {
+      "id": "muscle-atlas",
+      "title": "Azevedo et al. (2024), motor system muscle atlas",
+      "paper_url": "https://doi.org/10.1038/s41586-024-07389-x",
+      "data_url": "https://faculty.washington.edu/tuthill/docs/azevedo24_appendix.pdf",
+      "use": "Literature-backed anatomical mappings, with original curation; no article PDF or figure copy distributed. Different specimens remain separate."
+    },
+    {
+      "id": "body-function-literature",
+      "title": "Motor function references",
+      "citations": [
+        {
+          "id": "GOR24",
+          "title": "Gorko et al. 2024 neck control",
+          "url": "https://doi.org/10.1038/s41586-024-07222-5"
+        },
+        {
+          "id": "WHI22",
+          "title": "Whitehead et al. 2022 flight control",
+          "url": "https://doi.org/10.1126/sciadv.abo7461"
+        },
+        {
+          "id": "MCK20",
+          "title": "McKellar et al. 2020 proboscis motor system",
+          "url": "https://doi.org/10.7554/eLife.54978"
+        },
+        {
+          "id": "DIC19",
+          "title": "Dickerson et al. 2019 haltere control",
+          "url": "https://doi.org/10.1016/j.cub.2019.08.065"
+        },
+        {
+          "id": "HUR23",
+          "title": "Huerkey et al. 2023 motor coordination",
+          "url": "https://doi.org/10.1038/s41586-023-06099-0"
+        }
+      ],
+      "use": "Independent factual summaries, not copied paper text or figures; unresolved mappings retained."
+    },
+    {
+      "id": "functional-literature",
+      "title": "Type-matched activity and intervention literature",
+      "citations": [
+        {
+          "id": "Rayshubskiy2025",
+          "url": "https://doi.org/10.7554/eLife.102230.3"
+        },
+        {
+          "id": "Yang2024",
+          "url": "https://doi.org/10.1016/j.cell.2024.08.033"
+        },
+        {
+          "id": "Feng2020",
+          "url": "https://doi.org/10.1038/s41467-020-19936-x"
+        },
+        {
+          "id": "Sapkal2024",
+          "url": "https://doi.org/10.1038/s41586-024-07854-7"
+        },
+        {
+          "id": "Dallmann2025",
+          "url": "https://doi.org/10.1038/s41586-025-09554-2"
+        },
+        {
+          "id": "Syed",
+          "url": "https://elifesciences.org/articles/106446"
+        },
+        {
+          "id": "Cheong2026",
+          "url": "https://doi.org/10.7554/eLife.96084.3"
+        }
+      ],
+      "use": "Type-level bridge only; reconstructed MaleCNS cells are not the measured physiological specimens."
+    }
+  ]
+}

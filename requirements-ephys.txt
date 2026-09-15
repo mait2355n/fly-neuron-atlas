@@ -1,0 +1,4 @@
+# Optional only; integrity checks and structural reaggregation use stdlib.
+numpy==2.3.5
+scipy==1.18.1
+matplotlib==3.11.2

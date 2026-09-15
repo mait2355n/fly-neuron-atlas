@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "method": "Full raw-voltage rerun of all 23 records using published portable wrapper; compare common base-analysis columns to saved tables by record/channel/signal keys; numeric tolerance 1e-10",
+  "checks": {
+    "inventory": true,
+    "channels": true,
+    "pairs": true,
+    "lag_curves": true
+  },
+  "comparisons": {
+    "inventory": {
+      "rows": 23,
+      "compared_values": 575,
+      "disagreements": []
+    },
+    "channels": {
+      "rows": 33,
+      "compared_values": 1188,
+      "disagreements": []
+    },
+    "pairs": {
+      "rows": 30,
+      "compared_values": 330,
+      "disagreements": []
+    },
+    "lag_curves": {
+      "rows": 6363,
+      "compared_values": 31815,
+      "disagreements": []
+    }
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "not_recomputed": [
+    "Supplemental voltage-quality sensitivity",
+    "Supplemental pair threshold and clock-boundary analyses",
+    "Earlier research branches",
+    "Biological ground truth"
+  ],
+  "code_hashes": {
+    "scripts/ephys_core.py": "72ee78a9d28013f0a0fd2588265ffd63de2013d82186a3eaea5027d17366d114",
+    "scripts/reanalyze_ephys.py": "e581dad639d289abc6d595f21e39f8979393a8b06452cfd154e1ae8ee5b4aa97"
+  },
+  "execution_note": "Full 23-record computation preceded an output-path guard change. Computational core unchanged; final wrapper reran a2_d_08 successfully and rejects nonempty output paths."
+}

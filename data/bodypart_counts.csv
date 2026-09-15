@@ -1,0 +1,12 @@
+subclass,bodypart,bodypart_label_ja,n_neurons,soma_L,soma_R,cb_motor,vnc_motor,n_nonnull_type_labels,n_missing_type,n_missing_nerve,soma_neuromere_counts,exit_nerve_counts,assignment_status,classification_sources,caveat
+fl,front_leg,前脚筋群,135,68,67,0,135,19,2,0,"{""T1"":135}","{""DProN"":8,""ProAN"":24,""ProLN"":81,""VProN"":22}",annotation_group,A0;P1,flは前脚の広い筋群。個別筋や作用は原typeと別の一次資料照合が必要。
+ml,middle_leg,中脚筋群,116,58,58,0,116,25,0,0,"{""T2"":116}","{""MesoLN"":116}",annotation_group,A0;P1,mlは中脚の広い筋群。神経節・細胞体側は筋作用側とは別の属性。
+hl,hind_leg,後脚筋群,130,66,64,0,130,26,6,0,"{""T3"":130}","{""AbN1"":8,""MetaLN"":122}",annotation_group,A0;P1,hlは後脚の広い筋群。AbN1経由を腹部筋へ付け替えない。
+wm,wing_thoracic,翅・胸部筋群,67,33,34,0,67,25,1,0,"{""T1"":12,""T2"":55}","{""ADMN"":28,""MesoAN"":19,""PDMNa"":14,""PDMNp"":6}",annotation_group,A0;P1,wmは翅系の広い筋群でTTMnも含む。翅動力筋・操舵筋・跳躍筋の機能を同一視しない。
+hm,haltere,平均棍筋群,16,8,8,0,16,7,0,0,"{""T3"":16}","{""AbN1"":16}",annotation_group,A0;P1,hmは平均棍筋群。AbN1だけから腹部や後脚へ付け替えない。
+nm,neck,頸筋群,44,22,22,20,24,21,0,0,"{""LB"":14,""T1"":24,""\\N"":6}","{""CvN"":24,""DProN"":20}",annotation_group,A0;P1,nmは頸筋群。cb_motorとvnc_motor双方を保持。個別筋・作用側はここで未検証。
+am,antenna,触角筋候補群,13,6,7,13,0,6,1,0,"{""LB"":2,""\\N"":11}","{""AN"":13}",annotation_group_target_not_independently_verified,A0;P3,amとAN出神経を基線とする触角群。13行全ての筋標的・既知aMN型との同一性は未検証。
+pm,feeding_motor,摂食筋群（口器・咽頭等）,67,35,32,67,0,24,0,1,"{""GNG"":4,""\\N"":63}","{""MxLbN"":26,""PhN"":40,""\\N"":1}",annotation_group,A0;P2,pmは摂食系の広い群。CEMは嗉嚢入口筋を含み、口器外部運動だけの群ではない。
+rm,retinal_candidate,rm群（網膜筋候補・未確定）,7,3,4,7,0,3,0,0,"{""\\N"":7}","{""AN"":2,""ON"":5}",candidate_unresolved,A0;P3,rmの個別筋標的と略語の一次定義は未確認。PS349はAN、GNG314/GNG647はONを出るが、神経だけで確定しない。P3の雌AN出神経の網膜MN候補とMaleCNSの型の対応も未確認。
+ad,abdominal,腹部筋群,214,107,107,0,214,58,0,0,"{""A1"":56,""A10"":10,""A2"":28,""A3"":22,""A4"":22,""A5"":16,""A6"":8,""A7"":6,""A8"":18,""A9"":21,""T3"":6,""\\N"":1}","{""AbN1"":6,""AbN2"":44,""AbN3"":28,""AbN4"":72,""AbNT"":64}",annotation_group,A0;P1,adは腹部の広い筋群。腹壁・内臓・生殖器の区別、動作、筋名は別途確認が必要。
+xm,unknown_target,標的筋不明,6,3,3,0,6,3,0,0,"{""T1"":2,""T2"":4}","{""DMetaN"":4,""PDMNa"":2}",unknown_target,A0;P1,xmは標的筋不明の符号。DMetaN/PDMNaやT1/T2を筋標的へ読み替えない。

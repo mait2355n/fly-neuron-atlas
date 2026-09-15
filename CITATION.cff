@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this curation and the source datasets and papers used for your analysis."
+title: "Fly Neuron Atlas: connectivity, activity and motor-function evidence"
+type: dataset
+authors:
+  - name: "mait (mait2355n)"
+version: 0.1.0
+date-released: 2026-09-15
+license: CC-BY-4.0
+abstract: "Curated research snapshot of fly neural connectivity, activity and motor function. Original software is MIT; upstream data licenses are retained."

@@ -1,0 +1,7 @@
+dataset,target_scope,postType,pre_role,direct_mn58_status,unique_pre,edge_count,weight,weightHP,weightHR,fraction_of_all_target_input_weight
+male-cns:v1.0,all_six,all_six,external_upstream,direct_to_mn58_observed,1384,2623,33530,30093,33530,0.8529636224879166
+male-cns:v1.0,all_six,all_six,external_upstream,no_direct_to_mn58_in_complete_saved_input,1661,1940,4876,4390,4876,0.12403968455863648
+male-cns:v1.0,all_six,all_six,six_candidate,direct_to_mn58_observed,6,23,893,806,893,0.022716865937420505
+male-cns:v1.0,all_six,all_six,six_candidate,no_direct_to_mn58_in_complete_saved_input,0,0,0,0,0,0.0
+male-cns:v1.0,all_six,all_six,annotated_motor_boundary,direct_to_mn58_observed,4,4,9,9,9,0.00022894937674891884
+male-cns:v1.0,all_six,all_six,annotated_motor_boundary,no_direct_to_mn58_in_complete_saved_input,2,2,2,2,2,5.0877639277537524e-05

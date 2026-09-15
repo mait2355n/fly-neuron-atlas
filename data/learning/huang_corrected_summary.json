@@ -1,0 +1,172 @@
+{
+  "records": 96,
+  "tolerance_Hz": 1e-10,
+  "candidate_generation": "[2,5) inferred from first 4 Pre CS+ records; 92 remaining records are held out from candidate generation",
+  "candidates": {
+    "baseline_0_5": {
+      "matched": 2,
+      "max_abs_error_Hz": 3.5333333333333314,
+      "held_out_matched": 2,
+      "held_out_n": 92
+    },
+    "baseline_0_3": {
+      "matched": 8,
+      "max_abs_error_Hz": 7.0,
+      "held_out_matched": 7,
+      "held_out_n": 92
+    },
+    "baseline_2_5": {
+      "matched": 96,
+      "max_abs_error_Hz": 3.375077994860476e-14,
+      "held_out_matched": 92,
+      "held_out_n": 92
+    }
+  },
+  "fly3_source_cells": {
+    "B66": -3.86666666666667,
+    "E66": -3.86666666666667,
+    "F66": -9.53333333333334,
+    "I66": -9.53333333333334,
+    "M66": 0
+  },
+  "source_bias_summary": [
+    {
+      "timepoint": "Pre",
+      "mean_Hz": 0.0,
+      "n": 12,
+      "positive": 0,
+      "negative": 0,
+      "zero": 12,
+      "fly3_excluded_mean_Hz": 0.0,
+      "worksheet_mean_cell": "J76",
+      "worksheet_mean": 0,
+      "individual_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bootstrap_95_percentile": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_95_percentile_fly3_excluded": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "timepoint": "Mid",
+      "mean_Hz": 8.933333333333346,
+      "n": 12,
+      "positive": 11,
+      "negative": 1,
+      "zero": 0,
+      "fly3_excluded_mean_Hz": 8.32727272727274,
+      "worksheet_mean_cell": "K76",
+      "worksheet_mean": 8.933333333333346,
+      "individual_values": [
+        12.933333333333339,
+        -0.5999999999999939,
+        15.60000000000003,
+        4.200000000000003,
+        10.46666666666666,
+        5.266666666666679,
+        4.266666666666669,
+        7.933333333333365,
+        13.933333333333337,
+        9.399999999999999,
+        10.933333333333401,
+        12.866666666666669
+      ],
+      "bootstrap_95_percentile": [
+        6.249861111111114,
+        11.45000000000001
+      ],
+      "bootstrap_95_percentile_fly3_excluded": [
+        5.660606060606074,
+        10.775757575757588
+      ]
+    },
+    {
+      "timepoint": "5min",
+      "mean_Hz": 7.694444444444446,
+      "n": 12,
+      "positive": 10,
+      "negative": 2,
+      "zero": 0,
+      "fly3_excluded_mean_Hz": 8.593939393939397,
+      "worksheet_mean_cell": "L76",
+      "worksheet_mean": 7.694444444444446,
+      "individual_values": [
+        20.53333333333334,
+        -1.3999999999999928,
+        -2.200000000000001,
+        5.3999999999999995,
+        12.399999999999999,
+        4.866666666666668,
+        3.5999999999999996,
+        14.600000000000033,
+        8.000000000000007,
+        11.06666666666666,
+        5.399999999999998,
+        10.06666666666666
+      ],
+      "bootstrap_95_percentile": [
+        4.244305555555557,
+        11.27777777777778
+      ],
+      "bootstrap_95_percentile_fly3_excluded": [
+        5.321212121212123,
+        12.060606060606073
+      ]
+    },
+    {
+      "timepoint": "1hr",
+      "mean_Hz": 2.5055555555555618,
+      "n": 12,
+      "positive": 6,
+      "negative": 5,
+      "zero": 1,
+      "fly3_excluded_mean_Hz": 2.7333333333333396,
+      "worksheet_mean_cell": "M76",
+      "worksheet_mean": 2.5055555555555613,
+      "individual_values": [
+        -2.59999999999999,
+        -4.33333333333333,
+        0.0,
+        -1.600000000000004,
+        2.333333333333329,
+        -7.33333333333333,
+        15.333333333333302,
+        6.000000000000034,
+        4.666666666666668,
+        6.066666666666665,
+        13.133333333333397,
+        -1.6000000000000014
+      ],
+      "bootstrap_95_percentile": [
+        -1.0277777777777761,
+        6.3333333333333295
+      ],
+      "bootstrap_95_percentile_fly3_excluded": [
+        -1.1272727272727223,
+        6.878787878787873
+      ]
+    }
+  ],
+  "bootstrap_method": {
+    "resamples": 100000,
+    "seed": 20260914,
+    "unit": "fly",
+    "method": "percentile interval of mean; exploratory sensitivity, no simultaneous coverage"
+  }
+}

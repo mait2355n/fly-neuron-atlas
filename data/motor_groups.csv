@@ -1,0 +1,167 @@
+group_id,canonical,leg,joint,bodyId,type,instance,somaSide,somaNeuromere,display_evidence_class,legacy_comparison,physiological_action_in_this_cell_measured
+T1L:knee_extensor,knee_extensor,T1L,femur-tibia,800636,Ti extensor MN,Ti extensor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_extensor,knee_extensor,T1L,femur-tibia,815344,Ti extensor MN,Ti extensor MN_L,L,T1,annotation_only,legacy_target_missing,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,806599,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,807165,Ti flexor MN,Ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,809912,Ti flexor MN,Ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,815246,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,816215,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,816404,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,817283,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,818057,Ti flexor MN,Ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,819384,Ti flexor MN,Ti flexor MN_L,L,T1,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,819869,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,825516,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,annotation_only,different_joint_or_action,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,867630,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,annotation_only,different_joint_or_action,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,903298,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,909831,Ti flexor MN,Ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:knee_flexor,knee_flexor,T1L,femur-tibia,1050115387,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_pra,root_pra,T1L,thorax-coxa,802509,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_pra,root_pra,T1L,thorax-coxa,803803,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_sad,root_sad,T1L,thorax-coxa,813480,Sternal adductor MN,Sternal adductor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_sar,root_sar,T1L,thorax-coxa,806923,Sternal anterior rotator MN,Sternal anterior rotator MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_sar,root_sar,T1L,thorax-coxa,919509,Sternal anterior rotator MN,Sternal anterior rotator MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_spr,root_spr,T1L,thorax-coxa,801915,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_spr,root_spr,T1L,thorax-coxa,804851,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T1,annotation_only,legacy_target_missing,False
+T1L:root_spr,root_spr,T1L,thorax-coxa,808640,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_spr,root_spr,T1L,thorax-coxa,1050335829,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T1,annotation_only,legacy_target_missing,False
+T1L:root_promotor,root_promotor,T1L,thorax-coxa,800061,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_promotor,root_promotor,T1L,thorax-coxa,801173,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_promotor,root_promotor,T1L,thorax-coxa,807281,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1L:root_promotor,root_promotor,T1L,thorax-coxa,934091,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_L,L,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_extensor,knee_extensor,T1R,femur-tibia,804257,Ti extensor MN,Ti extensor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_extensor,knee_extensor,T1R,femur-tibia,815678,Ti extensor MN,Ti extensor MN_R,R,T1,annotation_only,different_joint_or_action,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,810098,Ti flexor MN,Ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,817509,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,821635,Ti flexor MN,Ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,827188,Ti flexor MN,Ti flexor MN_R,R,T1,annotation_only,legacy_target_missing,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,833140,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,annotation_only,different_joint_or_action,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,837745,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,909713,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,annotation_only,different_joint_or_action,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050005026,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,annotation_only,different_joint_or_action,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050031705,Ti flexor MN,Ti flexor MN_R,R,T1,annotation_only,legacy_target_missing,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050091581,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050126678,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050156705,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050189039,Ti flexor MN,Ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:knee_flexor,knee_flexor,T1R,femur-tibia,1050268065,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_pra,root_pra,T1R,thorax-coxa,803314,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_pra,root_pra,T1R,thorax-coxa,805313,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T1,annotation_only,different_joint_or_action,False
+T1R:root_sad,root_sad,T1R,thorax-coxa,815854,Sternal adductor MN,Sternal adductor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_sar,root_sar,T1R,thorax-coxa,801469,Sternal anterior rotator MN,Sternal anterior rotator MN_R,R,T1,annotation_only,legacy_target_missing,False
+T1R:root_sar,root_sar,T1R,thorax-coxa,801918,Sternal anterior rotator MN,Sternal anterior rotator MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_spr,root_spr,T1R,thorax-coxa,805410,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_spr,root_spr,T1R,thorax-coxa,808011,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_promotor,root_promotor,T1R,thorax-coxa,801824,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_R,R,T1,annotation_only,different_joint_or_action,False
+T1R:root_promotor,root_promotor,T1R,thorax-coxa,802072,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_promotor,root_promotor,T1R,thorax-coxa,805745,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T1R:root_promotor,root_promotor,T1R,thorax-coxa,810535,Tergopleural/Pleural promotor MN,Tergopleural/Pleural promotor MN_R,R,T1,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_extensor,knee_extensor,T2L,femur-tibia,800911,Ti extensor MN,Ti extensor MN_L,L,T2,annotation_only,legacy_target_missing,False
+T2L:knee_extensor,knee_extensor,T2L,femur-tibia,801234,Ti extensor MN,Ti extensor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,802295,Ti flexor MN,Ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,809670,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,818295,Ti flexor MN,Ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,819674,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,823739,Ti flexor MN,Ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,824041,Ti flexor MN,Ti flexor MN_L,L,T2,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,825485,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T2,annotation_only,legacy_target_missing,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,830480,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,908094,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,927808,Ti flexor MN,Ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:knee_flexor,knee_flexor,T2L,femur-tibia,1051356801,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_pra,root_pra,T2L,thorax-coxa,800541,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_pra,root_pra,T2L,thorax-coxa,902492,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_pra,root_pra,T2L,thorax-coxa,905421,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_sad,root_sad,T2L,thorax-coxa,816018,Sternal adductor MN,Sternal adductor MN_L,L,T2,annotation_only,different_joint_or_action,False
+T2L:root_sar,root_sar,T2L,thorax-coxa,832490,Sternal anterior rotator MN,Sternal anterior rotator MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_sar,root_sar,T2L,thorax-coxa,903689,Sternal anterior rotator MN,Sternal anterior rotator MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_spr,root_spr,T2L,thorax-coxa,801768,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_spr,root_spr,T2L,thorax-coxa,803226,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_spr,root_spr,T2L,thorax-coxa,803704,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2L:root_spr,root_spr,T2L,thorax-coxa,1051054875,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_extensor,knee_extensor,T2R,femur-tibia,830514,Ti extensor MN,Ti extensor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_extensor,knee_extensor,T2R,femur-tibia,928579,Ti extensor MN,Ti extensor MN_R,R,T2,annotation_only,legacy_target_missing,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,804405,Ti flexor MN,Ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,805010,Ti flexor MN,Ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,805568,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,812531,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,816222,Ti flexor MN,Ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,822013,Ti flexor MN,Ti flexor MN_R,R,T2,annotation_only,legacy_target_unresolved,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,903363,Ti flexor MN,Ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,905235,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T2,annotation_only,legacy_target_missing,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,907848,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,909255,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T2,annotation_only,legacy_target_unresolved,False
+T2R:knee_flexor,knee_flexor,T2R,femur-tibia,1052521030,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T2,annotation_only,legacy_target_unresolved,False
+T2R:root_pra,root_pra,T2R,thorax-coxa,800776,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:root_pra,root_pra,T2R,thorax-coxa,803499,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:root_pra,root_pra,T2R,thorax-coxa,902719,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:root_sad,root_sad,T2R,thorax-coxa,909371,Sternal adductor MN,Sternal adductor MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:root_sar,root_sar,T2R,thorax-coxa,801813,Sternal anterior rotator MN,Sternal anterior rotator MN_R,R,T2,annotation_only,different_joint_or_action,False
+T2R:root_sar,root_sar,T2R,thorax-coxa,801946,Sternal anterior rotator MN,Sternal anterior rotator MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:root_spr,root_spr,T2R,thorax-coxa,800962,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T2,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T2R:root_spr,root_spr,T2R,thorax-coxa,801761,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T2,annotation_only,legacy_target_unresolved,False
+T2R:root_spr,root_spr,T2R,thorax-coxa,802521,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T2,annotation_only,legacy_target_missing,False
+T2R:root_spr,root_spr,T2R,thorax-coxa,818996,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T2,annotation_only,legacy_target_missing,False
+T3L:knee_extensor,knee_extensor,T3L,femur-tibia,800621,Ti extensor MN,Ti extensor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:knee_extensor,knee_extensor,T3L,femur-tibia,812953,Ti extensor MN,Ti extensor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,803147,Ti flexor MN,Ti flexor MN_L,L,T3,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,804919,Ti flexor MN,Ti flexor MN_L,L,T3,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,817374,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,annotation_only,legacy_target_unresolved,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,819112,Ti flexor MN,Ti flexor MN_L,L,T3,annotation_only,different_joint_or_action,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,822945,Ti flexor MN,Ti flexor MN_L,L,T3,annotation_only,legacy_target_missing,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,829873,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,annotation_only,legacy_target_missing,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,843389,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,annotation_only,different_joint_or_action,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,908762,Ti flexor MN,Ti flexor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,929376,Ti flexor MN,Ti flexor MN_L,L,T3,annotation_only,legacy_target_unresolved,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,934519,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,annotation_only,legacy_target_unresolved,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050003192,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050088257,Ti flexor MN,Ti flexor MN_L,L,T3,annotation_only,legacy_target_missing,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050100010,Ti flexor MN,Ti flexor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050123559,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,annotation_only,different_joint_or_action,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050166426,Ti flexor MN,Ti flexor MN_L,L,T3,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050233038,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:knee_flexor,knee_flexor,T3L,femur-tibia,1050263576,Acc. ti flexor MN,Acc. ti flexor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:root_pra,root_pra,T3L,thorax-coxa,800175,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:root_pra,root_pra,T3L,thorax-coxa,902310,Pleural remotor/abductor MN,Pleural remotor/abductor MN_L,L,T3,annotation_only,different_joint_or_action,False
+T3L:root_sad,root_sad,T3L,thorax-coxa,904184,Sternal adductor MN,Sternal adductor MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:root_sar,root_sar,T3L,thorax-coxa,801548,Sternal anterior rotator MN,Sternal anterior rotator MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:root_sar,root_sar,T3L,thorax-coxa,802215,Sternal anterior rotator MN,Sternal anterior rotator MN,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:root_spr,root_spr,T3L,thorax-coxa,801492,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T3,annotation_only,different_joint_or_action,False
+T3L:root_spr,root_spr,T3L,thorax-coxa,801715,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T3,annotation_only,different_joint_or_action,False
+T3L:root_spr,root_spr,T3L,thorax-coxa,802964,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3L:root_spr,root_spr,T3L,thorax-coxa,818399,Sternal posterior rotator MN,Sternal posterior rotator MN_L,L,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_extensor,knee_extensor,T3R,femur-tibia,800158,Ti extensor MN,Ti extensor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_extensor,knee_extensor,T3R,femur-tibia,809935,Ti extensor MN,Ti extensor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,801637,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,annotation_only,legacy_target_unresolved,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,803072,Ti flexor MN,Ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,808685,Ti flexor MN,Ti flexor MN_R,R,T3,annotation_only,legacy_target_unresolved,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,813629,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,823665,Ti flexor MN,Ti flexor MN_R,R,T3,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,827968,Ti flexor MN,Ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,840740,Ti flexor MN,Ti flexor MN_R,R,T3,annotation_only,legacy_target_unresolved,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,910178,Ti flexor MN,Ti flexor MN_R,R,T3,annotation_only,legacy_target_unresolved,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,910296,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1050013311,Ti flexor MN,Ti flexor MN_R,R,T3,annotation_only,different_joint_or_action,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1050032839,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,annotation_only,legacy_target_missing,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1050160514,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1050202461,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1050303231,Ti flexor MN,Ti flexor MN_R,R,T3,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1050460102,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,confirmed_direction_candidate,different_muscle_label_same_mapped_action,False
+T3R:knee_flexor,knee_flexor,T3R,femur-tibia,1059707690,Acc. ti flexor MN,Acc. ti flexor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_pra,root_pra,T3R,thorax-coxa,800290,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_pra,root_pra,T3R,thorax-coxa,800553,Pleural remotor/abductor MN,Pleural remotor/abductor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_sad,root_sad,T3R,thorax-coxa,807854,Sternal adductor MN,Sternal adductor MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_sar,root_sar,T3R,thorax-coxa,800316,Sternal anterior rotator MN,Sternal anterior rotator MN,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_sar,root_sar,T3R,thorax-coxa,906235,Sternal anterior rotator MN,Sternal anterior rotator MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_spr,root_spr,T3R,thorax-coxa,903642,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_spr,root_spr,T3R,thorax-coxa,903643,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_spr,root_spr,T3R,thorax-coxa,907256,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+T3R:root_spr,root_spr,T3R,thorax-coxa,1050493413,Sternal posterior rotator MN,Sternal posterior rotator MN_R,R,T3,confirmed_direction_candidate,muscle_label_and_mapped_action_agree,False
+wing_b1,wing_b1,,,801310,b1 MN,b1 MN_L,L,T2,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+wing_b1,wing_b1,,,804301,b1 MN,b1 MN_R,R,T2,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+wing_b2,wing_b2,,,801137,b2 MN,b2 MN_L,L,T2,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+wing_b2,wing_b2,,,801350,b2 MN,b2 MN_R,R,T2,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+neck_CvN7,neck_CvN7,,,10754,CvN7,CvN7_L,L,\N,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+neck_CvN7,neck_CvN7,,,556449,CvN7,CvN7_R,R,\N,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+feeding_MN9,feeding_MN9,,,10331,MN9,MN9_L,L,\N,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
+feeding_MN9,feeding_MN9,,,16949,MN9,MN9_R,R,\N,retained_nonleg_annotation,not_assessed_in_leg_mapping,False
