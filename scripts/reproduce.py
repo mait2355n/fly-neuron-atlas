@@ -7,12 +7,13 @@ This validates snapshot arithmetic, not biological function or source truth.
 import csv
 import gzip
 import json
-import math
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+THRESHOLDS = (1, 3, 5, 10)
+COMPLETE_IO_STATES = {'complete_previous_same_snapshot', 'complete_additional_same_snapshot'}
 
 
 def rows(path):
@@ -21,17 +22,40 @@ def rows(path):
         yield from csv.DictReader(stream)
 
 
+def unique_rows(path, key):
+    """Reject duplicate identities instead of silently keeping the last row."""
+    result = {}
+    for row in rows(path):
+        identity = row[key]
+        if identity in result:
+            raise ValueError(f'duplicate {key} in {path.name}: {identity}')
+        result[identity] = row
+    return result
+
+
 def compute(root=ROOT):
     d = root / 'data'
     checks, result = {}, {}
-    motors = {r['bodyId']: r for r in rows(d/'motor_atlas.csv')}
-    groups = {r['bodyId']: r['group_id'] for r in rows(d/'motor_groups.csv')}
-    candidates = {r['bodyId']: r for r in rows(d/'shared_candidates.csv')}
+    motors = unique_rows(d/'motor_atlas.csv', 'bodyId')
+    groups = {p: r['group_id'] for p, r in unique_rows(d/'motor_groups.csv', 'bodyId').items()}
+    candidates = unique_rows(d/'shared_candidates.csv', 'bodyId')
+    studied_rows = unique_rows(d/'studied_cells.csv', 'bodyId')
+    sensitivity_rows = unique_rows(d/'annotation_sensitivity.csv', 'bodyId')
     excluded = set(json.loads((d/'snapshot.json').read_text())['excluded_annotation_only_motor_ids'])
-    studied = {r['target_bodyId'] for r in rows(d/'studied_totals.csv')}
+    studied = set(studied_rows)
+    denominator_rows = list(rows(d/'studied_totals.csv'))
+    expected_grid = Counter((p, direction, t) for p in studied for direction in ('incoming', 'outgoing') for t in THRESHOLDS)
+    actual_grid = Counter((r['target_bodyId'], r['direction'], int(r['threshold'])) for r in denominator_rows)
+    checks['studied_cell_selection_matches_candidates'] = (
+        studied == {p for p, r in candidates.items() if r['full_io_state'] in COMPLETE_IO_STATES}
+        and all(r == candidates.get(p) for p, r in studied_rows.items())
+    )
+    checks['studied_denominator_grid_complete'] = actual_grid == expected_grid
+    checks['annotation_sensitivity_candidate_set'] = set(sensitivity_rows) == set(candidates)
+    checks['motor_group_members_are_in_atlas'] = set(groups) <= set(motors)
     totals = defaultdict(lambda: [0, 0])
     pres, annotated = set(), set()
-    thresholds = {t: defaultdict(set) for t in (1, 3, 5, 10)}
+    thresholds = {t: defaultdict(set) for t in THRESHOLDS}
     full, retained = defaultdict(Counter), defaultdict(Counter)
     for r in rows(d/'connectivity/motor_inputs.csv.gz'):
         pre, post, w = r['bodyId_pre'], r['bodyId_post'], int(r['weight'])
@@ -60,11 +84,11 @@ def compute(root=ROOT):
     checks['atlas_per_cell_input_totals'] = set(totals) == set(motors) and all(totals[p] == [int(r['incoming_edges']), int(r['incoming_weight'])] for p, r in motors.items())
     checks['t10_candidate_id_set'] = ids_t10 == set(candidates)
     checks['candidate_group_weights'] = all(len(full[p]) == int(r['group_count']) and sum(full[p].values()) == int(r['selected_motor_weight']) and set(full[p]) == set(r['target_group_ids'].split('|')) for p, r in candidates.items())
-    checks['annotation_sensitivity_each_row'] = all(dict(full[r['bodyId']]) == json.loads(r['original_group_weights']) and dict(retained[r['bodyId']]) == json.loads(r['retained_group_weights']) and (len(retained[r['bodyId']]) >= 2) == (r['shared_retained'] == 'True') for r in rows(d/'annotation_sensitivity.csv'))
+    checks['annotation_sensitivity_each_row'] = all(dict(full[r['bodyId']]) == json.loads(r['original_group_weights']) and dict(retained[r['bodyId']]) == json.loads(r['retained_group_weights']) and (len(retained[r['bodyId']]) >= 2) == (r['shared_retained'] == 'True') for r in sensitivity_rows.values())
     io_summary = {}
     for direction, target_col in [('incoming','bodyId_post'),('outgoing','bodyId_pre')]:
         count, weight = 0, 0
-        by_cell = {t: defaultdict(lambda:[0,0]) for t in (1,3,5,10)}
+        by_cell = {t: defaultdict(lambda:[0,0]) for t in THRESHOLDS}
         keys = set()
         for r in rows(d/f'connectivity/studied_{direction}.csv.gz'):
             key = (r['bodyId_pre'], r['bodyId_post'])
@@ -74,7 +98,7 @@ def compute(root=ROOT):
             count += 1; weight += w
             for t, values in by_cell.items():
                 if w >= t: values[p][0] += 1; values[p][1] += w
-        expected = [r for r in rows(d/'studied_totals.csv') if r['direction'] == direction]
+        expected = [r for r in denominator_rows if r['direction'] == direction]
         checks[f'{direction}_totals_at_each_threshold'] = all(by_cell[int(r['threshold'])][r['target_bodyId']] == [int(r['edge_count']),int(r['weight'])] for r in expected) and set(by_cell[1]) == studied
         io_summary[direction] = {'edges':count,'weight':weight}
     result['studied_cells'] = len(studied)
