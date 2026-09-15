@@ -81,6 +81,7 @@ class ReproductionContractTests(unittest.TestCase):
         run, report = self.run_cli()
         self.assertEqual(run.returncode, 1, run.stdout + run.stderr)
         self.assertEqual(report['status'], 'error')
+        self.assertEqual(run.stdout, '')
         self.assertIn('duplicate bodyId in shared_candidates.csv', report['message'])
 
 

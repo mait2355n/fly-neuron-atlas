@@ -9,7 +9,7 @@ python scripts/verify.py
 python scripts/reproduce.py
 ```
 
-両方ともファイルを書き換えない。JSONを標準出力へ出し、一致は終了符号0、不一致・読取失敗は1。`verify.py`はSHA-256、bytes、CSVの行数と列、出典ID、ローカル文書リンクを検査する。`MANIFEST.json`自体とそのチェックサム一覧は相互再帰を避けるためmanifest対象外とする。
+両方ともファイルを書き換えない。検査結果のJSONは標準出力へ出し、一致は終了符号0、不一致は1。読取失敗・不正値・重複した細胞番号などで計算を続けられない場合は、`status: error`と`message`を含むJSONを標準誤出力へ出して1を返す。`verify.py`はSHA-256、bytes、CSVの行数と列、出典ID、ローカル文書リンクを検査する。`MANIFEST.json`自体とそのチェックサム一覧は相互再帰を避けるためmanifest対象外とする。
 
 `reproduce.py`は次を収録辺から計算する。
 
