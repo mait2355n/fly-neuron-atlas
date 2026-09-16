@@ -1,0 +1,419 @@
+{
+  "schema_version": "circuit-publication/v1",
+  "record_surface": {
+    "context": "Portable static circuit operations on five normalized MaleCNS sets.",
+    "current_state": "Published normalized inputs preserve original graph fingerprints; raw retrieval records are archival provenance only.",
+    "action": "Run verification and structure operations using README commands.",
+    "detail_refs": [
+      "README.md",
+      "INPUT_CONTRACT.md",
+      "ENGINE_CONTRACT.md"
+    ]
+  },
+  "source_archive_id": "malecns_circuit_recomposition_20260916",
+  "dataset": "male-cns:v1.0",
+  "snapshot": {
+    "uuid": "4b2087c0fbe046bfaf0d60bc970e3e5d",
+    "tag": "v1.0",
+    "latestMutationId": "1006591300"
+  },
+  "original_retrieval_replay_available": false,
+  "archival_source_files_included": false,
+  "source_path_semantics": "sources.json paths and graph source_refs refer to the original research archive, not checkout files. Hash records are retained; original retrieval files are not verified by this publication.",
+  "excluded": [
+    "raw neuprint requests/responses",
+    "credentials",
+    "papers",
+    "local audits and logs",
+    "previous generated graph exports"
+  ],
+  "licenses": {
+    "original_code": "MIT",
+    "original_documentation": "CC-BY-4.0",
+    "normalized_MaleCNS_data": "CC-BY-4.0; see ../THIRD_PARTY_NOTICES.md"
+  },
+  "sets": [
+    {
+      "name": "heading_epg_el_er",
+      "manifest": "inputs/learning/heading_epg_el_er/set_manifest.json",
+      "expected_structure": {
+        "edges": 134500,
+        "fingerprint": "ab35da4464ea5ab51c72492237830f48cbf07a0a6ed43608d89796d418e7b8e3",
+        "nodes": 61643,
+        "partition": {
+          "incoming": {
+            "edges": 30328,
+            "weight": 229232
+          },
+          "internal": {
+            "edges": 13267,
+            "weight": 177277
+          },
+          "other": {
+            "edges": 0,
+            "weight": 0
+          },
+          "outgoing": {
+            "edges": 90905,
+            "weight": 212311
+          }
+        },
+        "selected": 131,
+        "weight": 618820
+      },
+      "source_record_count": 210,
+      "files": [
+        {
+          "path": "inputs/learning/heading_epg_el_er/nodes.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/heading_epg_el_er/nodes.json",
+          "original_sha256": "19a11333a4de1258e9be3e5f1190e3bc57055c9fabb93445747d14ff2a82a29c",
+          "sha256": "19a11333a4de1258e9be3e5f1190e3bc57055c9fabb93445747d14ff2a82a29c",
+          "size_bytes": 453319,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/learning/heading_epg_el_er/edges.csv.gz",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/heading_epg_el_er/edges.csv.gz",
+          "original_sha256": "8ea6cbeabfec11d6e121c1d42ba206fce808c646dba5cc6771ffcaf1e2b9b8e7",
+          "sha256": "8ea6cbeabfec11d6e121c1d42ba206fce808c646dba5cc6771ffcaf1e2b9b8e7",
+          "size_bytes": 883688,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/learning/heading_epg_el_er/sources.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/heading_epg_el_er/sources.json",
+          "original_sha256": "97349f2b9713d6d9f35098f38a3e35af8ab2635e07994ed49e7a85bf4abe0599",
+          "sha256": "73c6191e4828778bf9fa9f8c335a0dfe2c7e1a801515d86ee96eb433b9848bf8",
+          "size_bytes": 85947,
+          "transformation": "add_explicit_archival_availability"
+        },
+        {
+          "path": "inputs/learning/heading_epg_el_er/set_manifest.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/heading_epg_el_er/set_manifest.json",
+          "original_sha256": "bb27fc5b2deea986e7516fa12f49844c9a0f47625317103858d67a872a3c7e94",
+          "sha256": "40bd586aa3b32b9d89225a57aa9615479cc34343b67b838b55a82c84652c71fc",
+          "size_bytes": 4061,
+          "transformation": "add_published_file_digests"
+        }
+      ]
+    },
+    {
+      "name": "initial_a",
+      "manifest": "inputs/learning/initial_a/set_manifest.json",
+      "expected_structure": {
+        "edges": 410031,
+        "fingerprint": "9f50e140c1e7392058be9e203ab5d169b03af77cd8812cf903af6c8e30c11485",
+        "nodes": 262537,
+        "partition": {
+          "incoming": {
+            "edges": 63444,
+            "weight": 463786
+          },
+          "internal": {
+            "edges": 7981,
+            "weight": 92448
+          },
+          "other": {
+            "edges": 0,
+            "weight": 0
+          },
+          "outgoing": {
+            "edges": 338606,
+            "weight": 664652
+          }
+        },
+        "selected": 220,
+        "weight": 1220886
+      },
+      "source_record_count": 116,
+      "files": [
+        {
+          "path": "inputs/learning/initial_a/nodes.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_a/nodes.json",
+          "original_sha256": "31039e0beb73c893945011ece753ab059a66a28fb014b8056239343384080790",
+          "sha256": "31039e0beb73c893945011ece753ab059a66a28fb014b8056239343384080790",
+          "size_bytes": 1180747,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/learning/initial_a/edges.csv.gz",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_a/edges.csv.gz",
+          "original_sha256": "d3f3498998cf379d6f5ad0d774921416149db5e15fb5f096fb2bf0fea93efc20",
+          "sha256": "d3f3498998cf379d6f5ad0d774921416149db5e15fb5f096fb2bf0fea93efc20",
+          "size_bytes": 2737721,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/learning/initial_a/sources.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_a/sources.json",
+          "original_sha256": "6dcc35070e8835301a99f9d2cce0d2bcad4221ebdc92c519c247d8f1f22afbf7",
+          "sha256": "22ef9124a3241d74957c4278660adef101ae073a3b2213505df256d789efc712",
+          "size_bytes": 42658,
+          "transformation": "add_explicit_archival_availability"
+        },
+        {
+          "path": "inputs/learning/initial_a/set_manifest.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_a/set_manifest.json",
+          "original_sha256": "b13549e366fd0a23542207be50de389c88aaa470a2264584db05e1e11567647f",
+          "sha256": "a8c836b49c481ca8b2c476e1ada4840e65e1f23151d197ee6297ae7ef1ea8f06",
+          "size_bytes": 5202,
+          "transformation": "add_published_file_digests"
+        }
+      ]
+    },
+    {
+      "name": "initial_b",
+      "manifest": "inputs/learning/initial_b/set_manifest.json",
+      "expected_structure": {
+        "edges": 666553,
+        "fingerprint": "cd058c21b7de180ac391efe136497f374ccc0bfaa93b3efb8ae4ae3c964003db",
+        "nodes": 129065,
+        "partition": {
+          "incoming": {
+            "edges": 91969,
+            "weight": 354778
+          },
+          "internal": {
+            "edges": 261920,
+            "weight": 469151
+          },
+          "other": {
+            "edges": 0,
+            "weight": 0
+          },
+          "outgoing": {
+            "edges": 312664,
+            "weight": 587761
+          }
+        },
+        "selected": 1829,
+        "weight": 1411690
+      },
+      "source_record_count": 190,
+      "files": [
+        {
+          "path": "inputs/learning/initial_b/nodes.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_b/nodes.json",
+          "original_sha256": "209b3d0630e365b60e1e3e52fb50daef7354a9f7dbbdfe28c970f09b5c04daab",
+          "sha256": "209b3d0630e365b60e1e3e52fb50daef7354a9f7dbbdfe28c970f09b5c04daab",
+          "size_bytes": 9508752,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/learning/initial_b/edges.csv.gz",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_b/edges.csv.gz",
+          "original_sha256": "dcf90e3c690bffc9121a278cde598a6551d8a5e23a068a8343baa2e39a4b8771",
+          "sha256": "dcf90e3c690bffc9121a278cde598a6551d8a5e23a068a8343baa2e39a4b8771",
+          "size_bytes": 4423366,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/learning/initial_b/sources.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_b/sources.json",
+          "original_sha256": "441d82f5f840249abde7dd72786ec9a30617bdf32881cd74f7b7b9acc5ca44cf",
+          "sha256": "d94c1b11f7dd2d95a7bb09956a35911f9efa209d4ebfae930daca5ea0c730032",
+          "size_bytes": 70070,
+          "transformation": "add_explicit_archival_availability"
+        },
+        {
+          "path": "inputs/learning/initial_b/set_manifest.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/learning/initial_b/set_manifest.json",
+          "original_sha256": "566950d51b32960bec24c7aa8a3c41464a8431efedeebac7d28353be6bf2de1c",
+          "sha256": "6cd893e13ff0afa3b864c0a87b1e42275a070e576fa6c54e8c591ef1671d0313",
+          "size_bytes": 27296,
+          "transformation": "add_published_file_digests"
+        }
+      ]
+    },
+    {
+      "name": "control41",
+      "manifest": "inputs/motor/control41/set_manifest.json",
+      "expected_structure": {
+        "edges": 364517,
+        "fingerprint": "4936c7df58307ece1b8b3a17909c248e9c7481c9d93ec47094077f3fefba3d53",
+        "nodes": 324445,
+        "partition": {
+          "incoming": {
+            "edges": 39947,
+            "weight": 409506
+          },
+          "internal": {
+            "edges": 242,
+            "weight": 3672
+          },
+          "other": {
+            "edges": 0,
+            "weight": 0
+          },
+          "outgoing": {
+            "edges": 324328,
+            "weight": 632604
+          }
+        },
+        "selected": 41,
+        "weight": 1045782
+      },
+      "source_record_count": 463,
+      "files": [
+        {
+          "path": "inputs/motor/control41/nodes.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/control41/nodes.json",
+          "original_sha256": "d631ff8ba67867fe5fce2940a2226d1c6ed59affca60cb34351f693ffc92742f",
+          "sha256": "d631ff8ba67867fe5fce2940a2226d1c6ed59affca60cb34351f693ffc92742f",
+          "size_bytes": 42301,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/motor/control41/edges.csv.gz",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/control41/edges.csv.gz",
+          "original_sha256": "7622a9c9011fa0ec2455c835512ca4f254c00974bfbd32c8e62a9a2dd0dadf6c",
+          "sha256": "7622a9c9011fa0ec2455c835512ca4f254c00974bfbd32c8e62a9a2dd0dadf6c",
+          "size_bytes": 2178737,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/motor/control41/sources.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/control41/sources.json",
+          "original_sha256": "f50b0b72ae684fd188f787ba9938eca59fedb2f3ac9df2d0a84a413fa29c69b5",
+          "sha256": "fe2449abe48deb91f036997adcbc9c4d2bb25d772d9a952aec3704eeb9743f9a",
+          "size_bytes": 179107,
+          "transformation": "add_explicit_archival_availability"
+        },
+        {
+          "path": "inputs/motor/control41/set_manifest.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/control41/set_manifest.json",
+          "original_sha256": "23dbaea9697ef6631ae05cd3ae0bf430503000933e1349424ae7eb9b6bca04bf",
+          "sha256": "50bce29b3c277a534dc739b4d540e70a49b9606473d659218356be6f6ecc75ab",
+          "size_bytes": 3231,
+          "transformation": "add_published_file_digests"
+        }
+      ]
+    },
+    {
+      "name": "six13a",
+      "manifest": "inputs/motor/six13a/set_manifest.json",
+      "expected_structure": {
+        "edges": 34450,
+        "fingerprint": "727c1de6ecf492ee7179f12f45cbd9c4f1d97540f6764c63c5685f8b613d3d94",
+        "nodes": 30687,
+        "partition": {
+          "incoming": {
+            "edges": 4569,
+            "weight": 38417
+          },
+          "internal": {
+            "edges": 23,
+            "weight": 893
+          },
+          "other": {
+            "edges": 0,
+            "weight": 0
+          },
+          "outgoing": {
+            "edges": 29858,
+            "weight": 54149
+          }
+        },
+        "selected": 6,
+        "weight": 93459
+      },
+      "source_record_count": 33,
+      "files": [
+        {
+          "path": "inputs/motor/six13a/nodes.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/six13a/nodes.json",
+          "original_sha256": "3d6f97a0ba013f3c1ab90cdd2c07e0fcab7bdd2189019eef132c45fcba651170",
+          "sha256": "3d6f97a0ba013f3c1ab90cdd2c07e0fcab7bdd2189019eef132c45fcba651170",
+          "size_bytes": 10914,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/motor/six13a/edges.csv.gz",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/six13a/edges.csv.gz",
+          "original_sha256": "0fc026477974754bb5b0c3d0f4b9cba0d5f220a92d799dda62669fd34a412fa5",
+          "sha256": "0fc026477974754bb5b0c3d0f4b9cba0d5f220a92d799dda62669fd34a412fa5",
+          "size_bytes": 193423,
+          "transformation": "byte_identical"
+        },
+        {
+          "path": "inputs/motor/six13a/sources.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/six13a/sources.json",
+          "original_sha256": "c16db5925d2199f02c90cb78045795dcfc663ab07cad0bdf3a437f155f2178ba",
+          "sha256": "03f74f769bb87155e14e710fb40a51a83f27899e6ca08384b037d72e9ff43334",
+          "size_bytes": 11970,
+          "transformation": "add_explicit_archival_availability"
+        },
+        {
+          "path": "inputs/motor/six13a/set_manifest.json",
+          "original_archive_ref": "malecns_circuit_recomposition_20260916/inputs/motor/six13a/set_manifest.json",
+          "original_sha256": "bdacf8cf057a9feedd9b8161e78696024f1b3be5ae3c0bf78fba169c3b549a69",
+          "sha256": "5f69d64593abd718289f91d9b94a2943a14a234374b126f8193497a9db6dab4b",
+          "size_bytes": 2514,
+          "transformation": "add_published_file_digests"
+        }
+      ]
+    }
+  ],
+  "implementation_files": [
+    {
+      "path": "circuit_ops.py",
+      "sha256": "d11a9e6cd4c247c68f7b78de6bc3b74d6e4b8262106118f4b528202cddb62023",
+      "size_bytes": 24730,
+      "transformation": "add_strict_published_input_verification; retain_static_operations; explicit_UTF8_text_IO",
+      "original_archive_ref": "malecns_circuit_recomposition_20260916/circuit_ops.py",
+      "original_sha256": "d7aea1e0f97945465520f82e2d4b0735d5e109d5770b1a85e4527f6fbeaa26c5"
+    },
+    {
+      "path": "tests/test_circuit_ops.py",
+      "sha256": "d1a9e8a1619451e8b909fca02a448c746f54d5b9f65a3156e93fc5020e61809c",
+      "size_bytes": 24624,
+      "transformation": "keep_all_29_tests; route_artifacts_to_ignored_directory; explicit_UTF8_text_IO",
+      "original_archive_ref": "malecns_circuit_recomposition_20260916/tests/test_circuit_ops.py",
+      "original_sha256": "0cc48b9bcea61f28b2bd293e735c095eac15e43f0d8ff76e4b34c6cfee8c4d05"
+    },
+    {
+      "path": "analyze_topology.py",
+      "sha256": "0d7158dc16fd9c9efe4946b4817669ece585cef101677ab80fde8d593b137033",
+      "size_bytes": 3003,
+      "transformation": "add_optional_output_argument; stdout_json; explicit_UTF8_text_IO",
+      "original_archive_ref": "malecns_circuit_recomposition_20260916/analyze_topology.py",
+      "original_sha256": "85caa88bb3dbcba86deed0a29b5353fd74020d937ec03ef6867b241fb54cdb46"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7e7efeadf00680450637b1c9dd0c32b243050125c8411cf710d33c1fd5b06b5e",
+      "size_bytes": 6281,
+      "transformation": "rewrite_for_standalone_publication",
+      "original_archive_ref": "malecns_circuit_recomposition_20260916/README.md",
+      "original_sha256": "413f0b58756b543044db92289fdbaec9202d1232fa52b8d2bd6ce9c5b6c257c2"
+    },
+    {
+      "path": "INPUT_CONTRACT.md",
+      "sha256": "816d991fbc01e6a1f24c667f1bca0f843bbf0796f49437b14ae7fc939e7f8a06",
+      "size_bytes": 2956,
+      "transformation": "rewrite_for_published_inputs_and_archival_provenance",
+      "original_archive_ref": "malecns_circuit_recomposition_20260916/INPUT_CONTRACT.md",
+      "original_sha256": "9e1aced81ae51bc72909bb81d54d07fb27e954a5b901316b634e16e6db6c6b46"
+    },
+    {
+      "path": "ENGINE_CONTRACT.md",
+      "sha256": "42764a37ce6e880ddf63d8b81f253a5364356030dc0f60dbd3abf3540d4e6a23",
+      "size_bytes": 6195,
+      "transformation": "adapt_publication_and_verification_limits",
+      "original_archive_ref": "malecns_circuit_recomposition_20260916/ENGINE_CONTRACT.md",
+      "original_sha256": "b9cee02d43cb29fc24f399a64eada457140e41d85229b9cefc8eaa72cea49aa3"
+    },
+    {
+      "path": "verify_publication.py",
+      "sha256": "ae92fda4497f20d833d69c3eb5a03c0adff2c36f8018bc6ead1089154f207423",
+      "size_bytes": 4130,
+      "transformation": "new_independent_publication_verifier; explicit_UTF8_text_IO"
+    },
+    {
+      "path": "tests/test_publication.py",
+      "sha256": "a193aa1dc97f745fe09c42c2714d8ac77f10f7424c4c5c2f828fb7e29985bdd7",
+      "size_bytes": 6009,
+      "transformation": "new_published_input_fault_and_relocation_tests; explicit_UTF8_text_IO"
+    }
+  ]
+}

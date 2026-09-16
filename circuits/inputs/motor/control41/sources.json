@@ -1,0 +1,4169 @@
+[
+  {
+    "id": "src_dc17dd8ecfff",
+    "path": "malecns_control_analysis_20260915/routes/nodes.csv",
+    "sha256": "5c4f7497ff84873621ae30f2b9af00b34288a37fac01bbe6d9320f37ed0ece73",
+    "size_bytes": 11872,
+    "role": "selected41_node_annotations_and_membership",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8482e8374261",
+    "path": "malecns_shared_roles_20260915/breadth/CURRENT_RUN.json",
+    "sha256": "b1a448b806d10c523b737b3e866ed87b46f950ba23e8492fb27dbc84bd839593",
+    "size_bytes": 710,
+    "role": "saved_completed_run_selector",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4d3566d39ae8",
+    "path": "malecns_shared_control_20260915/afferents/CURRENT_RUN.json",
+    "sha256": "4a49ec7b4812fcaf8b3d30b6c5555ef471be23cccae3a95ea49d6f26add91ec8",
+    "size_bytes": 259,
+    "role": "saved_completed_run_selector",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_758a30802aed",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/meta_before.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_before",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6af8e4ea5b64",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/meta_before.metadata.json",
+    "sha256": "0a5f88ad5895ddafd54146d550ce1b2ba29eac8084bb4295658ffa9fc4a41a66",
+    "size_bytes": 717,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b192c86f32b1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/meta_before.request.json",
+    "sha256": "48be2ae7767ffa000af994a5bde7b99cb74d35395522551b650462850dd75d42",
+    "size_bytes": 396,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c58ab940c4b1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/meta_after.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_after",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b120ddec2c5b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/meta_after.metadata.json",
+    "sha256": "2631798f2c918ff5c287833015faec8c1ad90e48682053fcdd09db883c065401",
+    "size_bytes": 717,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_39fe423d0e52",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/meta_after.request.json",
+    "sha256": "2162fa8358b2df2eb7cfad4b742c08a6c06ab16e4553d5a3ab6156e800536145",
+    "size_bytes": 396,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c4db78b4c3ba",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/meta_before.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_before",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e0113f301893",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/meta_before.metadata.json",
+    "sha256": "d421af6d7785661b60f40b1b2af9def7e24860e48bdf312d1f2c2cdd1a57a981",
+    "size_bytes": 717,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_68cdfb1572d5",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/meta_before.request.json",
+    "sha256": "4ef1fd1c39d6ddb7ed00d6e17220f9e681d11594ffde711ceff0424958845b13",
+    "size_bytes": 396,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f70a5216fd40",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/meta_after.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_after",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_500109d46f34",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/meta_after.metadata.json",
+    "sha256": "2fa20548cbd41b9fe5f8bf47c9cd65bd5f40cc3cf4aa9da3da4c55ee273af57a",
+    "size_bytes": 717,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a995e9196a4c",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/meta_after.request.json",
+    "sha256": "41721a692c19bfba78a4b6f5d9098181e5dc864cd270470aa899e811b0c5eeaf",
+    "size_bytes": 396,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f87f99f54a92",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_meta_before.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_before",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bafbecc6d98f",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_meta_before.metadata.json",
+    "sha256": "f441667718809dcb4227fd729152eea339e98d3420538e3924a8f18a309a30b9",
+    "size_bytes": 649,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a58314384e6a",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_meta_before.request.json",
+    "sha256": "53f7eef15c22c3c0681f8a1c0f06a5e831a9b780f27ba591d8d6aed7921e9852",
+    "size_bytes": 374,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8fd10974a607",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_meta_after.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_after",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b3b3e8aaabb8",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_meta_after.metadata.json",
+    "sha256": "4711c50c0b4703c6a38bfb8071329e8b2610fb93d1a246fa21470a86c199caa5",
+    "size_bytes": 649,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a8e65db8f03c",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_meta_after.request.json",
+    "sha256": "da8d97f9691e5877a540ddfd33b14e0d7a9ecca4eb2e6dd2ab50632d36b040e7",
+    "size_bytes": 374,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c30de657e37f",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_node.response.json",
+    "sha256": "a107e76caff4e9fad6fdf755b555d3699c8fd09e7edc9d80525d60b46b23e5b4",
+    "size_bytes": 1787,
+    "role": "chief_original_node_properties",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2dc6216b51bc",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_node.metadata.json",
+    "sha256": "d081c2f44d2d621ebfcc782a916bf8984ac2075f459a8dd3237ed58da3398edc",
+    "size_bytes": 505,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_00e1b4cc98d1",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_node.request.json",
+    "sha256": "f3af4590223dcf873101aa49daf41abd8854acca71c7d961bea27369cc1d9cae",
+    "size_bytes": 291,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1101286a7992",
+    "path": "malecns_control_analysis_20260915/routes/raw/incoming_40.csv.gz",
+    "sha256": "1172abd9869ccfb539448ce9e0d3a12f30ca46a43cde1979d529dc332e76d0b0",
+    "size_bytes": 826060,
+    "role": "saved40_csv_exact_copy",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_976da11481ba",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_incoming.response.json",
+    "sha256": "27a0e5f645f7b6354e4b07cc89394341ff2fd2382fa96e6fae65b22a15afdaed",
+    "size_bytes": 782610,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_095d7b2f656f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_incoming.metadata.json",
+    "sha256": "0e630629e3339d0f88d0e527558fa03dc0a0d23a840631739531cdb44e9b697a",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_65dcfe422328",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_incoming.request.json",
+    "sha256": "a4bb841e728ca4d6c1a496e3ca36d3901aa950812e934dcfc28c6bba35184924",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7158267c4c69",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_incoming_totals.response.json",
+    "sha256": "bf45a798e1b94e5f8d59ce6b1e0baaf40dedec242bbbc69fc5993c8f1d5528f7",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4403955b4a4b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_incoming_totals.metadata.json",
+    "sha256": "3b595b465d5d817a8663d329298aed81e99aa48055b34c84d02defedcb9182a0",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_aafb184815bd",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_incoming_totals.request.json",
+    "sha256": "0f334695111787e11c8dfb36b18472671f64e6664a918a3a1e5cda64f23e3407",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ea4dd0c20075",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_incoming.response.json",
+    "sha256": "ceb15d80c78cf5a320ae5904d51d8b5e30eada88a93fc1dbd17401f11b020c96",
+    "size_bytes": 843667,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cb9f0cbff0a4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_incoming.metadata.json",
+    "sha256": "f06abe460487f58f6fcdf3d6b9730c5923b1b173ea192a34f0e37e6a3268a1b0",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1f7804ad40d3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_incoming.request.json",
+    "sha256": "289e44d08fc033c63eef4ac172602e878377ee297e195d5577ab4786c21861c8",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5d3b0d5c6592",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_incoming_totals.response.json",
+    "sha256": "0c6fb2fe75985fe12ba2e739be3285e5189e10f92d06b3df7aefa41201d6a220",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_809a5aff67eb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_incoming_totals.metadata.json",
+    "sha256": "77a2cb40b31157514d7c0b38aeca938f0643a5eff404871ab1d64ae29e29083e",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_76155469daab",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_incoming_totals.request.json",
+    "sha256": "6e196afe11eb96cac24c28230820ba995fb027846c7c5a733e36d1c42b6590ed",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ffc91a0c2f51",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_incoming.response.json",
+    "sha256": "d0632bede95bbc5817a2b5a5875cb991963a238edd0fbf1124fe19ce93fad73e",
+    "size_bytes": 822808,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8942c705d8c4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_incoming.metadata.json",
+    "sha256": "d40f8f2de48cc679c532af8bd15c201a77caeb7b1a623145d1e7511cb1e50d90",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_27b7e43c3ebe",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_incoming.request.json",
+    "sha256": "fb4295c1c09df9ea5cdd600ccc4f74793e7152b82b0c4f9a9ab83b1aed5df0f2",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0cd579d77f7d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_incoming_totals.response.json",
+    "sha256": "67e88cdffa4304299536d490c01607b4f2a96c789a5c458a6bc3b4cac4b0e476",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_28bae70cb8c2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_incoming_totals.metadata.json",
+    "sha256": "4d49b2d6e3303ad683132210067af5215829d7b929d604cd2a0d38948f0250be",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1e2bfe41e7d0",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_incoming_totals.request.json",
+    "sha256": "d5294ad3326c8d756b98781fa9e4fb06815aab6bf046131ab44d3c12f149e482",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9f4f33b8124f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_incoming.response.json",
+    "sha256": "310825cd644a161c59b7cd4e35c1d0df237577476f413146443f64b708ff333f",
+    "size_bytes": 866266,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f4a16be7e45c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_incoming.metadata.json",
+    "sha256": "c78218681d173377733fe969db6ce6a11eba611c75acbe2f074fd3775ee79313",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7243db35d2c3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_incoming.request.json",
+    "sha256": "dcf2185ca2c97beb9b192d22a0427d2e010964f1bf277db1620580a29b1f6920",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1caff9a7fd7b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_incoming_totals.response.json",
+    "sha256": "ec6fabe6302d0bdb2fdc76979131ce2b0ee92609764573690a6879046949d034",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a6cda613498a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_incoming_totals.metadata.json",
+    "sha256": "9494e7ace51fd52c110662e2dd6efd1a8b6fe66cb1f6ea04a29a691999a0cce0",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a40af5b41d77",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_incoming_totals.request.json",
+    "sha256": "513549ae3217a048a44b7fefcc3121f494a37ea0b5a1441af9f37901a2fb98a7",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b306f6ab9aa8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_incoming.response.json",
+    "sha256": "b0a902681f44ffbd666fe15d6ad71b700258e70fa903bc97f1608b2661babe53",
+    "size_bytes": 794341,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b11914d0c5b1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_incoming.metadata.json",
+    "sha256": "95e6b24cef335585d036d96969b27de497f9d1b59c50a8131d80fac036b61c96",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3f75e12322f1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_incoming.request.json",
+    "sha256": "3b64df2744af63888ebb0947f04120164767513641b2d45dc58ff033b6c6af80",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bfdd69833996",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_incoming_totals.response.json",
+    "sha256": "9a4b12d5f070ec38ef76ef78b2d87bcb55b536d5a35ba0d73c2e069a76513ea2",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9d2205e73b27",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_incoming_totals.metadata.json",
+    "sha256": "c4955e696aa77ce2c8ebd9c97c54d4b12c18b2f598dd472547c5e587d3a90649",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4425209b1a98",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_incoming_totals.request.json",
+    "sha256": "d2fe25086558522a7d07cf1340ff2bade4813eb0d647a3868be54f922ef9e2fa",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0844d0bf1d39",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_incoming.response.json",
+    "sha256": "81b053dbb7be58fc9c5b25c953fb66703bbcce992d4c36a3c7f85a27943aabf6",
+    "size_bytes": 734264,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9a22ef116d50",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_incoming.metadata.json",
+    "sha256": "d88df5c8fd520befa468b9b003be432099d04eb7dbaf379922af321981f4a147",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d0f03bc51dca",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_incoming.request.json",
+    "sha256": "f7289c0b6c55d1d943ff0454c2a61d1dfe4177dc1e92ff2dda9bed33f0fafb5c",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d2e573e07cc1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_incoming_totals.response.json",
+    "sha256": "4fb106026214a8eeeee540cecd84257cbb97401e05f249d8e94aff755b8a2f36",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ba0b780f9e1d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_incoming_totals.metadata.json",
+    "sha256": "450898fdee061cddc4ae9a0cb73fc010a99a155f71a8229812a97c4cd893d416",
+    "size_bytes": 1457,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a1a094cd57bc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_incoming_totals.request.json",
+    "sha256": "8f8fd01dacf31245ab5db35a64dff8d780b46bf3916729078b618e416a4a1d26",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_78567bca850e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_incoming.response.json",
+    "sha256": "12187823979cbabc526a3866d3b9bc9e6988409d1b378e0884394790c6493218",
+    "size_bytes": 466450,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_55fdb54ce9db",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_incoming.metadata.json",
+    "sha256": "e17a0fb550416e6c0a158ee8aab3f92dedf923603997a09a77bfc1c9d2d0232a",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_02fdf7b30255",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_incoming.request.json",
+    "sha256": "8e94894aa89361149c156ef64f40fe8b578373bb972ee110cc22e1f096861d05",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5074e5fb4ed5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_incoming_totals.response.json",
+    "sha256": "2ac7277c34e57177e25bb92db81dc7632964d8433b605cdfd4958470ed9a9566",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_601e6aa56873",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_incoming_totals.metadata.json",
+    "sha256": "f0cada69af8082409b2ca00de6fb54527fb3fda437cf6a3b44f8ca2ca380a241",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_95f9c4a3da58",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_incoming_totals.request.json",
+    "sha256": "7df8b5c8d19361bbabb49bef8c694e504eaf5e465cee39dbb5dec3e997230fb7",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4c5e69e3ca45",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_incoming.response.json",
+    "sha256": "4b03023581eb78316bcedf2234b03a9a451de195eedc04debed79fb225b40abe",
+    "size_bytes": 363730,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ce30b33329da",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_incoming.metadata.json",
+    "sha256": "47a501546eadd0cdff6df998de79b090c4b7f714d3bf758680aac2a5be325eb1",
+    "size_bytes": 2565,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a691d7a70d08",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_incoming.request.json",
+    "sha256": "66a8eed0a7cfc1c77926a5fae18a01545ba7afe52d8f8e94d4b257c4fa0be96e",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6370bdb12505",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_incoming_totals.response.json",
+    "sha256": "5b84e7739cb582a03d1526774c16c9e1770cdf24f39035a275e506dcaee76e5f",
+    "size_bytes": 915,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d32dbe2fcad4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_incoming_totals.metadata.json",
+    "sha256": "4a2d020024c7ef3ae54bf6e477635652fe0d6f344fcc24f1d2ee413f92e353ad",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7b3d1d698a94",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_incoming_totals.request.json",
+    "sha256": "356b79650334f2ce3b5e803f7328649e4d29fdc0e71a19df737daf235f19abc2",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b537b809066f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_incoming.response.json",
+    "sha256": "87a1e641e998c4aaffff56267c13e9a8cb9d69cfb93af24315ac7da4e21aa467",
+    "size_bytes": 474451,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a81b36503f79",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_incoming.metadata.json",
+    "sha256": "540432ce3296eb3ecd98127f0398dacbb93f6244a92d34c04f697ac3256bfc87",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c7589d71cb34",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_incoming.request.json",
+    "sha256": "97320b5bca7c5f620c60bbc6cd5131285ed9979417d4228fb8d152f115a3d718",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_aada2230fd5b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_incoming_totals.response.json",
+    "sha256": "e036710bfbbb2b8e9fa2d2c12918cbc596670c6e5e4a7f3f7888813ec3abf2f6",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_58d86ecf35a9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_incoming_totals.metadata.json",
+    "sha256": "c48b352b16915f5a17fa3f3c5c4059b749bbd6c8fc1758c3ab317dfd69498892",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_55340d10b250",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_incoming_totals.request.json",
+    "sha256": "f37fd924537aa4d356daf9aaab7e1c70132d4d1e6806e5cff5393ba1e9322fea",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2cb944b2312d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_incoming.response.json",
+    "sha256": "5e4f64063351ea2706f333d24a447a49c540ed3125cdb207b4208bcd1a519c39",
+    "size_bytes": 110398,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b788eeb3a629",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_incoming.metadata.json",
+    "sha256": "6b399e7238b1c3c17553fc427594d884d6a70b37715c6374c710ec2e0d9bb1f8",
+    "size_bytes": 2565,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1cce7b20f1b2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_incoming.request.json",
+    "sha256": "61ce08b9698cf5e9bbeae032244e33fd468e9e0ce37a7b30e479fef87c936cd3",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_eecee9af3cba",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_incoming_totals.response.json",
+    "sha256": "73a259ec34cfc656024393e04179d9f2c1197d57483a82f7f7ecb7017bd6015a",
+    "size_bytes": 912,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3a649c5832ad",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_incoming_totals.metadata.json",
+    "sha256": "71e38cde4a2ad1ebdb95310334a92da1a1d50ba6bfd9841eb2e8abecd493f6da",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3dc3e2b7c59e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_incoming_totals.request.json",
+    "sha256": "4032860d1122bab8962cfe7e086b0253dbd086374f33d1a12d1ed4de9833b0b0",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0cff38b09c42",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_incoming.response.json",
+    "sha256": "e55c7ed86394a185c85448790dd05b4dc73d6af8c762b5f9e28c701b549d1d11",
+    "size_bytes": 371461,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_14f56f9fd9f1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_incoming.metadata.json",
+    "sha256": "43196cb113a13e9b81f1c9ce9ae3c722f72a4bef82c9ec7119880fb5ce208710",
+    "size_bytes": 2565,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b6334eb36b45",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_incoming.request.json",
+    "sha256": "2503c91447aad38c639d2a47d1300f0f2e2b039ab217d0eb30d5547cf857544e",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_385d4effd1cd",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_incoming_totals.response.json",
+    "sha256": "73d7e612d1540219aee3bc984731b5c7b24ac757dc8644fa4966ffa680448d6f",
+    "size_bytes": 915,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c9e8a04bde05",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_incoming_totals.metadata.json",
+    "sha256": "1574f892cf3643bb1d6565ada607d2dd7933a296bd20155a887c1ef6493d8d97",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a0c2a9a085e8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_incoming_totals.request.json",
+    "sha256": "ea797e33224525c6620fe4c3aa678948c5a02f44ca37095504eb040406082596",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9b9ab2ddab11",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_incoming.response.json",
+    "sha256": "1ba91fd274e98ba138224efed63a5d5cee4fe19bea76164640ad7e35664a0994",
+    "size_bytes": 563716,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_146f781877f0",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_incoming.metadata.json",
+    "sha256": "c759d24473d4625b3bdeef54b785005e5b2e69ee776bc9e5b3f3d859207794b8",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1e1b6dffa12a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_incoming.request.json",
+    "sha256": "60dcabdeeab4794fb5815d3c66ff3b74849425c11cfb8cf7a2066db971968bc8",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8a2dbdda21ea",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_incoming_totals.response.json",
+    "sha256": "d3565eedc375ffbeb06ec811f1d1faf530d999da075b22d764d0a0106e3f8895",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0efa60fef0f9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_incoming_totals.metadata.json",
+    "sha256": "4d5e7b3fe76d92a3bfd9bd19918ea1ef1fc32d864114b63009cba42a84748f24",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2f223c80209d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_incoming_totals.request.json",
+    "sha256": "faf0761bf1dba90079a6046c155e5eb95d86bc8606970c0b2ddf20e7fe50b412",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_90c4d481ff32",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_incoming.response.json",
+    "sha256": "1db5e2f8353d9a09b9d3730feea3cbc1f5125d0430237b950cbfee8e941df307",
+    "size_bytes": 638595,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7d407d6ce00c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_incoming.metadata.json",
+    "sha256": "09f2f7a6d387c8c0e06cc781fd2e88e4f5a7e61ad7a671d8fb2dfefa617b3786",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a33a192452cb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_incoming.request.json",
+    "sha256": "d53770f8b14af82628983c7548f2bd94ec8921a2e5184cda3241e45a8f260fe2",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_42c1812c38ce",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_incoming_totals.response.json",
+    "sha256": "497bf7b29d8b8e40d2b5673489cfb52c1600ed77622cfb2c62a80d576c2b0503",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_372a4c099d87",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_incoming_totals.metadata.json",
+    "sha256": "712514211b5db610363ddbc5e599aef1a15ff16682cc283f5fdd4f5226232e1c",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_125b66185e2c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_incoming_totals.request.json",
+    "sha256": "7c66256ea267476658d918270ee8c04d4e28d5d1dd43f3323a75338eab0c4336",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ca246b7b7f1c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_incoming.response.json",
+    "sha256": "55028e228c233e1e2ed3e55cc836f985b42cdc0949cc7170485c70b0c7ba8151",
+    "size_bytes": 26286,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_44990f3f90af",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_incoming.metadata.json",
+    "sha256": "de531d41887e4d77d7acc79c2bbc07041fbe6fcc93fd437e7ec6f543a2c80830",
+    "size_bytes": 2564,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f80e2f7f214f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_incoming.request.json",
+    "sha256": "15896b79631da322e7cb53a734a775518c76b4f1cb41b191dc0a468465673c9d",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_21285a3b7584",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_incoming_totals.response.json",
+    "sha256": "f3ba705f2c1abc8ead49c151fe808c3e28d3b00656bb8bfc584018037bcfbd7f",
+    "size_bytes": 912,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_617a3db1d738",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_incoming_totals.metadata.json",
+    "sha256": "e0f70c3d964d1c2404390149df56564aaf2c8a2f9d0753391d0c79b4175180b5",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1a5685b88b81",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_incoming_totals.request.json",
+    "sha256": "693e4f73036f3d91767cf0e6753dff10d28edb8ede5ea8396feb17bc4667e39d",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f9d83f66393f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_incoming.response.json",
+    "sha256": "4b4adea3403f5798acd03d185da6a0c15343cefa5bbf38e7b2a86a125e96357e",
+    "size_bytes": 630270,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_af10faeafcf5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_incoming.metadata.json",
+    "sha256": "62c8a3f5e6b4af595de5f2c56d4b345affe70f4095735d343d18ee70f1190f37",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_dcb8576000c7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_incoming.request.json",
+    "sha256": "209cb862f3c6427eb856ec3fe34e37575cab09290ae7e17f469b02e9b743dd0d",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_530f181e846b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_incoming_totals.response.json",
+    "sha256": "cc117f1a6cfc542728f64d789c0d0661bd30b72602218bbc82045f77ed101da5",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d3dc85b1bc7a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_incoming_totals.metadata.json",
+    "sha256": "d9aba9a5e27258cc36f2e84a5850ec3ac5f476afa76a71834bd5abcd23330c8f",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5f8cb11769bc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_incoming_totals.request.json",
+    "sha256": "feef91c27c9f2451562e12ee4df474bc96a14ec2d9335428069273802bdd081f",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a2ea6dd7188a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_incoming.response.json",
+    "sha256": "2939123f809b6a1c06ef16c3be366d3a13cc144c2b60871eace14a24b7c16468",
+    "size_bytes": 337395,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_aa4d7d0b6a0f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_incoming.metadata.json",
+    "sha256": "5d1efb3274a9fe026a8e16a63951ba3912550c4b100a07c3fc625a6e705f749f",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d4e9f11bcf18",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_incoming.request.json",
+    "sha256": "c3ad7e22d85dd8911ba4bd8679a980821f1d4e7365bd56a89bdc000f2c124769",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_13c197a0d503",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_incoming_totals.response.json",
+    "sha256": "03093131dfa6973604b3835b009a5c2e7de5ea6a3101724174f870b68d94cb5c",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6ef673949281",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_incoming_totals.metadata.json",
+    "sha256": "d2b64e737c487c64e1af33b9ac45575b79b3930a21f137e7103ae415aae697b6",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ed1a55e4f9c0",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_incoming_totals.request.json",
+    "sha256": "221b97eb96be17dc6deac8bf40ad119619862eac84a1e308ec9111fe51149606",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5088a0fae830",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_incoming.response.json",
+    "sha256": "81447db3284532dfe8022b260ce5f6380c9f66190c294f4fe4444e4f57a81c89",
+    "size_bytes": 689310,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2b2ae315cfdc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_incoming.metadata.json",
+    "sha256": "bc7ddef152d8ac41ee2cd6ef7670deac83f87a5eba95a00d09843dd6e43c1391",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7770275d6e02",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_incoming.request.json",
+    "sha256": "f43ff9af33cdab678ce7123983202aa51fd53ef58b32ba44285836ae86a12e2d",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_22d86ec5813c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_incoming_totals.response.json",
+    "sha256": "54786809fdaa245fbf826b83cc19552e8440133f83f33c4390bfabc00ac159d7",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_51f0cbc4207f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_incoming_totals.metadata.json",
+    "sha256": "ccabd686b37a24ed476d1c7d9a5e7c7b2f3846e62104f8d182d3f100ae12ab90",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e3a57cd4717a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_incoming_totals.request.json",
+    "sha256": "41ceffd44a71401a5a3da269fb9ca9e315ea8d21fff3e593e58668003edae803",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6bb3ac0ac7b5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_incoming.response.json",
+    "sha256": "ba23d7c0f467b4f080d9e97f9a95b47210f14e9c421ce89f5b89d3f049d05f46",
+    "size_bytes": 548417,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1d834ce8d7d5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_incoming.metadata.json",
+    "sha256": "2d95d5f213251434420e069eadfb6d958fbdfc5d109df8aa4b2999e7dbcec9b3",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_89c8eb907ac5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_incoming.request.json",
+    "sha256": "da401c62dbec92d69dab589ecbe5e26918c457d911544d9c25a719a822ffa49f",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2389b608b3cb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_incoming_totals.response.json",
+    "sha256": "488fe1e81719d2d548933632d9530d4f886e3c8bbc6d8bc3bb0cb63f7f71244a",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_55730f65cd64",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_incoming_totals.metadata.json",
+    "sha256": "41b029e83c2909cf064c4fffefa0e0d7d75b422321325658a3cdba40fac3b5a6",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a6441f4b0773",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_incoming_totals.request.json",
+    "sha256": "babaf8c188679d9d0257fce1451f8e8f76989df597fa2a1f65d678d27fac9783",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_71b3439d4ce4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_incoming.response.json",
+    "sha256": "1836ecd0cf80aa7926f7a9140e3fc2b60916c6a6d1c0996233f954d8350fb43f",
+    "size_bytes": 237393,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c115d612d34b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_incoming.metadata.json",
+    "sha256": "f194821734d3ca705e51f6ee58f00b8e3da97b8286f5593b21b0082206ffe424",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5f7f80fdfe99",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_incoming.request.json",
+    "sha256": "58ca8dfb0396c42730bc3cd2802b70ccf00917e3064f227b4ee8289ac36fd78a",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6d78489177e4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_incoming_totals.response.json",
+    "sha256": "8e6f8a94a797fb18402d6220d876673f5df587b77833337a71bf4b7c73a4c4cf",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fe6feed196e4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_incoming_totals.metadata.json",
+    "sha256": "0ece5632f5467985811fbf47651598c5d07888d0417a57c54d4f4a3e885a17cb",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_df694c52df19",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_incoming_totals.request.json",
+    "sha256": "0a77b6df1d7ad82922ee0f557ccfcfd50d430e4e7cf38cba661db8a2897f1215",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6dd3ed356ba9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_incoming.response.json",
+    "sha256": "d3cebfa45846d308748b85eea970513b9c91c23828191b65bfa9e45b262622a8",
+    "size_bytes": 250493,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8fb7406de6f3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_incoming.metadata.json",
+    "sha256": "23817105a7f3edd74bcfb40b872c003e026512ce1f24b984972cd7a9fea0cdc3",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1fd46bc9963b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_incoming.request.json",
+    "sha256": "607bb845de22c7ec2bb49aa882b7f59c8e9433ccab2c95987dffd3c1a1a04341",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f8ed991816f6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_incoming_totals.response.json",
+    "sha256": "4c61744ef99da274399db900d15c770b500db61bc56961217df6cd23532c8dd8",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_14fc32871bd8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_incoming_totals.metadata.json",
+    "sha256": "3df2328d739a947e07a2f3273ea8ecf78ee07b6796c50fca4830cf911a26931b",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_69460ee6af68",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_incoming_totals.request.json",
+    "sha256": "16ba687b21af2e990b9538cabea7eb2874b375d1f2404de0588feec77253d196",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_25f9fd31d924",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_incoming.response.json",
+    "sha256": "dad24b7c16626568f7e8ff75b8c6f49a98a53e0a27b56cb7ccd2cc94a45e71f1",
+    "size_bytes": 390454,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ab4591b3557c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_incoming.metadata.json",
+    "sha256": "b135569d5c66f0e7bc07b5392bf2a7e6f4e2b3c93e03d0b3d24a9067aa1dcb7d",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_094e3de35ffd",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_incoming.request.json",
+    "sha256": "3566f1cf7f19ca979b3c5d6948c6f34920ed9262254f12d60fbe0912324144cb",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3181c7e24ac6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_incoming_totals.response.json",
+    "sha256": "b7d605ff4ab54cd3b734511123fd018047a035c63fd0989e7ec786799a35de1a",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_92e5be889fd7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_incoming_totals.metadata.json",
+    "sha256": "0b9b1e19d81fcba273642490c1349c57624770383fa5fa697782d6908a12fec0",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bec6218b7d15",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_incoming_totals.request.json",
+    "sha256": "70c47b22f8b1773a41822881575beea758fb9af4b9caa7cc5f154a988a123e92",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b0b20e3a0f0f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_incoming.response.json",
+    "sha256": "8b0415fa75bcfa5bf5a46cd54cc9b0d5ba72602586ffb78e2752d5168a40b97c",
+    "size_bytes": 408502,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d0ac2c1f3acc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_incoming.metadata.json",
+    "sha256": "b852d1cd07768f4e2e2a5cb5546db9737108f4543f020e579b53f987983ec09d",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_816dfabfab73",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_incoming.request.json",
+    "sha256": "133453b69f4c294d9f99582103a8cb84ff3fac9d6b6a5615e7e4cdb918f756d5",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0ff73c4ab776",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_incoming_totals.response.json",
+    "sha256": "def6b96f07e6f25f756d1a61653d72388f3800a4e4970523f891bc41f3c7a328",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2c3544a2b0e9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_incoming_totals.metadata.json",
+    "sha256": "657fba2731035b635abbb98de779d4f5a64b442f74ecb28829d853dfc7609d95",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bc85bb95d42e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_incoming_totals.request.json",
+    "sha256": "d8ddaa90ac1fb872eb69475edb6bc15f6cf89b818f3f21c6344715545cc8fba8",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b9e6d7a47328",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_incoming.response.json",
+    "sha256": "17b320b95046570ad67c6f91570302d5587cf676368e1cf5a022bec58f903316",
+    "size_bytes": 374149,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_003b59f00565",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_incoming.metadata.json",
+    "sha256": "3595fc8f7f95120f79757ce4877e784dad8b9dac6a8637c208a61dd287917808",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ba2b3fff8faf",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_incoming.request.json",
+    "sha256": "dbc32c31879950bc1bcb46f9bb5922d29f418d779ebe6d49680a768b78447721",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1c20a079fc17",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_incoming_totals.response.json",
+    "sha256": "c854f54da8bc23ab3c4559d2b3f5950aa1a33f157e6d69d481ac4264638be23a",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_281d25b031c1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_incoming_totals.metadata.json",
+    "sha256": "6223ce7b39902e9d7799b71a2031e406f5208466119c7ba4337c58fa8cf4fa29",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_918b514f75fb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_incoming_totals.request.json",
+    "sha256": "f51c9fd567a33faaaf9f2c094a751796694088b5d1df0c7276f295b1d69cbad1",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_451aae938aa2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_incoming.response.json",
+    "sha256": "2fb0174e793cfa03977bd311cb994633608333e3b2f4a487505e226427ba20c3",
+    "size_bytes": 368656,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_17029510e75e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_incoming.metadata.json",
+    "sha256": "cdaecaa11b9b8aae42737ff5206ba822c6163448dd68c771a2d3ac0e6678fc73",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f606976c84f1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_incoming.request.json",
+    "sha256": "cbc694cc424be1cb9c1089f78b8f16ebb6766500feae988a703b7cab9fa17ae7",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4c8e5b4c8d88",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_incoming_totals.response.json",
+    "sha256": "b871902725021a7f6b19d8e4cddd04cdd9852802488618c0f273aa26a1840a3f",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_70b6748aacaa",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_incoming_totals.metadata.json",
+    "sha256": "a14876b2c3067e0a8c53464c2e547d6f8972b0034f1a0ca71855ea0e1b9b1b04",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5a3270793eed",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_incoming_totals.request.json",
+    "sha256": "f82753d146823d48fcfd26ed24b8049bd3ac89d7d814d6da9273432421243bdd",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9069e9a5686b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_incoming.response.json",
+    "sha256": "4d23965f66b95d32145de204723dfe3f299f1c7ccfc6b7781924c489cd47cf6b",
+    "size_bytes": 377628,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e1e4478107a9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_incoming.metadata.json",
+    "sha256": "5fedd802b8a428f7d1c7a3779f4b3dcb3910427b02a534f8242f522e115e66e7",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_133e31a7171d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_incoming.request.json",
+    "sha256": "a3634caa90b7311114507234f44976be35832bf7cd90d380fb2e57576a570c24",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1115d829eb7e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_incoming_totals.response.json",
+    "sha256": "769d2995eb16273add0530f757e3910f98ba57ce028ee3afa742c902d216889f",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_498952e2297f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_incoming_totals.metadata.json",
+    "sha256": "6ffe173f0b82bd75d4478d4bf4967340bd5f913cdcdafc0cfb10207c4e356d38",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fc2a051be5ee",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_incoming_totals.request.json",
+    "sha256": "20ecdf962bc555d73ef08fb593b258e23f56008f8a09eccfec78c6a3c4442a84",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_68a445da2c09",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_incoming.response.json",
+    "sha256": "4b5cb604368b4d4824440f48a10811fc367c1140c43fa522d8fe8421f87bd005",
+    "size_bytes": 427535,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f5236ac74d24",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_incoming.metadata.json",
+    "sha256": "efb5bb2fa238f12fa9edaa34f2ec5201264c82b2d22f36f42a40a19acfcddda4",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_08113f6eced6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_incoming.request.json",
+    "sha256": "d1ba3e3011085e8131cdddc9fd1d7ad793991379199208f125fcd0171f0ac853",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_83f166cd76e8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_incoming_totals.response.json",
+    "sha256": "db746157588c7080a7276cbbdf0c6ae915763e2b578807f7296cc8e39f683c99",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a41c16169482",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_incoming_totals.metadata.json",
+    "sha256": "2a40e33ef4685485f598410e88ba60ee23907db24c29e1cfa40ba5cef7b2bdd4",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_538d5c4f05a5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_incoming_totals.request.json",
+    "sha256": "d490526f15112d7fef9d20be419ddcb780d856b23beb7111be39fe7f7b832a66",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_563cd6def9d7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_incoming.response.json",
+    "sha256": "49dee155a4ff2f928cb846f869d728701f71a6a9ac5412e04f49c3f7f199a41e",
+    "size_bytes": 179979,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5c8818235a97",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_incoming.metadata.json",
+    "sha256": "8d90395b01d9d8b373ffe8f9df88247d2013f5db5556a20295441fd82f550d77",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5351f6470095",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_incoming.request.json",
+    "sha256": "39970b181d779869734a9a42fa1047fd41589b137cf5c401517814a194f46fa0",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2889a9dfb19f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_incoming_totals.response.json",
+    "sha256": "2705db977854e8dee0168bcab5b3c279a0e1f180524c32e20d7790f09a38d39a",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c49ed2109c49",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_incoming_totals.metadata.json",
+    "sha256": "1489ef155144e7c9477ed13eb220211130fa3e7bf1f82939c0dd6eeafec92c47",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f4628e767a1f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_incoming_totals.request.json",
+    "sha256": "6772436df14d08768eab94bbda0aaa7392a88407b779eb7cf2e7a99762d40edd",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f186b3ba6299",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_incoming.response.json",
+    "sha256": "c7d027273f388bcc17ab9a02e59fd0f0158730fc0fa9959e6a43383f5a788e69",
+    "size_bytes": 217064,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d50cd4cd9b79",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_incoming.metadata.json",
+    "sha256": "0741d66c323afcdfff3f1fee583fd1f2aa4a385ea37f62ea38c4c0553b49b09b",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_876bfecf7363",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_incoming.request.json",
+    "sha256": "45d43c9f519b9bf7de3447575a0e9160ef7f3048208b76fd65802ec54af79761",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f3b584e79d07",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_incoming_totals.response.json",
+    "sha256": "c0e0042c3e2a9da0fd61e9d2722ba27c18d0f5cf5c6e0cffdb973dedec6b8143",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_975d5e990f7b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_incoming_totals.metadata.json",
+    "sha256": "afedca89ae9b937f15a500519a51f22895710f91e2fb14a45648b5197d7fc709",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3fb9af3e041d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_incoming_totals.request.json",
+    "sha256": "06cd0a2b4778883963683d48f224c7aab6e35aa390116cc2628816b521b3ddac",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5da7251100bc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_incoming.response.json",
+    "sha256": "8ae094b778a549b33d08db95c56b3525b166ecfd611b49005c7011db16feb078",
+    "size_bytes": 382654,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7840fde6ad6a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_incoming.metadata.json",
+    "sha256": "3bc80dcdc8f1af279a14a66a49448f633e1919b2790bffdadbaa408922161111",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_74246e0ad5a1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_incoming.request.json",
+    "sha256": "efcc1b87a19ae7c864923547e882428770814bb1d46ec986a8ab095c33f385c8",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_17254cb037e2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_incoming_totals.response.json",
+    "sha256": "512926f24edb814f4e5bf663785cd38437b8e13201a22abb133e94b89b2a92fb",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_97b527f4d6bf",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_incoming_totals.metadata.json",
+    "sha256": "248af3c5cd5a8ef835b081966d28e6892997ca726cf373f3673fabb3e2a00f55",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e4909dd1d7d9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_incoming_totals.request.json",
+    "sha256": "6d275abeabb95c5ca699718b010e0e7c5138c480fe6924d804aed22c3d62cf5c",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1630f32c4159",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_incoming.response.json",
+    "sha256": "e0883618594895c73475bd9360e7a907630dd5ebd2e5a9d22c46c01edf8ec1bc",
+    "size_bytes": 274836,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b751300f0387",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_incoming.metadata.json",
+    "sha256": "f516808cab9747abb3473a7ccb870c68db521d1f1491f3d10921071faa1211ec",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5b9cb354aade",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_incoming.request.json",
+    "sha256": "867700d5810ec49029b720fb3820b4fde7a84481c83be1124e53b64826bb1461",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2b8644c8a766",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_incoming_totals.response.json",
+    "sha256": "3dfe3607a579d0dc7bbae047d4c1ff1f0c4310a3f4a1a1c811ee44b88e513c72",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1ce4acefe5ee",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_incoming_totals.metadata.json",
+    "sha256": "364a1055c7a63927c83b91d5b906268007a4560064010e1b300929ae2ced09d1",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2721e9924fb6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_incoming_totals.request.json",
+    "sha256": "55eddd16e4bc7ad067e0cb9217174a78baf3d4532ebab87005860ec08b807bf8",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c5bb0f03d40c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_incoming.response.json",
+    "sha256": "0eea48b633f0ea1fe5dee4a4797eb1358fe2834185c0c296baec25b90b703a5d",
+    "size_bytes": 50038,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f8e3bd41bf4e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_incoming.metadata.json",
+    "sha256": "a33ae47ee41f7ea6808053ba944cb45714cce901c4a19d5d3eb0f89fbc19f5c2",
+    "size_bytes": 2565,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2548672aeb69",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_incoming.request.json",
+    "sha256": "86c7b8043feee278bfa775ef923df69a447ac4e170df7507e5eadb7fd5a1cc08",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2888130288ef",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_incoming_totals.response.json",
+    "sha256": "0b5ff847d089283461dcc69d192125454ef5370c946eec911da7d5af36ef4bb5",
+    "size_bytes": 914,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2093b45ae89e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_incoming_totals.metadata.json",
+    "sha256": "0d384110ab418e5e4963a2858aaaf99cd5e2e35fae3d573808135b1a4b8e0a49",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a0c0e0d9d54d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_incoming_totals.request.json",
+    "sha256": "81430c5373cb5de11710dad3d8b50ea938b287d80f90d2dde642c5dce1833773",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7415d6008402",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_incoming.response.json",
+    "sha256": "e3870902e8d45160264271b8bd5dc53721de500a6bec9a9fa514b6cc98e52b91",
+    "size_bytes": 201461,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_31a04095c042",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_incoming.metadata.json",
+    "sha256": "bd66eb7c0bddcf905694f74ea02374789d99ad072abee0da27e424a451b6348a",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fc94c4ac4779",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_incoming.request.json",
+    "sha256": "e51f21eb11fdcf30d0e43210c2aabd897336593095e28bbe0e32244d1d6db227",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_dd1f826e992b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_incoming_totals.response.json",
+    "sha256": "ce9c3f1babf9fe579d1caa8dad0348b6f48e7790a2b8673ea4b1610ab8f2a29b",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a0b6906450d9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_incoming_totals.metadata.json",
+    "sha256": "4e8a5cca81272fcd31eeb3158e80eb0d88e107e85207eb17ffb687f01c63c639",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6b6083773af2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_incoming_totals.request.json",
+    "sha256": "ffe6d8356e3001fde9ee5f4c062a18de61451dcce4949f11e4f11a463378da87",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5d40f9aba1ef",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_incoming.response.json",
+    "sha256": "07216185ccfefc63cf2d7c455b061e7b026b422e3f0e08c52f4707643e3a1f28",
+    "size_bytes": 312669,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3b74975e45ac",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_incoming.metadata.json",
+    "sha256": "eca90acfc2ec5092c58f0762f106d1c0916d583c800c3cd3224fb0e7a6122382",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e0c152a20842",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_incoming.request.json",
+    "sha256": "c567277bd2268185cb0ba220f9141d5f28f74a4d4e4ab087ea00b28287936443",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b229cde9c2ab",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_incoming_totals.response.json",
+    "sha256": "bbf3d67225b8201e1890b1c14d4547f9452c9d307dbbd5fc41ae86654f6c84eb",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_162086959aa8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_incoming_totals.metadata.json",
+    "sha256": "3968e7ba18255f9536fbceeb4ccd3a545abd1d79dfbc49d18bb3facac76424d5",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8c70b038633e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_incoming_totals.request.json",
+    "sha256": "0cd2440d8006656ab33b7f585543c77909aec16b7c7542490ae04c8bd3dae67b",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_afc9c625bcaa",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_incoming.response.json",
+    "sha256": "f1832f9491b493619fab443d1d9aaf45b96f034ddd85280dd6d14743e2460d4d",
+    "size_bytes": 40889,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_317f275314cb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_incoming.metadata.json",
+    "sha256": "216ffbd6ee819883fa78cecfa4593f36d57887dc2c94d520171cd366a2b27a8b",
+    "size_bytes": 2564,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_75ed89653c11",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_incoming.request.json",
+    "sha256": "49baf056ba0f5de74876f4d6e2fd99f86e16fde87f9ccd6a6ad59158702085d1",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5499f629ee41",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_incoming_totals.response.json",
+    "sha256": "94b47d5b3ae2775c541b8ce757a28c1caa4cea5c33cc42b76dc3db5bfef484b0",
+    "size_bytes": 912,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_30a2a0cac4cb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_incoming_totals.metadata.json",
+    "sha256": "de23e8164edb7c5b5619f9f70ed41cc5c72937172428a2971bc3840bb2d095c2",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4cd6080e6cb4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_incoming_totals.request.json",
+    "sha256": "7511c60cce092ac4218230d0f5dac195292da7873388bea829a8c779eb449c11",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_85bb41a9c5f3",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/incoming.response.json",
+    "sha256": "95d1f39be0c28169786a480747a64a7326310f8dabffb6a197a9529e560f136c",
+    "size_bytes": 1760215,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4a5980530159",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/incoming.metadata.json",
+    "sha256": "0c8b440fb72d74c19780c7a60b13317f943a7722da23d6ae35fa3b0e9e1f95dc",
+    "size_bytes": 2588,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e5f762bf023e",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/incoming.request.json",
+    "sha256": "d045a5775c84c66adcfdd5f9bf5ea9575e29cdd96775f2cec30c9b7cdac46a9f",
+    "size_bytes": 1576,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6809635c122c",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/incoming_totals.response.json",
+    "sha256": "22dfc5eb787918180fe73bd84a5bc12a8b6ed43179e1be18e6ecad428d6b2161",
+    "size_bytes": 1410,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3b8199dc7b3a",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/incoming_totals.metadata.json",
+    "sha256": "38b8c28513a3953a8bed765e14c4546c9f9320ea7b7e3a376dbb45966bd6dcad",
+    "size_bytes": 1623,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a42073854ad1",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/incoming_totals.request.json",
+    "sha256": "ca7ff3cf8dbe167e354c843434a7d3a1d8afdf2efcd440c63301425668d4beb2",
+    "size_bytes": 1126,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_75c1cd7843fd",
+    "path": "malecns_control_analysis_20260915/routes/raw/chief_incoming_original.csv",
+    "sha256": "7ca7fab1142f5360b8a860dc38ddcc7f26c33d2ffb1ad72eea53c5e7715beb1c",
+    "size_bytes": 30411,
+    "role": "chief_original_csv_copy",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0f8cc4c18cbb",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_incoming.response.json",
+    "sha256": "bd7ea8de5cd92a43228e2ecf318b2efb79f8708b7bbc82be41d0413f1c1a102a",
+    "size_bytes": 35085,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2c64d9150ce8",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_incoming.metadata.json",
+    "sha256": "7107008c084648133491ad07c5dd58fd444233ea2987c6f786b6a2d19d69ef9d",
+    "size_bytes": 1064,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_94c46078f569",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_incoming.request.json",
+    "sha256": "e2567dfe6c9ed08e557da4894a93ef32b0a0968172e17005c5073f56f2e7b0fb",
+    "size_bytes": 644,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8807e154a012",
+    "path": "malecns_control_analysis_20260915/routes/raw/outgoing_40.csv.gz",
+    "sha256": "3193dcf62e6165b5d8470f3f3bbaf1884c2b4413ef5259287a221a8e347c5d74",
+    "size_bytes": 2538652,
+    "role": "saved40_csv_exact_copy",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a795b47f59f7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_outgoing.response.json",
+    "sha256": "3a6fa88c5f6117e2ed51e330331d804556abf2cb8d9783a63c69fb3e80b1cf7c",
+    "size_bytes": 9566809,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_11e5cad40b43",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_outgoing.metadata.json",
+    "sha256": "827e5a868826ab756b71cfa24b5662d4381f4cd0b8db8888f79bbcb0c8bda2e0",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e12076718266",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_outgoing.request.json",
+    "sha256": "725134be3a678ff87043eee451adc1ee1bcdbfd5f6b6afe531b8ea58e71e3423",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6ec8ea3992e3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_outgoing_totals.response.json",
+    "sha256": "08b8c842b5af6a84fd1dd5f023b9d0deeb16ee602be2c296cd6323f7d88194aa",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5d224196b9e7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_outgoing_totals.metadata.json",
+    "sha256": "98159a3f13e32a9d9bb4e71602f6973a9789e05ffd4ee50b996e0033737d6baf",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_21e37d9c3787",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_01_outgoing_totals.request.json",
+    "sha256": "77f17fe3c9b7d7f039dac8e88f64da965b2699f0356fbea568d6f3712870ada5",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c09d0f995067",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_outgoing.response.json",
+    "sha256": "39e0d339fadc9b2b0107fe3ca8080a89cffca9bdfb4b8e25780a6d7661e3e608",
+    "size_bytes": 9703393,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f45d0d5f1da7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_outgoing.metadata.json",
+    "sha256": "d17835cc8ea29fe9c2c6c51f94dd7cc339a8b5c2dcb76e19e1613100f9fa8e30",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f84fa53d0984",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_outgoing.request.json",
+    "sha256": "43acbe50aaa6f88d58631fe009a7a145f1f44be921f5a32efeb9cf4f217ee65c",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_40b3b06d83e9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_outgoing_totals.response.json",
+    "sha256": "045157c8b01c70d964d7ac43db83dddf5ec7d381151654184d713d27b13cf4bd",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_005bd960f558",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_outgoing_totals.metadata.json",
+    "sha256": "fdae404575c5d17f42cc4afa29e552d39da976fdeca82474a9328a68a05dba03",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_db77b5bf5ae5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_02_outgoing_totals.request.json",
+    "sha256": "838ceca11fc5ea5a5abd36a74e732e154f0d6658a889f6ce590b8b27b0acb4e8",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_85bc0a362dd5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_outgoing.response.json",
+    "sha256": "05fe0b1a841337d032b2f933d78b32f2d310743b7d11f54c29ed085328e8d2d9",
+    "size_bytes": 4133080,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5318e92403ad",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_outgoing.metadata.json",
+    "sha256": "625a3bbfc389629291b37d5751044a766263a3c1765abd0652c93f86cbceb3eb",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8bc5f8f0d97e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_outgoing.request.json",
+    "sha256": "8a61191752da6adc09a1a40d7f917aa44fefca22b19a0f385e2025f687814ad2",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e0f8228cbba2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_outgoing_totals.response.json",
+    "sha256": "fe11e1164080a926be510c1cb3a04fbbbbef8957732e340bd43538b81128625f",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5266840c1344",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_outgoing_totals.metadata.json",
+    "sha256": "80646d2998f2efd2c3e197864e6cd755f65ec85b9edbec01d211b23fb98982b4",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ffa2450337c5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_03_outgoing_totals.request.json",
+    "sha256": "165aae41f0df3df3f00937dd414404733a6fdd8f37909e4c9813968f6e70f559",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c4d508880ded",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_outgoing.response.json",
+    "sha256": "e6b5564288bf2d48e2c26150d0d3c50fddc7480f1eccdf8013c1a405fb6719a2",
+    "size_bytes": 4057980,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_127e98a5d44f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_outgoing.metadata.json",
+    "sha256": "78be097bb88d1e7035e021da3fc22b8b5b4807082e7e9e3d9496b35eb95bc825",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_33d700d11a78",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_outgoing.request.json",
+    "sha256": "9b988976b2c5bb026b6347f6692f363f49d6b0c00ebb8f5e3b11a584885c453d",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_79b8acf275df",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_outgoing_totals.response.json",
+    "sha256": "7b8954d1c0dbad53c9370a8a0948a70044b30b060e9b51a7c1a1002e12b05f18",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e4e74d831471",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_outgoing_totals.metadata.json",
+    "sha256": "73ab3d5ffbdbcae14f0d1765ed7e93b87f5744cf0246813fe0fd2a66915ec260",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e9acfa19a97f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_04_outgoing_totals.request.json",
+    "sha256": "c37fa2b451388745f6f6afd60ff59f509afc7268fb9f907a2d8777bdee388bed",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_23b5bb4ab7b1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_outgoing.response.json",
+    "sha256": "0a1f144f1bb15f1bc0e672a1c5fee2f3fb2e38527179ecb22efd36649d3ce762",
+    "size_bytes": 7954933,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9386dc810679",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_outgoing.metadata.json",
+    "sha256": "385ec4aa07248c38f2cbf9c208f78cc6d01903a000d012443c0b8a624eea9bb1",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_203aa81f17ee",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_outgoing.request.json",
+    "sha256": "4a6e462b591079d61ec2f960fc1aca5df4fd7b82b89b2be59927b3eb51e78a61",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2dfdeb2f0a9e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_outgoing_totals.response.json",
+    "sha256": "64237d776225819b2710d0d613914d3c1ec0e85835c9832aed5a133251ee0662",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_13bfe43c29bd",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_outgoing_totals.metadata.json",
+    "sha256": "0aaeb350d1fe4e4fc808bfd6fc34a702ce8572411b020e86ea9a348bfd88734f",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_50942be97b72",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_05_outgoing_totals.request.json",
+    "sha256": "f09008a8b451a62b03063a5f9e0e182490dfb651ecf641977aaae27f915a100b",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f943b466de01",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_outgoing.response.json",
+    "sha256": "b020ff66585abf81e7588fda84eb548283146748416ba11b4cb002e8d153c2a1",
+    "size_bytes": 4183361,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1aef6130937d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_outgoing.metadata.json",
+    "sha256": "58944fcb80fef699787a66c7e9fe069ce669a366bbcc3dc9461fb6da8cb70908",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_88ca145374ee",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_outgoing.request.json",
+    "sha256": "98ffd4f2829ed69794ae9140acbe7377db414c299af74b54026d5e8668f8acf7",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f2b2643ee9ed",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_outgoing_totals.response.json",
+    "sha256": "33de5c01d8561891b57f49b7090520bc7b1b602c0215ee3b0ba9d90e25e26415",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_290a8420b9a5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_outgoing_totals.metadata.json",
+    "sha256": "2f167f05d1f7488ba75ed10513b109360e46a6f21c6daac54cb8c39b9c7fd99e",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6c695054b347",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_06_outgoing_totals.request.json",
+    "sha256": "f2ad0e255e2c57a22d92fe9c4cede1f6d205893d53603cb5980a0b88283e8526",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ed520d54b0ea",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_outgoing.response.json",
+    "sha256": "41746f6b3e66a2a54ff8769a2b56178c1a0cc707b0e0f076a0834c1e79678da0",
+    "size_bytes": 5455686,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b844e7c219c5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_outgoing.metadata.json",
+    "sha256": "5518bf329bfb69d7c0e7a1bc7a39b59a33d49345f6e64cd7aea4b3386ee531c6",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f4c9e5b7df5e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_outgoing.request.json",
+    "sha256": "7227e0f93a971ef9906c5914c8ae13c4e03b739c7f5da0c86c8d8453233598ea",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1671554403de",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_outgoing_totals.response.json",
+    "sha256": "f2220232a8a741736a6be27db643c56d0cd8317a75c159f92887eb022aa45bab",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ef99b41dccc2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_outgoing_totals.metadata.json",
+    "sha256": "cd4cc3e6541f5c94d5cbc663fad72253709df2d409904e070ba9124664f853cb",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_06394be2fb84",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_07_outgoing_totals.request.json",
+    "sha256": "3fb40ac5c919a7942a4838a31fdb2c31e5ce2a31c80f7a83fa7b51dc99c66da1",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5983dbc19f4f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_outgoing.response.json",
+    "sha256": "5d404e5cdfb7967772128a6f630862885042629f59ee5d47002653ba7286cd61",
+    "size_bytes": 4089787,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ada43675f229",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_outgoing.metadata.json",
+    "sha256": "cd0fba8e647abdc723107a4199eae5a38ea28a17b7f691448c96a481499546cb",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7e44b71809af",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_outgoing.request.json",
+    "sha256": "aee6bff041ef1d888d7572e445eee504de47b9fa58432431317bbf15b4ced2c3",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_46bcf0e38024",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_outgoing_totals.response.json",
+    "sha256": "33c2594c80f7a7009c9e64f7f250c38c69c9a7a495df34073584855f25a9afe7",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5f29c637340f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_outgoing_totals.metadata.json",
+    "sha256": "748da89ecc5cc884872c51b96e721b083dd9eb5665075c6434ef0bbcb7bd8548",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ac2749cb4ed3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_08_outgoing_totals.request.json",
+    "sha256": "717abd3dd752c4f860733ffab584c568370f100959e9b3d0931309a1fb1795d0",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_60ead97dc7dd",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_outgoing.response.json",
+    "sha256": "eebf06ebf041717323e2d887d2e45d8229e1f8b536c8ec139ab7b2fe01b89d65",
+    "size_bytes": 4030527,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f52d28611258",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_outgoing.metadata.json",
+    "sha256": "6c646f2cb5b5b32bc25d2adad15aecb82f8526235eab348686b9676788c77b26",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_91c91699f049",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_outgoing.request.json",
+    "sha256": "a222f5a0d37bb73a29c93b2882fc183b5b8ced2069a5a3484afa27621b754861",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b7f6994aa45d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_outgoing_totals.response.json",
+    "sha256": "09ecba977b53588c7d14976747613579bf8294a0a78ff3c3d4dee1c5c78d5b28",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_efa6ffb06e62",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_outgoing_totals.metadata.json",
+    "sha256": "8444a5aaa96b2ec33854eb0860cb059fa7978646aa68da05a443c54ee8db4d8b",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_872e586e6620",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_09_outgoing_totals.request.json",
+    "sha256": "c3d9a02c041b7d34c22eb535cace14aa9547df59acf8cc686b6550a34db19f49",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_76ee962bbc85",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_outgoing.response.json",
+    "sha256": "009f906699d8e4d06a1599e3a6d6ece8a3a3f3ebfdbc461c01754adba0376590",
+    "size_bytes": 2453137,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_edfc5c7823b9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_outgoing.metadata.json",
+    "sha256": "e2272ae199171c4ec84a657daba5857077c377ad50de9adb3afcf67b67288dcd",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7656d11fa2c4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_outgoing.request.json",
+    "sha256": "3b651e4e6c705b9bb74b2e2e1d3dcd69ea9e6bcf5349d99003736afc7547ae75",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_161bbb488e8f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_outgoing_totals.response.json",
+    "sha256": "eacdb7660bf6fe78fd5c3344866f3cf045f1f0367fc7fb7774814dc470c5fda3",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c2d8a562ecb3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_outgoing_totals.metadata.json",
+    "sha256": "0bccb7fd7a3cddd2474d3f5d50eb54e177aa4303c1db3ef56142620592fa0804",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3ddbfaa6cc13",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_10_outgoing_totals.request.json",
+    "sha256": "bf34423ea94e1553798fb9d3e771b2524e38f7a78bd6f0eb0d15d6f944315e00",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fbe53252a0f6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_outgoing.response.json",
+    "sha256": "a5090d8e0291e311321c4fa10e1aea751a8b8470490eed7d91fdc5c5d3a47cd1",
+    "size_bytes": 2930401,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f590d36e5f04",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_outgoing.metadata.json",
+    "sha256": "d5eadcb81918783c162c85bd7836c3f25317e049a6a4f9ccec54494203834042",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2b624e49ac4c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_outgoing.request.json",
+    "sha256": "7d4f792a7d811772cfc28594300c3aac5cf8184d808b8e2ee59d014d8ebc44b8",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b797597b2e8c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_outgoing_totals.response.json",
+    "sha256": "d140b560ce36874ad1c800bc86f718a534caac049d87bd18b76bd56eb7cecd15",
+    "size_bytes": 920,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6fabcb01b53d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_outgoing_totals.metadata.json",
+    "sha256": "8a3c116d84be4bce76800db769634506b12e99aa2187d73454d1bab40bad8840",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_84fdaa887ab1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_11_outgoing_totals.request.json",
+    "sha256": "4b70e7ca727b656caadcdf987e09fafac1b2a9092a59ac9dd34a158736aed45c",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_62b70600e9cc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_outgoing.response.json",
+    "sha256": "a9742a058a3e7c78b882ac1a33ac4a93c989ee92b72a8982742c9cb7dfbbc75c",
+    "size_bytes": 4437080,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bede4a0aed25",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_outgoing.metadata.json",
+    "sha256": "a7d5f18bd2ad8cf0655a598eeeeaf484a1db916d7ece80004fccc53d4449a6c1",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_eac0217386c2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_outgoing.request.json",
+    "sha256": "579376ddf5c75c5f31c88a4ca76eaf0e8812881b91a372cf12c8c31a718827f8",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_19070066cd62",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_outgoing_totals.response.json",
+    "sha256": "352bbb3cbfd6c90c777c40663622223b520cfe0551dd07d96c9fd898760018ac",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_dbdaf3f5cc75",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_outgoing_totals.metadata.json",
+    "sha256": "f16f42b64b831f027626f21c9b76013a252c7e254176a8c7449209d2ef7afed7",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_840273890b01",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_12_outgoing_totals.request.json",
+    "sha256": "2e2732fa94bcd5f9faed35fcb85af553d80e3e345233b875670c70e0b378518f",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_56e10d4004c3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_outgoing.response.json",
+    "sha256": "707ed13dcf14f572ab148c05d2a4c0d53ebef891a0b7226092c20acbc0028c81",
+    "size_bytes": 5131693,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6bb85eb553a2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_outgoing.metadata.json",
+    "sha256": "0d19971d830c39ee3c35ecb817e4059b00f71ed2aef97cf693b7f6fcdd4aed0e",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_916fdbf92f4b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_outgoing.request.json",
+    "sha256": "8bca3e9345e075a8ef11bffe598a970acfb49b5e1e955eefb1d93f57190d33e5",
+    "size_bytes": 1555,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_22cb41b3a0f5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_outgoing_totals.response.json",
+    "sha256": "f05e55af2a4d44148cdfe923d46c21c39d2344181674efb1dd73e3dcb909511a",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cce7f23b1366",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_outgoing_totals.metadata.json",
+    "sha256": "b52a7a396af1c012534e6fc3c3ce37711a4dc6e38099c69643cd301a0273503e",
+    "size_bytes": 1337,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_36212e7a2ceb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_13_outgoing_totals.request.json",
+    "sha256": "b28b999761f56345fc264002b08587545ddefda8afb21893681ff00de269633b",
+    "size_bytes": 901,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ab14f27fe0ec",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_outgoing.response.json",
+    "sha256": "126acf371e73e6694c6a9e5e31ea25b347ea47c9002acfe04194300739a12b18",
+    "size_bytes": 312371,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b856640453c6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_outgoing.metadata.json",
+    "sha256": "3743284003a952ef1ab7966fb3e551d7b3462827c47efcfdb3ffb5ad75d3c246",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4b6ef372df4a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_outgoing.request.json",
+    "sha256": "113a15860241bab7dc36f654cbf6fd19245ade261d2a29215b967220a827d840",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cf92c3b1c1ab",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_outgoing_totals.response.json",
+    "sha256": "0282f343c35a5fbb960d5b788366f49f0b91456238845f1b9cfe728f7ff880f3",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_de22e8ec707c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_outgoing_totals.metadata.json",
+    "sha256": "b47d5e50cbfef38729e717b07a4024e971f57b1c7d360cb57134ca01c2d71298",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4eba9c31ae3d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_14_outgoing_totals.request.json",
+    "sha256": "0108eb004a57c963eb080ec404015029b7d2d842316c54c522c62e638482ed1b",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_68e98057e7f4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_outgoing.response.json",
+    "sha256": "2e4752f07bde28c48e4fb8bf91c8c7770569b98d621057733d713e4454199599",
+    "size_bytes": 4811387,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f52c727440e5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_outgoing.metadata.json",
+    "sha256": "776c667b56ac2563520ede69df8a6b74d09c63d5c3333a2917b2f6a50fe9f54c",
+    "size_bytes": 2569,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1356919ad695",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_outgoing.request.json",
+    "sha256": "495de574a3a2465d501ce4b36d2149b30ec880320a31c25138a6e71d3f9ddd28",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3749b58c8f4c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_outgoing_totals.response.json",
+    "sha256": "42a2f37dae52dd6e8f1ed1741e6647aa7ed089f04bba1473fda6cc1304970318",
+    "size_bytes": 924,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b1a99e932881",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_outgoing_totals.metadata.json",
+    "sha256": "787ff1e67dd108360b51d0e87d7e04018b639510a3a0a469ae8bdac4bf72a035",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d4017426b208",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_15_outgoing_totals.request.json",
+    "sha256": "c40d4a9de3e0c776d55a7698a8b7ea675a4a8f6a72f0539c3fc10c99319b5169",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5dfea5cc0ab9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_outgoing.response.json",
+    "sha256": "781ba544285867d74beb017a346b64f4ce5ba8faffda8f0228430eac92108c96",
+    "size_bytes": 2985006,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2dd2c6c9333f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_outgoing.metadata.json",
+    "sha256": "251362e0791679f90f541abd523a758dbe0118b05772b07769ff8de708dbc976",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_75ed7d63adf7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_outgoing.request.json",
+    "sha256": "c52d42a47d4607bc8013a64b0851130400758b82142713b565322d28e6c107a0",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6cd9295a5f4f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_outgoing_totals.response.json",
+    "sha256": "f6d4c188cf6179608304e2a300cba689827e0347a0e2cdbb61a50a44cbd1be8e",
+    "size_bytes": 922,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_050b12ed125c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_outgoing_totals.metadata.json",
+    "sha256": "e24022bdd21dacb41618396c68bae7845a83436363d3479b3a6a2e48d02c6dcf",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8aa868dbe8aa",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_16_outgoing_totals.request.json",
+    "sha256": "e47f0f359b045e42a9cbe5f29b7fbda10aa5d27783f6eb3905bd748def9ff555",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7aff14f84337",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_outgoing.response.json",
+    "sha256": "371fdbdd8abb1724aa5c5020f1a8b31b5ac4b5726ff641c6411068534104d122",
+    "size_bytes": 4197112,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_260ffdeda991",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_outgoing.metadata.json",
+    "sha256": "76c5d6789c7a04418d72e37da5bf8ddcbb630363c92a539923d53151f9946ef0",
+    "size_bytes": 2569,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_eee866e26da3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_outgoing.request.json",
+    "sha256": "0f1eb48e254a0d0161d5c255139b2fb97fbe94ae50db6dae8518cf9164712aeb",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ce645372289f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_outgoing_totals.response.json",
+    "sha256": "d5a3f38b0c1fc0a32e18ac0fd63c1a4ff31f2bf835fc6155396b5dc3707e3224",
+    "size_bytes": 924,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a00c59bb0aa2",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_outgoing_totals.metadata.json",
+    "sha256": "7dcffa432dc950f6b539db2d88b2db6379e18429ff1bc74b2dd122a6568ca254",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2544cc4f22b9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_17_outgoing_totals.request.json",
+    "sha256": "a1a09916d350b5ee1108988758fffa6d0f746a237db4b54b5f9d6972bb91986a",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7c8bd271d124",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_outgoing.response.json",
+    "sha256": "7d5d7a77c141f26f58f2bd857e911d3d03d7b6777694d15c027391a0de8efe85",
+    "size_bytes": 4017472,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2c34985e7996",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_outgoing.metadata.json",
+    "sha256": "f905c01c521bff98a67574763c0000849421967bffe8a257f749633ad9e9e1a0",
+    "size_bytes": 2569,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f84db2920186",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_outgoing.request.json",
+    "sha256": "64be54af23efd58ad77155c508b5c5fcc1e163840ee386a6960110fbe1339552",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_709deae5bf36",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_outgoing_totals.response.json",
+    "sha256": "14ff36e53605f674374a7b53ce7a8694727268820a4be574f5424f0255837314",
+    "size_bytes": 924,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b041119e6b0a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_outgoing_totals.metadata.json",
+    "sha256": "dbe91f1a5278b94c4681436abca0b7f875e5cd7fb428a8a7bd6e1d9cbd19d1e6",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d7c049a2e934",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_18_outgoing_totals.request.json",
+    "sha256": "e7529e2c673dc07435ea48b1c2f694671b86d0a2d63e2dcaa911bdebe8415586",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bb9696fc40ac",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_outgoing.response.json",
+    "sha256": "ea0de724c7feff76804a9d34a881ff9a7583155b5ff393bc3dec45c9a17d05e1",
+    "size_bytes": 1179418,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2dca2dc757cb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_outgoing.metadata.json",
+    "sha256": "888af0c9de86d066c741f2b8fc972ee06834cfcf2aac4f49348e683f44b9f3ad",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d1b23ffed234",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_outgoing.request.json",
+    "sha256": "306263dc1488a233bd57bf6dda75ed3eec6cf75c447d0dc13f47b83a08bdf9bd",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2e77fb215b04",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_outgoing_totals.response.json",
+    "sha256": "0f2ec27536ba5b77866c9b46564618862b8621210ffbb4495033cce1b6244cae",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cb23a102e346",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_outgoing_totals.metadata.json",
+    "sha256": "b4a5ec684e223518774db416e6f8b92dfdba0b9eed7e5ab0f431392affccd0f8",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9ca3d2f96586",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_19_outgoing_totals.request.json",
+    "sha256": "520b68604efcd29d2b9954bc0f42556c4d6e5f1ae12dba1718fa26dea15a36be",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1c1b509556d9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_outgoing.response.json",
+    "sha256": "f8f84768c247692493500fe1216ea470954205ae9f10d8cd6c11fa990af4b2a8",
+    "size_bytes": 772692,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ac1ff1bfae78",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_outgoing.metadata.json",
+    "sha256": "22f65ecfe521b04ba795a431113c2babddcce9a4d24b7424c0cb1ac7f8fc9abc",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c4ac03da70b6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_outgoing.request.json",
+    "sha256": "b8f37bb2ab8396bcd7f80a82d7598f8d540875ec534510e77784b5a23e3fda58",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fcc00c0ae32a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_outgoing_totals.response.json",
+    "sha256": "c3b7f744a31b19ed053e0122fbf808d17521eddcb05050c1720368116cd1db44",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_976280a1a8ef",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_outgoing_totals.metadata.json",
+    "sha256": "6bb3ccebb92ef2f1947863dbae6b5edb2b277553f5f9df4ebca189ffd0dd6b81",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2625aed5ff55",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_20_outgoing_totals.request.json",
+    "sha256": "ccc86ff26c40f5437fc7e712b48138228d17ed1c211177e6bda19d006b4e3553",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_edadd8a2b6ec",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_outgoing.response.json",
+    "sha256": "89d705510c46b503fcba0a08d88841b571b9c66d1b1bdec3fd9380aff5756be6",
+    "size_bytes": 1478852,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1cecbfff295b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_outgoing.metadata.json",
+    "sha256": "e3e7694a3e78e44cbbbdb18b2fa24d4154e14404fd7fdd66eb1a62cc0ca85cd1",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_38c2dd096e68",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_outgoing.request.json",
+    "sha256": "86a116752bae149076939a3ae011da572e94630ff6ee5936f987d607ec8abe6e",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_422e4badc54d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_outgoing_totals.response.json",
+    "sha256": "88bdc869910de7c003c8ac7fd5728df30fed8feb0bb790cd44d2ffd42f5b8b2b",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ad422c485717",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_outgoing_totals.metadata.json",
+    "sha256": "76192ce6e1f3389f8d9f402eef579aaddeb805fe17862590566212efa955e036",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8b929e9a1402",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_21_outgoing_totals.request.json",
+    "sha256": "8c566374fa73054e79097b8491119d2f5cb8c72bb682c15899ddecec9f6283a3",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8bb6668cd7f0",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_outgoing.response.json",
+    "sha256": "41e9343e3e711de6531cfdaea4bf5de71f86a9dd8153b0cdbee1a1afea5fbe66",
+    "size_bytes": 1618863,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e5e3b28a9be8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_outgoing.metadata.json",
+    "sha256": "7d7f88897190f365f8fb4785d3373654a00580e5fbd535e56503209d8a29dba8",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_938268d1028b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_outgoing.request.json",
+    "sha256": "6996ba2586614f6fef5e47d2666195b8f34162f029269bdbd55622256d2a6b9d",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_85b1dcad3c87",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_outgoing_totals.response.json",
+    "sha256": "4792689fe183389a9288dc1f3d0ffd5abd14c046da7474381437fa55a24a15e9",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e3d6ee659f0a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_outgoing_totals.metadata.json",
+    "sha256": "f9c10882a9b17bb9fb217387b3f45a9f106ee493471d902a02bac15ae11d8366",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2e8bf06540cb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_22_outgoing_totals.request.json",
+    "sha256": "69f9bd69b7cec5d061d454020eba7b04c0e261e3980a82fd76ab9b27bbf33017",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_53a9708101ef",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_outgoing.response.json",
+    "sha256": "97f9796a34543786a32e1397ef7d15aefb908d932c3a2c870f137e9316ee0d48",
+    "size_bytes": 1485694,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_711f0e46f2e1",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_outgoing.metadata.json",
+    "sha256": "267346dd4f45b452373d871b90c008e399339ff9cbb1646edb2ee1b882a5e2cd",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1ee1d6403f19",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_outgoing.request.json",
+    "sha256": "ad00d415ee1d0fbeb9cd282912952542894cf6f7f6c664d0540e3c78b1200a35",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_08025040e676",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_outgoing_totals.response.json",
+    "sha256": "df466664bde4aec5691c141033ab5e624702bf0569bbe5055694e06bf7cb667a",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f730c4968480",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_outgoing_totals.metadata.json",
+    "sha256": "eb036ae5d429fc0b77f88454d549d82d55824efaa1ac2d1c749dbd72ae20b23f",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f8b7f98340e6",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_23_outgoing_totals.request.json",
+    "sha256": "c5a037ab147d089b6d22383abb817e39653f3b8c5aa016e8e5af8b1bca57e272",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2f94e2d87f88",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_outgoing.response.json",
+    "sha256": "3e7b31f4fe89f2a6c1c5372c6b7135c7cea9e731652b1b2e8df7074620d24fef",
+    "size_bytes": 1394658,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_139b6d35df07",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_outgoing.metadata.json",
+    "sha256": "e3617cad6c33d928003e62e801fe86ea0eb0625a3135c263f47ab96299ba3acf",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_75fdfa178dc7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_outgoing.request.json",
+    "sha256": "ba6056eeaa8ff0154fe5aa667337c51e7251088b0f6330374b5a9fe08e30a00c",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_919d85f9763b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_outgoing_totals.response.json",
+    "sha256": "51a0351b3db322e1a857f9de8fabcd916aea82672448a1401823f5f74ad86f22",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_11dca710d56f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_outgoing_totals.metadata.json",
+    "sha256": "764a62d2302038c86724debe51653f36668afb176c0fc5cc469cd62f0d809d94",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c459e9d8735f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_24_outgoing_totals.request.json",
+    "sha256": "6ce7cf15f90263ac5b40e053332066c86088a30ed15ba0cfec884909a84e75f6",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cbdb5b08d71c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_outgoing.response.json",
+    "sha256": "db51e7ff9f2d2720a0611fcb4b395ef357539bfdd2fc259f973a11ec6c217c47",
+    "size_bytes": 1058699,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e892075273b7",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_outgoing.metadata.json",
+    "sha256": "04e44748403264d390dc615bb27763bea2c49c9bedbfb31278a1acfbe4666489",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ff49cdd7bc53",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_outgoing.request.json",
+    "sha256": "729d49d79da91b7f8b2de2045aabdd68575c90d91588664f22c7f869273e512f",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1825d3597fdf",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_outgoing_totals.response.json",
+    "sha256": "f3d828cf070a1e7cdada5520bccc3c82accec9045d15e41b8ccaa5ca5f1fb030",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a7dde8410368",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_outgoing_totals.metadata.json",
+    "sha256": "d9456d1e8589a7ab7e027a18f3bc88730c3002d8f9cdb1ebf05f73290503d5e5",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_12f8a0798512",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_25_outgoing_totals.request.json",
+    "sha256": "4f87e5703853fb7cc513fd19ac435c6efc5b45b5bec5b97275b2b500aa776714",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_649f8aa328c5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_outgoing.response.json",
+    "sha256": "36921331e61cbc346eb3df7c5740d662b35eedd34bc0faaefa9f46ba90f70fc3",
+    "size_bytes": 1226418,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_106c576c72d4",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_outgoing.metadata.json",
+    "sha256": "47027c35b255bfb71f22cecdf21c0f143b4612699622e8961613ec1794f600b3",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8e5c6d6b1c22",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_outgoing.request.json",
+    "sha256": "e301daf8e8e9a043bd4271af3b7767d5ab78f558f452d8ddee5b9f75f38c0dbb",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_67fa5f35aad3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_outgoing_totals.response.json",
+    "sha256": "91f999d074aef818fde9e2ea3c504b363cb18391ff7c98e09f9345fa8429efb0",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6b13ceb0e787",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_outgoing_totals.metadata.json",
+    "sha256": "6dc918981801b78222b016dccbb5f0f7bab52559e9595777c5312ec90794d199",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9021c24707ae",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_26_outgoing_totals.request.json",
+    "sha256": "76c23b9b4bdea22f7eb49ebb8749ef65dfd11f9470997126d578deb781e1ef57",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_76704e47aead",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_outgoing.response.json",
+    "sha256": "45e45a2c6266b65df1763ef4851ee43edf4188b764fe7ad678b9a285e8cef63f",
+    "size_bytes": 1699890,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_62a244aacf04",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_outgoing.metadata.json",
+    "sha256": "75835914b09807dea9ffbf96ba1e846de956f45c9b8871e79dd52ce529070b5f",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_36bfdad1216a",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_outgoing.request.json",
+    "sha256": "65e4d38c38dd9be08c96342472937583099763f122b84631e9ab7832051ff309",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_29007ee6d873",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_outgoing_totals.response.json",
+    "sha256": "d6aa7754cefdc2b818c1dc830f4b5395076433412bb882c229defb47aa95b7cd",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_833dc273b6ee",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_outgoing_totals.metadata.json",
+    "sha256": "140ef737234cdcd8e7c5ad08e93d2a8bca6cf09d20173a162c2e100228cbcfc5",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_025e2fd39a1c",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_27_outgoing_totals.request.json",
+    "sha256": "453fdfcebe125cf8efd61c892a6cf33420b0a026ed00ba0493f9e26cff7491f3",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_973906eb4748",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_outgoing.response.json",
+    "sha256": "4a66bf4110cc4ffcc990bb54c2de07d0a4390e2bf549a3c1c4e407b5a0b1828d",
+    "size_bytes": 1576631,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bbd389994fcf",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_outgoing.metadata.json",
+    "sha256": "1016f417a3a657c2469f52404ecd2fd37ad0620d262cc5ac1b10ecb7dfa28f74",
+    "size_bytes": 2568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_91a15d6b69cd",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_outgoing.request.json",
+    "sha256": "8d18bc6c5641ce6de69b1081dad3a686a8671049e9b3e4457ea477210dc2accd",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_44218e270335",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_outgoing_totals.response.json",
+    "sha256": "06248f963adfc1d6134970de8f3ae279fa41c901d5413dff22a56caba0f8376f",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bffcb2cd521b",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_outgoing_totals.metadata.json",
+    "sha256": "fe59fd03b7ac168f2d6ff8ee80fdfefc7ce82f04f313058ed31c9f157b7fe55e",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d395c53b0157",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_28_outgoing_totals.request.json",
+    "sha256": "19dc164a9b9bc6c6da0dd6e91bfdf01f49692787846fd20eccb4ab94792f20c7",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_62b241b98301",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_outgoing.response.json",
+    "sha256": "e85665b0e322de78c65bd520cc221d39c0b8346f414ca43f762e4bf71dedea0d",
+    "size_bytes": 729979,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6f6e1308f9c9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_outgoing.metadata.json",
+    "sha256": "d98226ded7739dd36f029e173142ca78c1129883032fc433fa4e0457e5873777",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b06e8d9f0073",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_outgoing.request.json",
+    "sha256": "ae054892948f85e1a0b36988545e4255a0f096b26a0a78b7f4ce34c326c4ddd2",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ef822d936e06",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_outgoing_totals.response.json",
+    "sha256": "6fe341025c5111ef176fdf7bfa3bb1cd32e1532e53a46e62878ba7cd0e3681e3",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_82fea2788ab0",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_outgoing_totals.metadata.json",
+    "sha256": "b9fa56264a488ec0b88ece68e17c3bfe730d676a7cd96dd3a5848f1af7cd692e",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a49c4e21d723",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_29_outgoing_totals.request.json",
+    "sha256": "c58dfe10e5a2c7c6df1f5076605e3340234f54107d47d495d23951482eb20e97",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4e945924fcf5",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_outgoing.response.json",
+    "sha256": "82afab6df67b3378181e3640952586c1fe54aa3f9d79bb942c4d91d375651d3e",
+    "size_bytes": 179590,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b8712f30af99",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_outgoing.metadata.json",
+    "sha256": "df50d991b643b55faa87d33d699bd6daadf77920c4039ffd02156348f168c78f",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_012a37987cba",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_outgoing.request.json",
+    "sha256": "f63b89f0fa967e467163cb3b74ab81d905d70d20b0849a1ac71070550169b57c",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_0c2a5d4449de",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_outgoing_totals.response.json",
+    "sha256": "c9c8ae1d442f18b7c3fd1ecb6f784a9fba00c4a97bf209e60a32aef561c5e0b6",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d1f7d3b04ea0",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_outgoing_totals.metadata.json",
+    "sha256": "819efac2d9876eb481a6001c252f77f1a4c5f64a1f048e413ed514395dc5d4e9",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9cad61416fd9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_30_outgoing_totals.request.json",
+    "sha256": "999d2c1ef89ca5a19ad2889ef1cdb1a33a4a0268a8abdb96152a4f7796846106",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7af14bd207ec",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_outgoing.response.json",
+    "sha256": "389b0e6b8281775c7f3d251c4c12c3d01e3c625c7dd751d17e1b511312513f0d",
+    "size_bytes": 798021,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2b69aeffbb12",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_outgoing.metadata.json",
+    "sha256": "d02762021208ac377a416c1db80757ef964f9c5d47a350ffba8cecb7b67c3eec",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d81675f9599e",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_outgoing.request.json",
+    "sha256": "b9aa2330b7e02dfb8742ff890ddeeb37f46ae61e1ccd55b04005a5b262595d33",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5017f031eb55",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_outgoing_totals.response.json",
+    "sha256": "6bcb52967fa19f2686531172400335080abd39ce676a1fb1aa4035b3232ad01e",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c707c939b6df",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_outgoing_totals.metadata.json",
+    "sha256": "c8cdbc244fa4f123a437eb9650f149805af1fbfb14b2e73d276b482e4e7de841",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9319e3df01c9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_31_outgoing_totals.request.json",
+    "sha256": "d0d70ffc6b9937256c85e129a8860e025f4f1a9f577f460bb7ec96b9478e95e6",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5d5798e7c322",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_outgoing.response.json",
+    "sha256": "094c42159df750122120bad821ae2752c744bc4cba2c0db1147f6fca7f64ad6d",
+    "size_bytes": 161013,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b54b7e9506ff",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_outgoing.metadata.json",
+    "sha256": "82126529bbece14a38267bf8798e82e8fb19fa511a2830124263b659994bb7a1",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_35cc1282dfdb",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_outgoing.request.json",
+    "sha256": "3f8088ebecf8fb077a09738a99296311a9cb52aa32f4d3f375509a2cf4f7a378",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_46b5c9ab4a18",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_outgoing_totals.response.json",
+    "sha256": "999aee417801012a0a04210c26b71548417be0d258ed3b90367270fb7f8ce4c3",
+    "size_bytes": 917,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6174fee9a580",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_outgoing_totals.metadata.json",
+    "sha256": "32d250280d04b12bf415b7b41912cd958dd66d36707a53a027fdc70893992d5a",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f95b5eb0ca44",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_32_outgoing_totals.request.json",
+    "sha256": "3fafe4bed31a2b3d950e8c7e4a536e47ea9f298ed102f777bd5002eb87cbb4ac",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f42add33be38",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_outgoing.response.json",
+    "sha256": "bce20b9809d1ef6267be8024cfd51a6dc75ed550f5a93d8c21e145e95d4cea9f",
+    "size_bytes": 964344,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9abc28a52293",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_outgoing.metadata.json",
+    "sha256": "1c3af4a9eaf234c6e768f32c060b439e01f3cd268e03af80d4e25de96737287a",
+    "size_bytes": 2567,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f83fdebf8804",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_outgoing.request.json",
+    "sha256": "9498f26e44575a3d23d6d61e340427482624ae904365d8161f28ad4921afc445",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_da07cab10394",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_outgoing_totals.response.json",
+    "sha256": "6d69d99701a8f362230dac1e737a61c6d5cc8c660d24552403cd44df8ed761f2",
+    "size_bytes": 919,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_741d2e6cd358",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_outgoing_totals.metadata.json",
+    "sha256": "76354f57ac58d32dd850c2e0f3cf31bfe38246b2c36f88c115e9d3b21e7d191e",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_61b06c63a65f",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_33_outgoing_totals.request.json",
+    "sha256": "5e0630e9e9fa6ab0a8327966cdc9e825ee4bb71fc43db0d81b0cff80263b5ec9",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a948826fe43d",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_outgoing.response.json",
+    "sha256": "ecdd3a130964144b2c5b247e84210084d4f5f63996584b73c2db9eeebd0afbec",
+    "size_bytes": 169511,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2cc09596a9d9",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_outgoing.metadata.json",
+    "sha256": "07eaf997cdb1aee9dd67ca92fd19e83700fbd38c45fb19a5f1da4ccf557397b9",
+    "size_bytes": 2566,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_88e4d1fccfc3",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_outgoing.request.json",
+    "sha256": "cc45e0a227f5b27e19c2f744fe90cff3987e84abd97bd28fbfcd50340b9040f4",
+    "size_bytes": 1556,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9e83f90ded51",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_outgoing_totals.response.json",
+    "sha256": "3e64e2c4bf6158be29f4e5bce6ae662b1cb89157106ab38f2ea3f8404158526f",
+    "size_bytes": 916,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f16e4f1dc5dc",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_outgoing_totals.metadata.json",
+    "sha256": "431794d1bf1d724a7c1677621cd90ab869cae7f682dc5cd3e9ca656b9bdf2e46",
+    "size_bytes": 1338,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_74022e82d5c8",
+    "path": "malecns_shared_roles_20260915/breadth/queries/20260915T070140539681Z/batch_34_outgoing_totals.request.json",
+    "sha256": "eba66d57da80dc87688a24941e834be1020e5a04926fd3ea7f9e0715c7e018fd",
+    "size_bytes": 902,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cf65dab6d5e3",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/outgoing.response.json",
+    "sha256": "6b0f49918134dfd6f02057d2dfa1f500d54fc1043b1fead650967a890b1a0379",
+    "size_bytes": 11740373,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8abe63c1bea6",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/outgoing.metadata.json",
+    "sha256": "b43dcef8596d24a3e51919c2bc49ce673601aef51f4f809aa86a8bcb66efcb4b",
+    "size_bytes": 2590,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1859b3095db3",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/outgoing.request.json",
+    "sha256": "87f7209aec762119f3b2fdafd30bcf3749e7b98a8c8071cdb0be2f22f2e0486c",
+    "size_bytes": 1576,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5d53d44acae8",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/outgoing_totals.response.json",
+    "sha256": "1f03e1ca338388f5442d9096d842fbf885b475c8655b9f0e5034cd900dff04ce",
+    "size_bytes": 1424,
+    "role": "all_relationship_coverage_denominator",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_74120ec32c81",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/outgoing_totals.metadata.json",
+    "sha256": "386102cb14f85871863be3741930321b49b3144d60183583203efa911b9f32bc",
+    "size_bytes": 1623,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ed50b31eeeb0",
+    "path": "malecns_shared_control_20260915/afferents/queries/20260915T062705542905Z/outgoing_totals.request.json",
+    "sha256": "f73a2bfa2312b9b6f9e832150d104263c41a646c3645d04decff3b43403c34e0",
+    "size_bytes": 1126,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_db557a610c7a",
+    "path": "malecns_control_analysis_20260915/routes/raw/chief_outgoing_original.csv",
+    "sha256": "cd9f354d67b72f75a6ba63da65df9bda18f21f694f6355ada57f1c1ad0ae84d8",
+    "size_bytes": 108239,
+    "role": "chief_original_csv_copy",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5f187a5c38ab",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_outgoing.response.json",
+    "sha256": "fe2801b70903ac87903e9f70f9aa3592786cda3215bb40ebb9514753ed840bf4",
+    "size_bytes": 132718,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_764673547106",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_outgoing.metadata.json",
+    "sha256": "00ec6ad42c9629677dc9dd627cd293b59cc3a062d8fff39a737822803b005900",
+    "size_bytes": 1067,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6e1e1a40f88b",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_outgoing.request.json",
+    "sha256": "b1be33afa5b9242666fb5d42a2667080451fc65939127e6108801e72b3e21d2b",
+    "size_bytes": 645,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d9a6e3428fac",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_denominators.response.json",
+    "sha256": "aa62feffd0ade4f6f2694665f0588863d1ce9b1f468a6b9025411721e7f7878d",
+    "size_bytes": 486,
+    "role": "chief_full_relationship_counts",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c0dc996d12a2",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_denominators.metadata.json",
+    "sha256": "7c7a619de0ef1c8e29f5e861b8477d301b028aa3008136455de58da01cf38c2e",
+    "size_bytes": 856,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9a93f85bcf49",
+    "path": "malecns_functional_partition_20260915/bridges/queries/chief_denominators.request.json",
+    "sha256": "6083df395f70c03325702692391f7c523d76100ad0977d61a5ab948b29917834",
+    "size_bytes": 572,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_931ccbfe3f15",
+    "path": "malecns_control_analysis_20260915/routes/selected41_internal_edges.csv",
+    "sha256": "500c2896c324d91d6a0ad94d726c5e925eb1375e80de2749d24f8f6a963cd283",
+    "size_bytes": 90934,
+    "role": "previous_internal_edge_oracle",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e4ffefeeb1f9",
+    "path": "malecns_bodywide_control_20260915/inventory/all_motor_neurons.csv",
+    "sha256": "9df36d01d36ce4d05ae652947ef822746541ea9730d6d9d12a51019cb066e725",
+    "size_bytes": 423376,
+    "role": "motor_inventory_original_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b4f25da8d882",
+    "path": "malecns_shared_control_20260915/structure/group_membership.csv",
+    "sha256": "54517a4d8700ec6527abc984a24d4f2e7ca7edbf872248402bfe33f7230323e2",
+    "size_bytes": 27110,
+    "role": "canonical_muscle_membership",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8c60356ae51f",
+    "path": "malecns_control_analysis_20260915/routes/motor_edges.csv",
+    "sha256": "34cd81940ebb46eae7ea99377e2ed2f6db58fc894fac0a4cb531a0204fa3a5ce",
+    "size_bytes": 1164657,
+    "role": "previous_motor_projection_with_missing_chief_groups",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3edf62483c02",
+    "path": "malecns_joint_grounding_20260914/muscle_atlas/sources/cheong_supp3.csv",
+    "sha256": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+    "size_bytes": 67297,
+    "role": "historical_muscle_table_conflict",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7a03a239766b",
+    "path": "malecns_recomposition_audit_20260916/motor/REPORT.md",
+    "sha256": "d3544514ffe6ba278c86ae367fb0e3ccfa3ffd37755fa3dcaa76ae78e71594ce",
+    "size_bytes": 10226,
+    "role": "prior_conflict_location_and_interpretation",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "schema_version": "circuit-source-set/v1",
+  "name": "control41",
+  "dataset": "male-cns:v1.0",
+  "snapshot": {
+    "uuid": "4b2087c0fbe046bfaf0d60bc970e3e5d",
+    "tag": "v1.0",
+    "lastDatabaseEdit": "2026-03-28 11:56:30.222612573-04:00 / 2026-06-08T01:31:39-04:00 (segment property update)",
+    "latestMutationId": 1006591300
+  },
+  "selected_ids": [
+    "10045",
+    "10056",
+    "10065",
+    "10118",
+    "10124",
+    "10131",
+    "10360",
+    "10520",
+    "10717",
+    "10734",
+    "10760",
+    "11067",
+    "11074",
+    "13130",
+    "13805",
+    "188093",
+    "230783",
+    "522975",
+    "523769",
+    "800099",
+    "800347",
+    "800452",
+    "800461",
+    "800527",
+    "800596",
+    "800622",
+    "800650",
+    "800687",
+    "800736",
+    "800892",
+    "801214",
+    "801246",
+    "801526",
+    "801747",
+    "803114",
+    "803658",
+    "804975",
+    "805054",
+    "805405",
+    "902427",
+    "912067"
+  ],
+  "edges_file": "edges.csv.gz",
+  "nodes_file": "nodes.json",
+  "sources_file": "sources.json",
+  "coverage": {
+    "internal": {
+      "status": "complete_incident_query",
+      "basis": "保存済み34+6+chiefのSegment入出力原APIとCSVが全三重みで一致。40細胞の全relationship数に欠測・1未満による除外は0。chief原無閾値分母も一致。全取得の前後Meta一致。242内部辺の入出力重複を一致確認し一回だけ保持。"
+    },
+    "incoming": {
+      "status": "complete_incident_query",
+      "basis": "保存済み34+6+chiefのSegment入出力原APIとCSVが全三重みで一致。40細胞の全relationship数に欠測・1未満による除外は0。chief原無閾値分母も一致。全取得の前後Meta一致。242内部辺の入出力重複を一致確認し一回だけ保持。"
+    },
+    "outgoing": {
+      "status": "complete_incident_query",
+      "basis": "保存済み34+6+chiefのSegment入出力原APIとCSVが全三重みで一致。40細胞の全relationship数に欠測・1未満による除外は0。chief原無閾値分母も一致。全取得の前後Meta一致。242内部辺の入出力重複を一致確認し一回だけ保持。"
+    }
+  },
+  "notes": [
+    "個別bodyIdを同一性に使用し、型名、MANC番号、筋名では統合しない。",
+    "weight/weightHP/weightHRは保存された有向化学ConnectsTo集計で、符号、利得、活動、学習則ではない。",
+    "Neuron標識なしSegmentを保持した。全境界細胞の生物学的同定、外部同士の結線、生理動態は含まない。",
+    "末梢筋作用は注釈候補であり、神経発火から筋活性への較正は未測定。"
+  ],
+  "publication": {
+    "schema_version": "circuit-published-inputs/v1",
+    "archival_sources_verified": false,
+    "files": {
+      "nodes.json": {
+        "sha256": "d631ff8ba67867fe5fce2940a2226d1c6ed59affca60cb34351f693ffc92742f",
+        "size_bytes": 42301
+      },
+      "edges.csv.gz": {
+        "sha256": "7622a9c9011fa0ec2455c835512ca4f254c00974bfbd32c8e62a9a2dd0dadf6c",
+        "size_bytes": 2178737
+      },
+      "sources.json": {
+        "sha256": "fe2449abe48deb91f036997adcbc9c4d2bb25d772d9a952aec3704eeb9743f9a",
+        "size_bytes": 179107
+      }
+    }
+  }
+}

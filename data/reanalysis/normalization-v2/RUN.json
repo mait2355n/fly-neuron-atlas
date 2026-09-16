@@ -1,0 +1,513 @@
+{
+  "schema_version": "fly-neuron-atlas-normalization-sensitivity/v1",
+  "status": "pass",
+  "processing_status": "completed",
+  "selected_flies": [
+    "a2_d_08",
+    "a2_d_12",
+    "a2_d_13"
+  ],
+  "methods": [
+    "source_reshape_mad",
+    "contiguous_half_second_mad"
+  ],
+  "same_inputs_verified": true,
+  "inputs": [
+    {
+      "method": "source_reshape_mad",
+      "fly": "a2_d_08",
+      "filename": "180410_gfp_3G_ss730_dual_08_data_for_SH_with_lat_vel.mat",
+      "md5": "f3d0d40d7435af8f3d4e73d004bd3f9d",
+      "sha256": "f02a345effb2fe722800dd1f43dce2c876878424307cb1fa486b5974f3d5922b",
+      "bytes": 458239048
+    },
+    {
+      "method": "source_reshape_mad",
+      "fly": "a2_d_12",
+      "filename": "180430_gfp_3G_ss730_dual_12_data_for_SH_with_lat_vel.mat",
+      "md5": "71ed13ab29ecd3b3abcf7bf6b77940e4",
+      "sha256": "0f9a9251262f528f0b415d67cdb169bc1236a5157029ffeebace6d86136f60f7",
+      "bytes": 212825201
+    },
+    {
+      "method": "source_reshape_mad",
+      "fly": "a2_d_13",
+      "filename": "180501_gfp_3G_ss730_dual_13_data_for_SH_with_lat_vel.mat",
+      "md5": "c3f95c76e9efc1a5b2277e7ee958143e",
+      "sha256": "a460eb313b503b039b3eeec554efd902b54119aadfd783c72210efaee2daee24",
+      "bytes": 71381032
+    },
+    {
+      "method": "contiguous_half_second_mad",
+      "fly": "a2_d_08",
+      "filename": "180410_gfp_3G_ss730_dual_08_data_for_SH_with_lat_vel.mat",
+      "md5": "f3d0d40d7435af8f3d4e73d004bd3f9d",
+      "sha256": "f02a345effb2fe722800dd1f43dce2c876878424307cb1fa486b5974f3d5922b",
+      "bytes": 458239048
+    },
+    {
+      "method": "contiguous_half_second_mad",
+      "fly": "a2_d_12",
+      "filename": "180430_gfp_3G_ss730_dual_12_data_for_SH_with_lat_vel.mat",
+      "md5": "71ed13ab29ecd3b3abcf7bf6b77940e4",
+      "sha256": "0f9a9251262f528f0b415d67cdb169bc1236a5157029ffeebace6d86136f60f7",
+      "bytes": 212825201
+    },
+    {
+      "method": "contiguous_half_second_mad",
+      "fly": "a2_d_13",
+      "filename": "180501_gfp_3G_ss730_dual_13_data_for_SH_with_lat_vel.mat",
+      "md5": "c3f95c76e9efc1a5b2277e7ee958143e",
+      "sha256": "a460eb313b503b039b3eeec554efd902b54119aadfd783c72210efaee2daee24",
+      "bytes": 71381032
+    }
+  ],
+  "settings": {
+    "detrend_breakpoints_seconds": [
+      120,
+      30
+    ],
+    "detrend_weights": [
+      0.5,
+      0.5
+    ],
+    "buttord": {
+      "wp": 100,
+      "ws": 0.05,
+      "gpass": 3,
+      "gstop": 30
+    },
+    "filter": "butter high; filtfilt",
+    "source_mad": "original C-order reshape(fs,-1), shifted source scale, signal.resample",
+    "alternative_mad": "contiguous nonoverlapping0.5s windows; median and MAD*1.4826; linear window-center interpolation, constant edge extension",
+    "height": 2.5,
+    "prominence": 7.5,
+    "peak_wlen_seconds": 10,
+    "rate_hz": 100,
+    "epoch_handling": "source clock epochs processed separately by corrected core",
+    "primary_lag_ms": 150,
+    "normalization_selection": "none"
+  },
+  "code_hashes": {
+    "scripts/normalization_sensitivity.py": {
+      "md5": "a5feb27239b4e12b72afefa7ecac5860",
+      "sha256": "bc6adf2b45cffc5df9c220dc65dc7dc4c3e3c1b01aa6a939e60045bc56c7d8d9",
+      "bytes": 16184
+    },
+    "scripts/ephys_core.py": {
+      "md5": "b1ea59087178bb993b8b1c1f2e282f08",
+      "sha256": "40a040c7b5a30e7b5495ba13464b637a6335a89a26004a4f68c65d946078cc44",
+      "bytes": 22995
+    },
+    "data/activity/download_manifest.json": {
+      "md5": "a576231505b3cb595ca9066a8f60c53b",
+      "sha256": "92310f357de677e7bdfcf9e10cd4c7895a8a5a7f13e3cc1a064eea02cc7e0f6e",
+      "bytes": 6977
+    }
+  },
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_reference": {
+    "status": "pass",
+    "checked_fields_atol": 1e-12,
+    "checks": [
+      {
+        "fly": "a2_d_08",
+        "kind": "channel",
+        "key": [
+          "a2_l"
+        ],
+        "matches": true,
+        "deltas": {
+          "spikes": 0.0,
+          "rate_mean_Hz": 0.0,
+          "rate_no_stim_mean_Hz": 0.0,
+          "yaw_r0": 0.0,
+          "yaw_r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_08",
+        "kind": "channel",
+        "key": [
+          "a2_r"
+        ],
+        "matches": true,
+        "deltas": {
+          "spikes": 0.0,
+          "rate_mean_Hz": 0.0,
+          "rate_no_stim_mean_Hz": 0.0,
+          "yaw_r0": 0.0,
+          "yaw_r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_08",
+        "kind": "pair",
+        "key": [
+          "a2_l_rate",
+          "a2_r_rate"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_08",
+        "kind": "pair",
+        "key": [
+          "A_minus_B",
+          "yaw"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_08",
+        "kind": "pair",
+        "key": [
+          "A_plus_B",
+          "yaw"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "channel",
+        "key": [
+          "a2_l"
+        ],
+        "matches": true,
+        "deltas": {
+          "spikes": 0.0,
+          "rate_mean_Hz": 0.0,
+          "rate_no_stim_mean_Hz": 0.0,
+          "yaw_r0": 0.0,
+          "yaw_r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "channel",
+        "key": [
+          "a2_r"
+        ],
+        "matches": true,
+        "deltas": {
+          "spikes": 0.0,
+          "rate_mean_Hz": 0.0,
+          "rate_no_stim_mean_Hz": 0.0,
+          "yaw_r0": 0.0,
+          "yaw_r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "pair",
+        "key": [
+          "a2_l_rate",
+          "a2_r_rate"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "pair",
+        "key": [
+          "A_minus_B",
+          "yaw"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "pair",
+        "key": [
+          "A_plus_B",
+          "yaw"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "channel",
+        "key": [
+          "a2_l"
+        ],
+        "matches": true,
+        "deltas": {
+          "spikes": 0.0,
+          "rate_mean_Hz": 0.0,
+          "rate_no_stim_mean_Hz": 0.0,
+          "yaw_r0": 0.0,
+          "yaw_r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "channel",
+        "key": [
+          "a2_r"
+        ],
+        "matches": true,
+        "deltas": {
+          "spikes": 0.0,
+          "rate_mean_Hz": 0.0,
+          "rate_no_stim_mean_Hz": 0.0,
+          "yaw_r0": 0.0,
+          "yaw_r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "pair",
+        "key": [
+          "a2_l_rate",
+          "a2_r_rate"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "pair",
+        "key": [
+          "A_minus_B",
+          "yaw"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "pair",
+        "key": [
+          "A_plus_B",
+          "yaw"
+        ],
+        "matches": true,
+        "deltas": {
+          "r0": 0.0,
+          "r150": 0.0
+        }
+      }
+    ],
+    "identity_checks": [
+      {
+        "fly": "a2_d_08",
+        "kind": "channel",
+        "matches": true,
+        "expected": [
+          [
+            "a2_l"
+          ],
+          [
+            "a2_r"
+          ]
+        ],
+        "observed": [
+          [
+            "a2_l"
+          ],
+          [
+            "a2_r"
+          ]
+        ]
+      },
+      {
+        "fly": "a2_d_08",
+        "kind": "pair",
+        "matches": true,
+        "expected": [
+          [
+            "A_minus_B",
+            "yaw"
+          ],
+          [
+            "A_plus_B",
+            "yaw"
+          ],
+          [
+            "a2_l_rate",
+            "a2_r_rate"
+          ]
+        ],
+        "observed": [
+          [
+            "A_minus_B",
+            "yaw"
+          ],
+          [
+            "A_plus_B",
+            "yaw"
+          ],
+          [
+            "a2_l_rate",
+            "a2_r_rate"
+          ]
+        ]
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "channel",
+        "matches": true,
+        "expected": [
+          [
+            "a2_l"
+          ],
+          [
+            "a2_r"
+          ]
+        ],
+        "observed": [
+          [
+            "a2_l"
+          ],
+          [
+            "a2_r"
+          ]
+        ]
+      },
+      {
+        "fly": "a2_d_12",
+        "kind": "pair",
+        "matches": true,
+        "expected": [
+          [
+            "A_minus_B",
+            "yaw"
+          ],
+          [
+            "A_plus_B",
+            "yaw"
+          ],
+          [
+            "a2_l_rate",
+            "a2_r_rate"
+          ]
+        ],
+        "observed": [
+          [
+            "A_minus_B",
+            "yaw"
+          ],
+          [
+            "A_plus_B",
+            "yaw"
+          ],
+          [
+            "a2_l_rate",
+            "a2_r_rate"
+          ]
+        ]
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "channel",
+        "matches": true,
+        "expected": [
+          [
+            "a2_l"
+          ],
+          [
+            "a2_r"
+          ]
+        ],
+        "observed": [
+          [
+            "a2_l"
+          ],
+          [
+            "a2_r"
+          ]
+        ]
+      },
+      {
+        "fly": "a2_d_13",
+        "kind": "pair",
+        "matches": true,
+        "expected": [
+          [
+            "A_minus_B",
+            "yaw"
+          ],
+          [
+            "A_plus_B",
+            "yaw"
+          ],
+          [
+            "a2_l_rate",
+            "a2_r_rate"
+          ]
+        ],
+        "observed": [
+          [
+            "A_minus_B",
+            "yaw"
+          ],
+          [
+            "A_plus_B",
+            "yaw"
+          ],
+          [
+            "a2_l_rate",
+            "a2_r_rate"
+          ]
+        ]
+      }
+    ],
+    "artifacts": {
+      "RUN.json": {
+        "md5": "1a8ab8660a9aaed8110b490d4fa1b445",
+        "sha256": "952ad4659e4b160fe20587c575dd7a066a0ba8742865b21b0c5297524df24448",
+        "bytes": 6350
+      },
+      "channels.csv": {
+        "md5": "346dca0cd293fac508cb7c43982815dd",
+        "sha256": "49300db0221c89852d51d98057be9ab288608857ac8c152c688f0c172c7daf4e",
+        "bytes": 21152
+      },
+      "pairs.csv": {
+        "md5": "908721208f4f57354a411ecba4e078f4",
+        "sha256": "793e04197f96d8fd9d822df8938a882450cd2b2dc90492410445844b671c6fc2",
+        "bytes": 7501
+      }
+    },
+    "reference_role": "independently_saved_corrected_source_run"
+  },
+  "fixed_waveform": "figures/a2_d_12_0.8-1.3s.png",
+  "errors": [],
+  "elapsed_seconds": 49.55682015419006,
+  "scope": "Sensitivity on three prespecified DNa02 bilateral recordings only; no population inference, winner selection, human spike-label validation or certified model calibration."
+}

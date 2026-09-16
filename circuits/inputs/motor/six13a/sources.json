@@ -1,0 +1,299 @@
+[
+  {
+    "id": "src_3d4936335280",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/meta_before.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_before",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ad17680c4fc4",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/meta_before.metadata.json",
+    "sha256": "11704e6749c8bbee28a9c2629e4e317857177d522e7d4637f1a8de555b8e59bc",
+    "size_bytes": 649,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b6fc6523c47b",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/meta_before.request.json",
+    "sha256": "29fbba869a74232e3284e8ef8bcd5e0574c664cb28a820afe1b44ef2efdee6ea",
+    "size_bytes": 374,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b500b2f5af0a",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/meta_after.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_after",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_498896f84264",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/meta_after.metadata.json",
+    "sha256": "90317e20bffac1a3e99d8e86eeea0551eb4a256d9d482b205c9ef25b77b60cad",
+    "size_bytes": 649,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ea3cfb296c42",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/meta_after.request.json",
+    "sha256": "e7a4350921469248b797f2a75060682bb868f10f6cedeb226b9cb38692d42460",
+    "size_bytes": 374,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_00785ccfa0dc",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/meta_before.response.json",
+    "sha256": "f0afdd3bf6c5eaeb1d5a1665e094dea394490287d63aa24ff7f0142e2fb62ff1",
+    "size_bytes": 370,
+    "role": "snapshot_before",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7d7ae793090d",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/meta_before.metadata.json",
+    "sha256": "41cc6772e025fb3434f9b62c619bc7be6dbbd46407291c78567be6324fcd7230",
+    "size_bytes": 778,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_565fd1ff4802",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/meta_before.request.json",
+    "sha256": "53103635ba59590ffdec457fdced3ffcdd3947f2d12ee9924d322ecb060bddc2",
+    "size_bytes": 498,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_54c5f352461e",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/meta_after.response.json",
+    "sha256": "f0afdd3bf6c5eaeb1d5a1665e094dea394490287d63aa24ff7f0142e2fb62ff1",
+    "size_bytes": 370,
+    "role": "snapshot_after",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_841be7c2fd6e",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/meta_after.metadata.json",
+    "sha256": "ff648d98bbb2c6c7f3211324442bfd95c3469bf01a36d2558f3cd3f3b512859f",
+    "size_bytes": 778,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7cad38d563a9",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/meta_after.request.json",
+    "sha256": "168168f0d76000635ef1716f949d19ddfeb43284578052bb2b36817efbe009a7",
+    "size_bytes": 498,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_aec2a3592deb",
+    "path": "malecns_activity_update_20260914/state_inputs/SELECTION.md",
+    "sha256": "f6e07c5cfc9ace9eb16bfe2d0c53e6c343ce83d77d8b49213c785b01ee3dc6c9",
+    "size_bytes": 1572,
+    "role": "original_six_candidate_selection_and_mapping_caveats",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_48ac970caca4",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/six_nodes.response.json",
+    "sha256": "8f4c2a61fe0ed46a7ec9ad51261c091898df7d62e28533fcadf99eff33f4d644",
+    "size_bytes": 8382,
+    "role": "selected_original_node_properties",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_790a827ef055",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/six_nodes.metadata.json",
+    "sha256": "049a03742917700168aa260223d1b0ccc8f762b24b6eb8eb943197a55f817578",
+    "size_bytes": 568,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c02883b07d86",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/six_nodes.request.json",
+    "sha256": "b538c0d67c9bd4230763f979260abc6aeed28b52c66cbf712860a4a3471c30d0",
+    "size_bytes": 354,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e858472d3c7b",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/all_incoming.response.json",
+    "sha256": "e722bb192a8591348402d1281f2a50149288502cc2c2cc96e05ebf6cb73180d8",
+    "size_bytes": 825729,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cd77c55da137",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/all_incoming.metadata.json",
+    "sha256": "44700a95b4bf2e7007e946c5126c98430032bbe91411438a4cf360cbe5ad45e6",
+    "size_bytes": 1841,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d12587bd450c",
+    "path": "malecns_activity_update_20260914/state_inputs/queries/all_incoming.request.json",
+    "sha256": "a32c8efd78ff85485b93d9ba0b821fc23aec682b8b3f71cff8c0ebde22b2e733",
+    "size_bytes": 1132,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_24228fe900b3",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/six_all_outgoing.response.json",
+    "sha256": "6853c25304ca27bbbb95df3c0557e38d4c10bec080c5650a3928ae78f5031d83",
+    "size_bytes": 2694579,
+    "role": "raw_api_response",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2897be6a9dd9",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/six_all_outgoing.metadata.json",
+    "sha256": "e9cf12a031b3948af01fde5124435c9ac5808aea48786ae4e3e827f55a0d3179",
+    "size_bytes": 1527,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2b14aa0bb369",
+    "path": "malecns_circuit_recomposition_20260916/inputs/motor/raw/six_all_outgoing.request.json",
+    "sha256": "1b50aac2ae0e850c8e55a0d0474686a92fe5f651d3304a425ea712a46175a48f",
+    "size_bytes": 986,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f3ad4f31a5b6",
+    "path": "malecns_bodywide_control_20260915/connectivity/queries/meta_before.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_before",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1fe417216d2e",
+    "path": "malecns_bodywide_control_20260915/connectivity/queries/meta_before.metadata.json",
+    "sha256": "e42822461c2636703d2bfeac66588d75ec7df26bc94b7fce0de3f35437f4810f",
+    "size_bytes": 649,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c547700db5c7",
+    "path": "malecns_bodywide_control_20260915/connectivity/queries/meta_before.request.json",
+    "sha256": "248b878423c47f94feba6313a2f5d5cbf09c69d3b860b36286dbba7116a46b60",
+    "size_bytes": 374,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_293b643cad13",
+    "path": "malecns_bodywide_control_20260915/connectivity/queries/meta_after.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "snapshot_after",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_542e6fb3a28d",
+    "path": "malecns_bodywide_control_20260915/connectivity/queries/meta_after.metadata.json",
+    "sha256": "208158f69290f739aef6498891ccdb22159c33edb2f0863e7364e08d4c834bb6",
+    "size_bytes": 649,
+    "role": "acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_523fbb55a8e1",
+    "path": "malecns_bodywide_control_20260915/connectivity/queries/meta_after.request.json",
+    "sha256": "867d318b4f50bdd5b931d1fab9fcf45053d80c53597a5ca86865d6875733c84f",
+    "size_bytes": 374,
+    "role": "acquisition_request",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e4ffefeeb1f9",
+    "path": "malecns_bodywide_control_20260915/inventory/all_motor_neurons.csv",
+    "sha256": "9df36d01d36ce4d05ae652947ef822746541ea9730d6d9d12a51019cb066e725",
+    "size_bytes": 423376,
+    "role": "motor_inventory_original_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b4f25da8d882",
+    "path": "malecns_shared_control_20260915/structure/group_membership.csv",
+    "sha256": "54517a4d8700ec6527abc984a24d4f2e7ca7edbf872248402bfe33f7230323e2",
+    "size_bytes": 27110,
+    "role": "canonical_muscle_membership",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3edf62483c02",
+    "path": "malecns_joint_grounding_20260914/muscle_atlas/sources/cheong_supp3.csv",
+    "sha256": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+    "size_bytes": 67297,
+    "role": "historical_muscle_table_conflict",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7a03a239766b",
+    "path": "malecns_recomposition_audit_20260916/motor/REPORT.md",
+    "sha256": "d3544514ffe6ba278c86ae367fb0e3ccfa3ffd37755fa3dcaa76ae78e71594ce",
+    "size_bytes": 10226,
+    "role": "prior_conflict_location_and_interpretation",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c74a94b50e80",
+    "path": "malecns_bodywide_control_20260915/connectivity/all_motor_incoming_edges.csv",
+    "sha256": "8eaf18e5aa05dfe6110a989e66259ceaae2b3ca58e8dfe338f17a6dd4b3495de",
+    "size_bytes": 36804017,
+    "role": "prior_all_815_motor_inputs_comparison",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  }
+]

@@ -1,0 +1,443 @@
+{
+  "schema": "fly-neuron-atlas/research-publication/v1",
+  "as_of": "2026-09-16",
+  "purpose": "Standalone selected research findings, evidence boundaries and untested comparison designs",
+  "source_path_namespace": "Research-bundle relative identifiers; source bundles are not included and are not checkout paths.",
+  "licenses": {
+    "original_prose_and_curation": "CC-BY-4.0",
+    "original_code": "MIT",
+    "upstream_scope": "Original licenses do not relicense upstream material. Kim/Dan arrays and record tables, Plitt notebook/output, papers and upstream code are excluded."
+  },
+  "public_sources": [
+    {
+      "id": "basnak2025-paper",
+      "title": "Basnak et al. (2025), Multimodal cue integration and learning in a neural representation of head direction",
+      "url": "https://doi.org/10.1038/s41593-024-01823-z",
+      "rights": "Citation only; paper not redistributed",
+      "distributed": false
+    },
+    {
+      "id": "basnak2024-dandi",
+      "title": "Basnak, Melanie Ailin; Wilson, Rachel (2024). Two-photon calcium imaging of EPG cells in Drosophila Melanogaster presented with cues of varying reliability. Version 0.240801.1040",
+      "url": "https://doi.org/10.48324/dandi.000289/0.240801.1040",
+      "rights": "CC-BY-4.0",
+      "distributed": "Derived 14-subject component table and aggregate summaries only",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://api.dandiarchive.org/api/dandisets/000289/versions/0.240801.1040/info/",
+      "license_checked": "2026-09-16",
+      "metadata_sha256": "259b5129ebf05db8f558c9ac8612ed7de01bf15f447baf25200b044d4d209127"
+    },
+    {
+      "id": "plitt2025-preprint",
+      "title": "Plitt et al., Octopamine instructs head direction plasticity, v1 (2025-12-15)",
+      "url": "https://doi.org/10.64898/2025.12.11.693783",
+      "rights": "Preprint CC BY; citation only here",
+      "distributed": false,
+      "status_checked": "2026-09-16",
+      "status": "bioRxiv API returned v1 and published: NA",
+      "status_evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2025.12.11.693783",
+      "metadata_sha256": "429132471bb0b9b24ac82895ba49c58f1cff910d7106dd4393f66615317c424f"
+    },
+    {
+      "id": "plitt-notebook-pinned",
+      "title": "NeuromodPlasticity, gof_combined.ipynb, zero-based cell 18",
+      "url": "https://github.com/yfisher-lab/NeuromodPlasticity/blob/3d9f89961f4474d10224882b10e9006865a28b6b/NeuromodPlasticity/figures/remapping/gof_combined.ipynb",
+      "rights": "Notebook/output redistribution terms not established; factual original prose only",
+      "distributed": false,
+      "commit": "3d9f89961f4474d10224882b10e9006865a28b6b"
+    },
+    {
+      "id": "kim2019-data",
+      "title": "Kim et al., Nature 2019 processed data and code v2",
+      "url": "https://doi.org/10.25378/janelia.12106824.v2",
+      "rights": "CC-BY-NC-4.0; no upstream arrays or record-level derived tables redistributed",
+      "distributed": false,
+      "paper_url": "https://doi.org/10.1038/s41586-019-1767-1"
+    },
+    {
+      "id": "dan2024-data",
+      "title": "Dan et al., Neuron 2024 data",
+      "url": "https://doi.org/10.25378/janelia.25655817",
+      "rights": "CC-BY-NC-4.0; no upstream arrays or record-level derived tables redistributed",
+      "distributed": false,
+      "paper_url": "https://doi.org/10.1016/j.neuron.2024.04.036"
+    },
+    {
+      "id": "krashes2009",
+      "title": "Krashes et al., A neural circuit mechanism integrating motivational state with memory expression in Drosophila",
+      "url": "https://doi.org/10.1016/j.cell.2009.08.035",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false
+    },
+    {
+      "id": "perisse2016",
+      "title": "Perisse et al., Aversive Learning and Appetitive Motivation Toggle Feed-Forward Inhibition in the Drosophila Mushroom Body",
+      "url": "https://doi.org/10.1016/j.neuron.2016.04.034",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false
+    },
+    {
+      "id": "aso2023-upwins",
+      "title": "Aso et al., memory-to-upwind-steering study, eLife 85756",
+      "url": "https://elifesciences.org/articles/85756",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false
+    },
+    {
+      "id": "okray2026-retraction",
+      "title": "Okray et al. (2026), Retraction Note: Multisensory learning binds neurons into a cross-modal memory engram",
+      "url": "https://doi.org/10.1038/s41586-026-10355-4",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false,
+      "publication_date": "2026-03-25",
+      "status_checked": "2026-09-16",
+      "status": "2023 Nature article retracted; affected voltage imaging excluded"
+    },
+    {
+      "id": "okray2026-reviewed",
+      "title": "Okray et al., Multisensory learning recruits visual neurons into an olfactory memory engram, Reviewed Preprint v1",
+      "url": "https://doi.org/10.7554/eLife.111909.1",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false,
+      "status_checked": "2026-09-16",
+      "publication_date": "2026-08-14",
+      "status": "reviewed preprint v1, not a final version of record",
+      "status_evidence_url": "https://api.elifesciences.org/reviewed-preprints/111909",
+      "metadata_sha256": "5e9afa5676e74a745e24b4668215a0c68d6205b52164739757d4361aa3121816"
+    },
+    {
+      "id": "matheson2022",
+      "title": "Matheson et al. (2022), odor-guided navigation study",
+      "url": "https://doi.org/10.1038/s41467-022-32247-7",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false
+    },
+    {
+      "id": "matheson2024-addendum",
+      "title": "Matheson et al. (2024), addendum to odor-guided navigation study",
+      "url": "https://doi.org/10.1038/s41467-024-46225-8",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false
+    },
+    {
+      "id": "yang2026",
+      "title": "Yang et al. (2026), Creating true and false memories from forgotten information in Drosophila",
+      "url": "https://doi.org/10.1038/s41593-026-02381-2",
+      "rights": "Independent factual prose and citation only",
+      "distributed": false
+    },
+    {
+      "id": "malecns",
+      "title": "MaleCNS v1.0 annotation and connectome data",
+      "url": "https://male-cns.janelia.org/download/",
+      "rights": "CC-BY-4.0; scoped data terms recorded separately by repository source registry",
+      "distributed": "Original factual structural summaries; circuit assets are outside this subtree"
+    },
+    {
+      "id": "local-exp25",
+      "title": "Original EXP25 saved-prediction recount",
+      "url": "summary.json",
+      "rights": "Original count curation CC-BY-4.0; model predictions not distributed",
+      "distributed": "Selected aggregate counts only"
+    }
+  ],
+  "source_records": [
+    {
+      "id": "experience-report",
+      "bundle_relative_path": "malecns_experience_update_20260916/README.md",
+      "sha256": "daf9c6e9bd808b4329efa8c5492f1bef8d0b9be7f85a2abca5a5a4df44c6f9f7",
+      "bytes": 10613,
+      "included": false
+    },
+    {
+      "id": "basnak-report",
+      "bundle_relative_path": "malecns_experience_update_20260916/basnak/REPORT.md",
+      "sha256": "9a378255ebfc859aa2aa923430c62a44035b7279ddab947619982c45c3bfa141",
+      "bytes": 9401,
+      "included": false
+    },
+    {
+      "id": "plitt-report",
+      "bundle_relative_path": "malecns_experience_update_20260916/plitt/REPORT.md",
+      "sha256": "f0e9c975eff907b176d16f7330a53236a71516d54e725eab213bb5b5ff22bda3",
+      "bytes": 10177,
+      "included": false
+    },
+    {
+      "id": "kim-report",
+      "bundle_relative_path": "malecns_experience_update_20260916/kim/REPORT.md",
+      "sha256": "108395c2b055e1fea13d22e8764ee2005e795fe5e2769ebfb3ae44d5aa7f1a7c",
+      "bytes": 12385,
+      "included": false
+    },
+    {
+      "id": "dan-report",
+      "bundle_relative_path": "malecns_experience_update_20260916/dan/REPORT.md",
+      "sha256": "969294c7ffe71cead2793569a6f4bf7a0b4aa85170306c2fbd1f5e3648c5f8a2",
+      "bytes": 8908,
+      "included": false
+    },
+    {
+      "id": "decomposition-report",
+      "bundle_relative_path": "epg_metric_decomposition_20260916/REPORT.md",
+      "sha256": "ffd50b834091792ad9f7e476a537996f3ca31b47fc983eda59fc204d40bbb2c3",
+      "bytes": 10589,
+      "included": false
+    },
+    {
+      "id": "decomposition-summary",
+      "bundle_relative_path": "epg_metric_decomposition_20260916/results/summary.json",
+      "sha256": "331c06516d33bb253604004d665a0874bea6b8691b5106c5d41e62a6b0535643",
+      "bytes": 2915,
+      "included": false
+    },
+    {
+      "id": "decomposition-windows",
+      "bundle_relative_path": "epg_metric_decomposition_20260916/results/window_statistics.csv",
+      "sha256": "c7d7a751dd42526c20634d280e7746639d0b5ba7d5ec245ed89264d16fcd0e55",
+      "bytes": 6043,
+      "included": false
+    },
+    {
+      "id": "decomposition-changes",
+      "bundle_relative_path": "epg_metric_decomposition_20260916/results/individual_changes.csv",
+      "sha256": "6c6d854acc6d12ec5c5a881285e4da84e35bd37d48c58f64c8d1f48a6b9777b6",
+      "bytes": 1369,
+      "included": false
+    },
+    {
+      "id": "decomposition-code",
+      "bundle_relative_path": "epg_metric_decomposition_20260916/analyze.py",
+      "sha256": "906c110196261e2d31da279ed655e789440ea310e7a8cfc21e9bcd6d128180d8",
+      "bytes": 16568,
+      "included": false
+    },
+    {
+      "id": "artificial-report",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/README.md",
+      "sha256": "bad14d34aa2667b5052d0fa3673a6b4eb69547312716f669f63d2a1f1144d03d",
+      "bytes": 6269,
+      "included": false
+    },
+    {
+      "id": "artificial-comparison",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/TRANSLATION_AND_COMPARISON.md",
+      "sha256": "64f70d69de2f85bf1e9ad34ff2e6bd013e5cbe699e361dc6c4a91fab1aaecb0b",
+      "bytes": 7116,
+      "included": false
+    },
+    {
+      "id": "context-report",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/context_readout/REPORT.md",
+      "sha256": "bea79dde6eac56918c97b66edf76cbcc20e0ff05ae673cb46e03ece87ec2e807",
+      "bytes": 7809,
+      "included": false
+    },
+    {
+      "id": "motor-learning-report",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/adaptive_immediacy/REPORT.md",
+      "sha256": "c7c145667a4749c49adbd31b37d88072064970c58fef85bd485b4e16b637d3b3",
+      "bytes": 6240,
+      "included": false
+    },
+    {
+      "id": "crossmodal-report",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/memory_to_goal/REPORT.md",
+      "sha256": "6afcf0f5dbc26c6d25d9e33b95a6af8497b16cb17022048f404b2a89838aa8b8",
+      "bytes": 8267,
+      "included": false
+    },
+    {
+      "id": "reconstruction-report",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/reconstruction/REPORT.md",
+      "sha256": "4ebaa0cf0b628d42f615f2c3c42ddaddcd2ff3e3d673b3bfc878f6d6e6b5a684",
+      "bytes": 4668,
+      "included": false
+    },
+    {
+      "id": "baseline-report",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/baseline/REPORT.md",
+      "sha256": "f9fd656c51eb574de8bc9ab05c77d4d13ba79a732d802a6e0d4975d64f3554bc",
+      "bytes": 3116,
+      "included": false
+    },
+    {
+      "id": "baseline-counts",
+      "bundle_relative_path": "malecns_to_artificial_subject_20260916/baseline/BASELINE_CHECK.json",
+      "sha256": "81ef4ff053dbd982964f64fac4f11432faefdb38138655c9f1337c94597d3f7c",
+      "bytes": 11079,
+      "included": false
+    },
+    {
+      "id": "recomposition-report",
+      "bundle_relative_path": "malecns_recomposition_audit_20260916/README.md",
+      "sha256": "3b5f14a65978b661de91c1af4cbb7b4edd7a80665e64ef6e2c4bf207d23405a4",
+      "bytes": 9123,
+      "included": false
+    },
+    {
+      "id": "recomposition-structure",
+      "bundle_relative_path": "malecns_recomposition_audit_20260916/structure/REPORT.md",
+      "sha256": "a52e28b111f1de4276b404fa54966160bd07aae669db649cdb17a2bd74658045",
+      "bytes": 12405,
+      "included": false
+    },
+    {
+      "id": "recomposition-motor",
+      "bundle_relative_path": "malecns_recomposition_audit_20260916/motor/REPORT.md",
+      "sha256": "d3544514ffe6ba278c86ae367fb0e3ccfa3ffd37755fa3dcaa76ae78e71594ce",
+      "bytes": 10226,
+      "included": false
+    },
+    {
+      "id": "recomposition-activity",
+      "bundle_relative_path": "malecns_recomposition_audit_20260916/activity/REPORT.md",
+      "sha256": "4719677ad7f6f66c3377957e0e1434785ae4a9e1dd40ba9b12ce59c64ea5e80b",
+      "bytes": 12329,
+      "included": false
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "2e3611d2bd26dc8e313c0a7943cf32c97f63803fa5c7ecc1976744a659bea566",
+      "bytes": 3982,
+      "license": "CC-BY-4.0",
+      "source_record_ids": [
+        "experience-report",
+        "decomposition-report",
+        "artificial-report",
+        "recomposition-report"
+      ],
+      "public_source_ids": [
+        "basnak2024-dandi",
+        "kim2019-data",
+        "dan2024-data",
+        "plitt-notebook-pinned"
+      ],
+      "transformation": "New standalone introduction and explicit reproducibility/rights boundary."
+    },
+    {
+      "path": "experience-and-heading.md",
+      "sha256": "8a41d6bb51e154adcbc9091e114f743c3a1bd7e388adc3d88087a653a3fa8bb0",
+      "bytes": 7881,
+      "license": "CC-BY-4.0",
+      "source_record_ids": [
+        "experience-report",
+        "basnak-report",
+        "plitt-report",
+        "kim-report",
+        "dan-report",
+        "decomposition-report"
+      ],
+      "public_source_ids": [
+        "basnak2025-paper",
+        "basnak2024-dandi",
+        "plitt2025-preprint",
+        "plitt-notebook-pinned",
+        "kim2019-data",
+        "dan2024-data"
+      ],
+      "transformation": "Original condensed factual interpretation, retaining angle proxy, row/animal distinction, random-drift negative result, sampling and preprocessing limits."
+    },
+    {
+      "path": "artificial-subject.md",
+      "sha256": "898c74af099b592641c82773073557104d1e30620f8f2466717af4359de90c93",
+      "bytes": 7234,
+      "license": "CC-BY-4.0",
+      "source_record_ids": [
+        "artificial-report",
+        "artificial-comparison",
+        "context-report",
+        "motor-learning-report",
+        "crossmodal-report",
+        "reconstruction-report",
+        "baseline-report",
+        "baseline-counts"
+      ],
+      "public_source_ids": [
+        "krashes2009",
+        "perisse2016",
+        "aso2023-upwins",
+        "okray2026-retraction",
+        "okray2026-reviewed",
+        "matheson2022",
+        "matheson2024-addendum",
+        "yang2026",
+        "local-exp25"
+      ],
+      "transformation": "Original synthesis; biological observations, original saved baseline and untested artificial comparisons remain separate."
+    },
+    {
+      "path": "recomposition-boundaries.md",
+      "sha256": "1a1a1639a2d7c0bb1ff12d7eaa9617c8ac3267bcaaef4759e800408a173e9bfd",
+      "bytes": 4239,
+      "license": "CC-BY-4.0",
+      "source_record_ids": [
+        "recomposition-report",
+        "recomposition-structure",
+        "recomposition-motor",
+        "recomposition-activity"
+      ],
+      "public_source_ids": [
+        "malecns"
+      ],
+      "transformation": "Original selected structural findings from the audit preceding circuit extraction; later acquisition lives in circuits."
+    },
+    {
+      "path": "basnak_components.csv",
+      "sha256": "49837c8402eb5e51336274e7c25aab15e5c43803c93c7f80df729291712581ab",
+      "bytes": 2208,
+      "license": "CC-BY-4.0",
+      "source_record_ids": [
+        "decomposition-windows",
+        "decomposition-changes"
+      ],
+      "public_source_ids": [
+        "basnak2024-dandi"
+      ],
+      "transformation": "Join R values by subject/stage/reference; retain 14 subject identifiers, early/late heading/cue-proxy R and paired deltas. No raw fluorescence or timeseries included."
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c68b77d2268356b79de8b92605237def0e8379de7576ac46779a238d4b75c44d",
+      "bytes": 3668,
+      "license": "CC-BY-4.0",
+      "source_record_ids": [
+        "decomposition-summary",
+        "baseline-counts"
+      ],
+      "public_source_ids": [
+        "basnak2024-dandi",
+        "local-exp25"
+      ],
+      "transformation": "Select EPG component fields and original N counts; rename paired outcome categories; include an original synthetic time-order example. Bootstrap intervals copied, not regenerated."
+    },
+    {
+      "path": "verify.py",
+      "sha256": "b0d4c34847772579cbc38b6c6c6cafa44c9bfee72bb73013a41285c182b892e7",
+      "bytes": 7302,
+      "license": "MIT",
+      "source_record_ids": [
+        "decomposition-report"
+      ],
+      "public_source_ids": [],
+      "transformation": "New standard-library verification implementation; recomputes summary arithmetic from included inputs and the original synthetic counterexample; no upstream code copied."
+    }
+  ],
+  "provenance_file_integrity": "PROVENANCE.json is excluded from its own digest list; repository version control supplies its identity.",
+  "reproducibility": {
+    "included_inputs": "basnak_components.csv and summary.json",
+    "command": "python research/2026-09-16/verify.py",
+    "raw_reanalysis_performed_for_this_publication": false,
+    "full_reproduction_available_from_this_subtree": false,
+    "not_included": [
+      "raw arrays",
+      "record-level Kim/Dan tables",
+      "upstream notebooks and code",
+      "papers",
+      "model predictions",
+      "full source research bundles"
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+[
+  {
+    "LegNp(T2)(R)": true,
+    "MesoLN(R)": true,
+    "Ov(R)": true,
+    "VNC": true,
+    "birthtime": "early",
+    "bodyId": "800389",
+    "celltypePredictedNt": "gaba",
+    "celltypePredictedNtConfidence": 0.878714919090271,
+    "celltypeTotalNtPredictions": 12722,
+    "consensusNt": "gaba",
+    "downstream": 11377,
+    "group": 800389,
+    "instance": "IN13A001_R",
+    "mancBodyid": 10186,
+    "mancGroup": 10186,
+    "mancSerial": 10153,
+    "mancType": "IN13A001",
+    "mcnsSerial": 800111,
+    "post": 12336,
+    "pre": 1970,
+    "predictedNt": "gaba",
+    "predictedNtConfidence": 0.8479411005973816,
+    "roiInfo": "{\"LegNp(T2)(R)\":{\"post\":12325,\"pre\":1966,\"downstream\":11348,\"upstream\":12325,\"synweight\":23673},\"MesoLN(R)\":{\"post\":4,\"pre\":4,\"downstream\":29,\"upstream\":4,\"synweight\":33},\"Ov(R)\":{\"post\":7,\"upstream\":7,\"synweight\":7},\"VNC\":{\"post\":12336,\"pre\":1970,\"downstream\":11377,\"upstream\":12336,\"synweight\":23713}}",
+    "size": 6582751317,
+    "somaLocation": {
+      "coordinates": [
+        43930,
+        66102,
+        93185
+      ],
+      "crs": {
+        "name": "cartesian-3d",
+        "properties": {
+          "href": "http://spatialreference.org/ref/sr-org/9157/ogcwkt/",
+          "type": "ogcwkt"
+        },
+        "srid": 9157,
+        "type": "link"
+      },
+      "type": "Point"
+    },
+    "somaNeuromere": "T2",
+    "somaSide": "R",
+    "status": "Traced",
+    "statusLabel": "Reviewed",
+    "subclass": "IR",
+    "superclass": "vnc_intrinsic",
+    "synweight": 23713,
+    "totalNtPredictions": 1970,
+    "trumanHl": "13A",
+    "type": "IN13A001",
+    "upstream": 12336,
+    "vfbId": "VFB_jrmc2sgr",
+    "is_neuron": true,
+    "source_ids": [
+      "src_48ac970caca4"
+    ]
+  },
+  {
+    "LegNp(T2)(R)": true,
+    "MesoLN(R)": true,
+    "VNC": true,
+    "VNC-unspecified": true,
+    "birthtime": "early",
+    "bodyId": "800524",
+    "celltypePredictedNt": "gaba",
+    "celltypePredictedNtConfidence": 0.8995856046676636,
+    "celltypeTotalNtPredictions": 13037,
+    "consensusNt": "gaba",
+    "downstream": 15097,
+    "group": 800428,
+    "instance": "IN13A002_R",
+    "mancBodyid": 10168,
+    "mancGroup": 10168,
+    "mancSerial": 10168,
+    "mancType": "IN13A002",
+    "mcnsSerial": 800139,
+    "post": 3743,
+    "pre": 2196,
+    "predictedNt": "gaba",
+    "predictedNtConfidence": 0.9031816720962524,
+    "roiInfo": "{\"LegNp(T2)(R)\":{\"post\":3672,\"pre\":2179,\"downstream\":14992,\"upstream\":3672,\"synweight\":18664},\"MesoLN(R)\":{\"post\":10,\"upstream\":10,\"synweight\":10},\"VNC\":{\"post\":3743,\"pre\":2196,\"downstream\":15097,\"upstream\":3743,\"synweight\":18840},\"VNC-unspecified\":{\"post\":61,\"pre\":17,\"downstream\":105,\"upstream\":61,\"synweight\":166}}",
+    "size": 4860859133,
+    "somaLocation": {
+      "coordinates": [
+        40844,
+        65058,
+        93470
+      ],
+      "crs": {
+        "name": "cartesian-3d",
+        "properties": {
+          "href": "http://spatialreference.org/ref/sr-org/9157/ogcwkt/",
+          "type": "ogcwkt"
+        },
+        "srid": 9157,
+        "type": "link"
+      },
+      "type": "Point"
+    },
+    "somaNeuromere": "T2",
+    "somaSide": "R",
+    "status": "Traced",
+    "statusLabel": "Reviewed",
+    "subclass": "IR",
+    "superclass": "vnc_intrinsic",
+    "synweight": 18840,
+    "totalNtPredictions": 2196,
+    "trumanHl": "13A",
+    "type": "IN13A002",
+    "upstream": 3743,
+    "vfbId": "VFB_jrmc2sgu",
+    "is_neuron": true,
+    "source_ids": [
+      "src_48ac970caca4"
+    ]
+  },
+  {
+    "LTct": true,
+    "LegNp(T2)(R)": true,
+    "MesoLN(R)": true,
+    "VNC": true,
+    "VNC-unspecified": true,
+    "birthtime": "early",
+    "bodyId": "800546",
+    "celltypePredictedNt": "gaba",
+    "celltypePredictedNtConfidence": 0.8739469051361084,
+    "celltypeTotalNtPredictions": 11180,
+    "consensusNt": "gaba",
+    "downstream": 13934,
+    "group": 800546,
+    "instance": "IN13A009_R",
+    "mancBodyid": 11240,
+    "mancGroup": 11240,
+    "mancSerial": 10230,
+    "mancType": "IN13A009",
+    "mcnsSerial": 800446,
+    "post": 6598,
+    "pre": 2519,
+    "predictedNt": "gaba",
+    "predictedNtConfidence": 0.8936823010444641,
+    "roiInfo": "{\"LTct\":{\"post\":131,\"pre\":20,\"downstream\":108,\"upstream\":131,\"synweight\":239},\"LegNp(T2)(R)\":{\"post\":6314,\"pre\":2375,\"downstream\":13180,\"upstream\":6314,\"synweight\":19494},\"MesoLN(R)\":{\"post\":144,\"pre\":124,\"downstream\":646,\"upstream\":144,\"synweight\":790},\"VNC\":{\"post\":6598,\"pre\":2519,\"downstream\":13934,\"upstream\":6598,\"synweight\":20532},\"VNC-unspecified\":{\"post\":9,\"upstream\":9,\"synweight\":9}}",
+    "size": 2939311321,
+    "somaLocation": {
+      "coordinates": [
+        41486,
+        64612,
+        92250
+      ],
+      "crs": {
+        "name": "cartesian-3d",
+        "properties": {
+          "href": "http://spatialreference.org/ref/sr-org/9157/ogcwkt/",
+          "type": "ogcwkt"
+        },
+        "srid": 9157,
+        "type": "link"
+      },
+      "type": "Point"
+    },
+    "somaNeuromere": "T2",
+    "somaSide": "R",
+    "status": "Traced",
+    "statusLabel": "Reviewed",
+    "subclass": "IR",
+    "superclass": "vnc_intrinsic",
+    "synweight": 20532,
+    "totalNtPredictions": 2519,
+    "trumanHl": "13A",
+    "type": "IN13A009",
+    "upstream": 6598,
+    "vfbId": "VFB_jrmc2shz",
+    "is_neuron": true,
+    "source_ids": [
+      "src_48ac970caca4"
+    ]
+  },
+  {
+    "LegNp(T2)(R)": true,
+    "Ov(R)": true,
+    "VNC": true,
+    "VNC-unspecified": true,
+    "WTct(UTct-T2)(R)": true,
+    "birthtime": "early",
+    "bodyId": "801910",
+    "celltypePredictedNt": "gaba",
+    "celltypePredictedNtConfidence": 0.8987863659858704,
+    "celltypeTotalNtPredictions": 3497,
+    "consensusNt": "gaba",
+    "downstream": 4418,
+    "group": 801910,
+    "instance": "IN13A015_R",
+    "mancBodyid": 12741,
+    "mancGroup": 12651,
+    "mancSerial": 11166,
+    "mancType": "IN13A015",
+    "mcnsSerial": 801910,
+    "post": 1820,
+    "pre": 691,
+    "predictedNt": "gaba",
+    "predictedNtConfidence": 0.9044748544692993,
+    "roiInfo": "{\"LegNp(T2)(R)\":{\"post\":1814,\"pre\":683,\"downstream\":4368,\"upstream\":1814,\"synweight\":6182},\"Ov(R)\":{\"post\":1,\"pre\":2,\"downstream\":12,\"upstream\":1,\"synweight\":13},\"VNC\":{\"post\":1820,\"pre\":691,\"downstream\":4418,\"upstream\":1820,\"synweight\":6238},\"VNC-unspecified\":{\"post\":2,\"pre\":6,\"downstream\":38,\"upstream\":2,\"synweight\":40},\"WTct(UTct-T2)(R)\":{\"post\":3,\"upstream\":3,\"synweight\":3}}",
+    "size": 1768193972,
+    "somaLocation": {
+      "coordinates": [
+        42251,
+        65055,
+        91295
+      ],
+      "crs": {
+        "name": "cartesian-3d",
+        "properties": {
+          "href": "http://spatialreference.org/ref/sr-org/9157/ogcwkt/",
+          "type": "ogcwkt"
+        },
+        "srid": 9157,
+        "type": "link"
+      },
+      "type": "Point"
+    },
+    "somaNeuromere": "T2",
+    "somaSide": "R",
+    "status": "Traced",
+    "statusLabel": "Reviewed",
+    "subclass": "IR",
+    "superclass": "vnc_intrinsic",
+    "synweight": 6238,
+    "totalNtPredictions": 691,
+    "trumanHl": "13A",
+    "type": "IN13A015",
+    "upstream": 1820,
+    "vfbId": "VFB_jrmc2sit",
+    "is_neuron": true,
+    "source_ids": [
+      "src_48ac970caca4"
+    ]
+  },
+  {
+    "LegNp(T2)(R)": true,
+    "MesoLN(R)": true,
+    "VNC": true,
+    "VNC-unspecified": true,
+    "birthtime": "early",
+    "bodyId": "902313",
+    "celltypePredictedNt": "gaba",
+    "celltypePredictedNtConfidence": 0.8499540686607361,
+    "celltypeTotalNtPredictions": 3919,
+    "consensusNt": "gaba",
+    "downstream": 3225,
+    "group": 801493,
+    "instance": "IN13A014_R",
+    "mancBodyid": 11538,
+    "mancGroup": 11103,
+    "mancSerial": 11103,
+    "mancType": "IN13A014",
+    "mcnsSerial": 801412,
+    "post": 7623,
+    "pre": 709,
+    "predictedNt": "gaba",
+    "predictedNtConfidence": 0.8622175455093384,
+    "roiInfo": "{\"LegNp(T2)(R)\":{\"post\":7569,\"pre\":694,\"downstream\":3164,\"upstream\":7569,\"synweight\":10733},\"MesoLN(R)\":{\"post\":49,\"pre\":15,\"downstream\":60,\"upstream\":49,\"synweight\":109},\"VNC\":{\"post\":7623,\"pre\":709,\"downstream\":3225,\"upstream\":7623,\"synweight\":10848},\"VNC-unspecified\":{\"post\":5,\"downstream\":1,\"upstream\":5,\"synweight\":6}}",
+    "size": 2876985210,
+    "somaLocation": {
+      "coordinates": [
+        38584,
+        64348,
+        101584
+      ],
+      "crs": {
+        "name": "cartesian-3d",
+        "properties": {
+          "href": "http://spatialreference.org/ref/sr-org/9157/ogcwkt/",
+          "type": "ogcwkt"
+        },
+        "srid": 9157,
+        "type": "link"
+      },
+      "type": "Point"
+    },
+    "somaNeuromere": "T2",
+    "somaSide": "R",
+    "status": "Traced",
+    "statusLabel": "Reviewed",
+    "subclass": "IR",
+    "superclass": "vnc_intrinsic",
+    "synweight": 10848,
+    "totalNtPredictions": 709,
+    "trumanHl": "13A",
+    "type": "IN13A014",
+    "upstream": 7623,
+    "vfbId": "VFB_jrmc2sio",
+    "is_neuron": true,
+    "source_ids": [
+      "src_48ac970caca4"
+    ]
+  },
+  {
+    "LegNp(T2)(R)": true,
+    "MesoLN(R)": true,
+    "VNC": true,
+    "VNC-unspecified": true,
+    "birthtime": "early",
+    "bodyId": "903700",
+    "celltypePredictedNt": "gaba",
+    "celltypePredictedNtConfidence": 0.8893764615058899,
+    "celltypeTotalNtPredictions": 9014,
+    "consensusNt": "gaba",
+    "downstream": 6991,
+    "group": 800903,
+    "instance": "IN13A005_R",
+    "mancBodyid": 10897,
+    "mancGroup": 10850,
+    "mancSerial": 10321,
+    "mancType": "IN13A005",
+    "mcnsSerial": 800228,
+    "post": 7190,
+    "pre": 1398,
+    "predictedNt": "gaba",
+    "predictedNtConfidence": 0.8887395858764648,
+    "roiInfo": "{\"LegNp(T2)(R)\":{\"post\":7121,\"pre\":1390,\"downstream\":6947,\"upstream\":7121,\"synweight\":14068},\"MesoLN(R)\":{\"post\":25,\"pre\":2,\"downstream\":7,\"upstream\":25,\"synweight\":32},\"VNC\":{\"post\":7190,\"pre\":1398,\"downstream\":6991,\"upstream\":7190,\"synweight\":14181},\"VNC-unspecified\":{\"post\":44,\"pre\":6,\"downstream\":37,\"upstream\":44,\"synweight\":81}}",
+    "size": 3033435460,
+    "somaLocation": {
+      "coordinates": [
+        39258,
+        65394,
+        97668
+      ],
+      "crs": {
+        "name": "cartesian-3d",
+        "properties": {
+          "href": "http://spatialreference.org/ref/sr-org/9157/ogcwkt/",
+          "type": "ogcwkt"
+        },
+        "srid": 9157,
+        "type": "link"
+      },
+      "type": "Point"
+    },
+    "somaNeuromere": "T2",
+    "somaSide": "R",
+    "status": "Traced",
+    "statusLabel": "Reviewed",
+    "subclass": "IR",
+    "superclass": "vnc_intrinsic",
+    "synweight": 14181,
+    "totalNtPredictions": 1398,
+    "trumanHl": "13A",
+    "type": "IN13A005",
+    "upstream": 7190,
+    "vfbId": "VFB_jrmc2sh8",
+    "is_neuron": true,
+    "source_ids": [
+      "src_48ac970caca4"
+    ]
+  }
+]

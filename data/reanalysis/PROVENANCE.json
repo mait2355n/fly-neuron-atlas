@@ -1,0 +1,774 @@
+{
+  "schema_version": "fly-neuron-atlas-generated-provenance/v1",
+  "baseline_commit": "a1e90c5de104c9e747bfe8d50e1d9e19e09cbc1b",
+  "original_snapshot_provenance": "data/provenance.json",
+  "scope": "Versioned corrected base results, selected regenerated sensitivities, normalization and conditional graph pilots. Original 37 curated tables remain unchanged. Local paths, raw MAT, aligned NPZ and production logs are not bundled.",
+  "commands": {
+    "epoch-v2": "python scripts/reanalyze_ephys.py --raw-dir .local/raw --output .local/ephys-v2-release",
+    "sensitivity-v2": "python scripts/reproduce_sensitivity.py --raw-dir .local/raw --run-dir .local/ephys-v2-release --output .local/sensitivity-v2-release",
+    "normalization-v2": "python scripts/normalization_sensitivity.py --raw-dir .local/raw --reference .local/ephys-v2 --output .local/normalization-v2/final2",
+    "shared-null-10": "python scripts/shared_connectivity_null.py --replicates 32 --attempts-per-edge 10 --seed 20260915 --output .local/shared-null-10",
+    "shared-null-30": "python scripts/shared_connectivity_null.py --replicates 32 --attempts-per-edge 30 --seed 20261915 --output .local/shared-null-30"
+  },
+  "input_and_settings_receipts": [
+    "data/reanalysis/epoch-v2/RUN.json",
+    "data/reanalysis/sensitivity-v2/SENSITIVITY.json",
+    "data/reanalysis/normalization-v2/RUN.json",
+    "data/reanalysis/normalization-v2/source-reference-RUN.json",
+    "data/reanalysis/shared-null-10/RUN.json",
+    "data/reanalysis/shared-null-30/RUN.json"
+  ],
+  "code_sha256": {
+    "scripts/compare_ephys.py": "66dc90d312faa4b3a18b637b5ea6b886d2f8b12fbf333422e2477be1221577a3",
+    "scripts/ephys_core.py": "40a040c7b5a30e7b5495ba13464b637a6335a89a26004a4f68c65d946078cc44",
+    "scripts/normalization_sensitivity.py": "bc6adf2b45cffc5df9c220dc65dc7dc4c3e3c1b01aa6a939e60045bc56c7d8d9",
+    "scripts/reanalyze_ephys.py": "b137ebf9b9989daab5aea3fd4fe5f897d9af6d0b485a9cf52e59c82a0b2ce966",
+    "scripts/reproduce.py": "84ee9e9532ec60ab6e1ad88552c059cbac26fb39f2b40227a18de54cc4b774a1",
+    "scripts/reproduce_sensitivity.py": "dde27b35b4a006d896aed2f13816937b3289bbb3a82b0ece99cebb6351bd9a6d",
+    "scripts/shared_connectivity_null.py": "a517573309e5f331709663c2d9c1b69d16a632601e2955195aec5ce96038562f",
+    "scripts/table_contracts.py": "9dd330ce1d8d41c38881b2c2fd3e0b7bbf074c6681c61cb136d764aeddde3f26",
+    "scripts/verify.py": "2f543c867b561a439db2fc9625e105a2cc36e726ae0ca13c7df3c77f47256ef5"
+  },
+  "figures": [
+    "data/reanalysis/normalization-v2/figures/a2_d_12_0.8-1.3s.png"
+  ],
+  "entries": [
+    {
+      "path": "data/reanalysis/comparison-v1.json",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "comparisons",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "generated",
+        "reference",
+        "selected_flies",
+        "selection_source",
+        "run_status",
+        "tolerance",
+        "nan_policy",
+        "tables",
+        "scope"
+      ]
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/RUN.json",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "epoch-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "processing_status",
+        "analysis_status",
+        "selected_flies",
+        "selected_records",
+        "processed_records",
+        "usable_records",
+        "partial_records",
+        "excluded_records",
+        "analysis_method",
+        "numpy",
+        "scipy",
+        "source_hashes",
+        "errors",
+        "analysis_issues",
+        "download_notes",
+        "code_hashes",
+        "scope"
+      ]
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/channels.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "epoch-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "neuron",
+        "type",
+        "side",
+        "mat_channel",
+        "spikes",
+        "rate_mean_Hz",
+        "rate_no_stim_mean_Hz",
+        "fraction_ISI_under2ms",
+        "prominence",
+        "author_quality_flag",
+        "noise_scale_median_mV",
+        "noise_scale_p05_mV",
+        "zero_mad_blocks",
+        "yaw_r0",
+        "yaw_r150",
+        "yaw_shift1_r150",
+        "yaw_shift2_r150",
+        "yaw_peak_abs_r",
+        "yaw_peak_abs_lag_ms",
+        "fwd_r0",
+        "fwd_r150",
+        "fwd_shift1_r150",
+        "fwd_shift2_r150",
+        "lat_r0",
+        "lat_r150",
+        "lat_shift1_r150",
+        "lat_shift2_r150",
+        "yaw_counts_r150",
+        "yaw_vm_r150",
+        "rate_vm_r0",
+        "n_valid_r150",
+        "numerical_valid",
+        "status",
+        "analysis_status",
+        "reasons",
+        "reason",
+        "metrics_computed",
+        "yaw_r150_third1",
+        "yaw_r150_third2",
+        "yaw_r150_third3",
+        "record_complete",
+        "author_reference_eligible",
+        "main_summary_eligible"
+      ],
+      "rows": 33,
+      "primary_key": [
+        "fly",
+        "neuron"
+      ],
+      "identity_reference": "data/activity/channels.csv",
+      "finite_columns": [
+        "yaw_r0",
+        "yaw_r150",
+        "spikes",
+        "n_valid_r150"
+      ]
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/inventory.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "epoch-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "file",
+        "file_id",
+        "author_quality_flag",
+        "author_reference_eligible",
+        "status",
+        "analysis_status",
+        "processing_status",
+        "expected_channels",
+        "expected_pair_series",
+        "reasons",
+        "source_md5_verified",
+        "mat_fields",
+        "source_clock_resets",
+        "epoch_durations_s",
+        "time_coordinate",
+        "ephys_hz",
+        "ball_hz",
+        "available_ephys_s",
+        "analyzed_s",
+        "start_s",
+        "end_s",
+        "bins",
+        "author_spike_arrays",
+        "neurons",
+        "fwd_lat_raw_exact_equal_fraction",
+        "stim_bin_fraction",
+        "stim_unknown_bin_fraction",
+        "stim_unknown_bins",
+        "valid_no_stim_s",
+        "stim_min",
+        "stim_max",
+        "record_complete",
+        "observed_channels",
+        "numerically_valid_channels",
+        "observed_pair_series",
+        "numerically_valid_pair_series",
+        "expected_channel_count",
+        "observed_channel_count",
+        "expected_pair_count",
+        "observed_pair_count",
+        "reason",
+        "processing_seconds",
+        "analysis_complete",
+        "main_summary_eligible"
+      ],
+      "rows": 23,
+      "primary_key": [
+        "fly"
+      ],
+      "identity_reference": "data/activity/inventory.csv"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/lag_curves.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "epoch-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "signal",
+        "target",
+        "lag_ms",
+        "r"
+      ],
+      "rows": 6363,
+      "primary_key": [
+        "fly",
+        "signal",
+        "target",
+        "lag_ms"
+      ],
+      "identity_reference": "data/activity/lag_curves.csv"
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/pairs.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "epoch-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "kind",
+        "signal",
+        "target",
+        "r0",
+        "r150",
+        "shift1_r150",
+        "shift2_r150",
+        "peak_abs_r",
+        "peak_abs_lag_ms",
+        "n_valid_r150",
+        "numerical_valid",
+        "status",
+        "analysis_status",
+        "reasons",
+        "reason",
+        "metrics_computed",
+        "record_complete",
+        "author_reference_eligible",
+        "main_summary_eligible"
+      ],
+      "rows": 30,
+      "primary_key": [
+        "fly",
+        "kind",
+        "signal",
+        "target"
+      ],
+      "identity_reference": "data/activity/pairs.csv",
+      "finite_columns": [
+        "r0",
+        "r150",
+        "n_valid_r150"
+      ]
+    },
+    {
+      "path": "data/reanalysis/epoch-v2/sensitivity.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "epoch-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "neuron",
+        "prominence_multiplier",
+        "spikes",
+        "fraction_ISI_under2ms",
+        "yaw_r150"
+      ],
+      "rows": 156,
+      "primary_key": [
+        "fly",
+        "neuron",
+        "prominence_multiplier"
+      ]
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/RUN.json",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "normalization-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "processing_status",
+        "selected_flies",
+        "methods",
+        "same_inputs_verified",
+        "inputs",
+        "settings",
+        "code_hashes",
+        "dependencies",
+        "source_reference",
+        "fixed_waveform",
+        "errors",
+        "elapsed_seconds",
+        "scope"
+      ]
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/channels.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "normalization-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "method",
+        "fly",
+        "neuron",
+        "analysis_status",
+        "numerical_valid",
+        "main_summary_eligible",
+        "spikes",
+        "delta_spikes_from_source",
+        "rate_mean_Hz",
+        "delta_rate_mean_Hz_from_source",
+        "rate_no_stim_mean_Hz",
+        "delta_rate_no_stim_mean_Hz_from_source",
+        "yaw_r0",
+        "delta_yaw_r0_from_source",
+        "yaw_r150",
+        "delta_yaw_r150_from_source",
+        "n_valid_r150",
+        "delta_n_valid_r150_from_source"
+      ],
+      "rows": 12,
+      "primary_key": [
+        "method",
+        "fly",
+        "neuron"
+      ]
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/pairs.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "normalization-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "method",
+        "fly",
+        "signal",
+        "target",
+        "numerical_valid",
+        "main_summary_eligible",
+        "r0",
+        "delta_r0_from_source",
+        "r150",
+        "delta_r150_from_source",
+        "n_valid_r150",
+        "delta_n_valid_r150_from_source"
+      ],
+      "rows": 18,
+      "primary_key": [
+        "method",
+        "fly",
+        "signal",
+        "target"
+      ]
+    },
+    {
+      "path": "data/reanalysis/normalization-v2/source-reference-RUN.json",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "normalization-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "processing_status",
+        "analysis_status",
+        "selected_flies",
+        "selected_records",
+        "processed_records",
+        "usable_records",
+        "partial_records",
+        "excluded_records",
+        "analysis_method",
+        "numpy",
+        "scipy",
+        "source_hashes",
+        "errors",
+        "analysis_issues",
+        "download_notes",
+        "code_hashes",
+        "scope"
+      ]
+    },
+    {
+      "path": "data/reanalysis/repeat-comparison.json",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "comparisons",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "generated",
+        "reference",
+        "selected_flies",
+        "selection_source",
+        "run_status",
+        "tolerance",
+        "nan_policy",
+        "tables",
+        "scope",
+        "execution_evidence"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/SENSITIVITY.json",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "method_version",
+        "status",
+        "processing_status",
+        "selected_flies",
+        "processed_flies",
+        "source_run_schema",
+        "source_run_sha256",
+        "inventory_sha256",
+        "channels_sha256",
+        "generator_sha256",
+        "core_sha256",
+        "numpy",
+        "scipy",
+        "settings",
+        "inputs",
+        "errors",
+        "rows",
+        "scope"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/clock_boundary_sensitivity.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "method",
+        "guard_s",
+        "signal",
+        "target",
+        "r150",
+        "peak_abs_lag_ms",
+        "peak_abs_r",
+        "valid_s",
+        "method_version"
+      ],
+      "rows": 24,
+      "primary_key": [
+        "fly",
+        "method",
+        "guard_s",
+        "signal",
+        "target"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/pair_sensitivity.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "prominence",
+        "source_notebook_example",
+        "main_file_eligible",
+        "difference_r150",
+        "sum_r150",
+        "left_r150",
+        "right_r150",
+        "difference_peak_abs_lag_ms",
+        "difference_peak_abs_r",
+        "method_version"
+      ],
+      "rows": 24,
+      "primary_key": [
+        "fly",
+        "prominence"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/paired_threshold_sensitivity.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "kind",
+        "multiplier",
+        "difference_r150",
+        "difference_peak_lag_ms",
+        "difference_peak_r",
+        "method_version"
+      ],
+      "rows": 50,
+      "primary_key": [
+        "fly",
+        "kind",
+        "multiplier"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/source_example_comparison.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "neuron",
+        "source_example_prominence",
+        "source_example_spikes",
+        "source_example_yaw_r150",
+        "threshold_grid_sign_stable",
+        "threshold_grid_all_estimable",
+        "threshold_grid_finite_n",
+        "threshold_grid_r150_min",
+        "threshold_grid_r150_max",
+        "method_version"
+      ],
+      "rows": 33,
+      "primary_key": [
+        "fly",
+        "neuron"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/threshold_lag_sensitivity.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "neuron",
+        "absolute_prominence",
+        "prominence_multiplier",
+        "spikes",
+        "r150",
+        "peak_abs_lag_ms",
+        "peak_abs_r",
+        "method_version"
+      ],
+      "rows": 156,
+      "primary_key": [
+        "fly",
+        "neuron",
+        "prominence_multiplier"
+      ]
+    },
+    {
+      "path": "data/reanalysis/sensitivity-v2/voltage_sensitivity.csv",
+      "source_ids": [
+        "rayshubskiy-data",
+        "rayshubskiy-code"
+      ],
+      "artifact_group": "sensitivity-v2",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "fly",
+        "signal",
+        "kind",
+        "r150",
+        "vm_cutoff_r150",
+        "baseline_valid_bins",
+        "vm_cutoff_valid_bins",
+        "vm_cutoff_fraction_retained",
+        "main_summary_eligible",
+        "interpretation",
+        "method_version"
+      ],
+      "rows": 63,
+      "primary_key": [
+        "fly",
+        "signal",
+        "kind"
+      ]
+    },
+    {
+      "path": "data/reanalysis/shared-null-10/RUN.json",
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "artifact_group": "shared-null-10",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "dataset",
+        "threshold",
+        "source_neurons",
+        "selected_motor_neurons",
+        "target_groups",
+        "eligible_edges",
+        "replicates",
+        "attempts_per_edge",
+        "seed",
+        "observed_shared_candidates",
+        "null_shared_mean",
+        "null_shared_min",
+        "null_shared_max",
+        "descriptive_upper_tail_fraction",
+        "preserved",
+        "not_preserved",
+        "limitations",
+        "input_sha256",
+        "trials"
+      ]
+    },
+    {
+      "path": "data/reanalysis/shared-null-10/per_cell.csv",
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "artifact_group": "shared-null-10",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "bodyId",
+        "threshold_degree",
+        "observed_target_groups",
+        "null_group_mean",
+        "null_group_min",
+        "null_group_max",
+        "descriptive_upper_tail_fraction"
+      ],
+      "rows": 4702,
+      "primary_key": [
+        "bodyId"
+      ]
+    },
+    {
+      "path": "data/reanalysis/shared-null-30/RUN.json",
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "artifact_group": "shared-null-30",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "json",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "dataset",
+        "threshold",
+        "source_neurons",
+        "selected_motor_neurons",
+        "target_groups",
+        "eligible_edges",
+        "replicates",
+        "attempts_per_edge",
+        "seed",
+        "observed_shared_candidates",
+        "null_shared_mean",
+        "null_shared_min",
+        "null_shared_max",
+        "descriptive_upper_tail_fraction",
+        "preserved",
+        "not_preserved",
+        "limitations",
+        "input_sha256",
+        "trials"
+      ]
+    },
+    {
+      "path": "data/reanalysis/shared-null-30/per_cell.csv",
+      "source_ids": [
+        "malecns",
+        "muscle-atlas"
+      ],
+      "artifact_group": "shared-null-30",
+      "license": "CC-BY-4.0 for original curation; upstream terms retained",
+      "format": "csv",
+      "columns": [
+        "bodyId",
+        "threshold_degree",
+        "observed_target_groups",
+        "null_group_mean",
+        "null_group_min",
+        "null_group_max",
+        "descriptive_upper_tail_fraction"
+      ],
+      "rows": 4702,
+      "primary_key": [
+        "bodyId"
+      ]
+    }
+  ]
+}
