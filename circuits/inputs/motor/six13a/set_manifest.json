@@ -1,0 +1,60 @@
+{
+  "schema_version": "circuit-source-set/v1",
+  "name": "six13a",
+  "dataset": "male-cns:v1.0",
+  "snapshot": {
+    "uuid": "4b2087c0fbe046bfaf0d60bc970e3e5d",
+    "tag": "v1.0",
+    "lastDatabaseEdit": "2026-03-28 11:56:30.222612573-04:00 / 2026-06-08T01:31:39-04:00 (segment property update)",
+    "latestMutationId": 1006591300
+  },
+  "selected_ids": [
+    "800389",
+    "800524",
+    "800546",
+    "801910",
+    "902313",
+    "903700"
+  ],
+  "edges_file": "edges.csv.gz",
+  "nodes_file": "nodes.json",
+  "sources_file": "sources.json",
+  "coverage": {
+    "internal": {
+      "status": "complete_incident_query",
+      "basis": "全入力は2026-09-14のSegment→選択Neuron無閾値原照会。全出力は本枝の選択Segment→全Segment無閾値照会。前後Metaと既存版一致、内部入出力重複の三重み一致。"
+    },
+    "incoming": {
+      "status": "complete_incident_query",
+      "basis": "全入力は2026-09-14のSegment→選択Neuron無閾値原照会。全出力は本枝の選択Segment→全Segment無閾値照会。前後Metaと既存版一致、内部入出力重複の三重み一致。"
+    },
+    "outgoing": {
+      "status": "complete_incident_query",
+      "basis": "全入力は2026-09-14のSegment→選択Neuron無閾値原照会。全出力は本枝の選択Segment→全Segment無閾値照会。前後Metaと既存版一致、内部入出力重複の三重み一致。"
+    }
+  },
+  "notes": [
+    "個別bodyIdを同一性に使用し、型名、MANC番号、筋名では統合しない。",
+    "weight/weightHP/weightHRは保存された有向化学ConnectsTo集計で、符号、利得、活動、学習則ではない。",
+    "Neuron標識なしSegmentを保持した。全境界細胞の生物学的同定、外部同士の結線、生理動態は含まない。",
+    "末梢筋作用は注釈候補であり、神経発火から筋活性への較正は未測定。"
+  ],
+  "publication": {
+    "schema_version": "circuit-published-inputs/v1",
+    "archival_sources_verified": false,
+    "files": {
+      "nodes.json": {
+        "sha256": "3d6f97a0ba013f3c1ab90cdd2c07e0fcab7bdd2189019eef132c45fcba651170",
+        "size_bytes": 10914
+      },
+      "edges.csv.gz": {
+        "sha256": "0fc026477974754bb5b0c3d0f4b9cba0d5f220a92d799dda62669fd34a412fa5",
+        "size_bytes": 193423
+      },
+      "sources.json": {
+        "sha256": "03f74f769bb87155e14e710fb40a51a83f27899e6ca08384b037d72e9ff43334",
+        "size_bytes": 11970
+      }
+    }
+  }
+}

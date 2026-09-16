@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "src_d8f8b498e9ab651e",
+    "path": "malecns_recomposition_audit_20260916/parent/REPORT.md",
+    "sha256": "097479cbbda0e1fba146ff81f664d4f239634104b7cb5a762be517fb4f3290b9",
+    "size_bytes": 6125,
+    "role": "prior_independent_scope_and_annotation_audit",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_49b08003a166b555",
+    "path": "malecns_research_20260914/connectome/REPORT.md",
+    "sha256": "5321194b5ed5ef51173c23c3ec78e9996cd48d9ab7974407500126c4e87ecae0",
+    "size_bytes": 12566,
+    "role": "biological_and_scope_reference",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_18944f59ad513564",
+    "path": "malecns_research_20260914/connectome/data/A_body_ids.json",
+    "sha256": "5209f519633d95191bbe958e144649a935da33c0d92f681419ad101b5c7e5aa9",
+    "size_bytes": 3145,
+    "role": "selected_original_IDs",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_07109c56379b1851",
+    "path": "malecns_research_20260914/connectome/data/A_boundary_annotations.json.gz",
+    "sha256": "0decd9dd4416c48082ef88a4b7388dcc9a34f477ef467f90781cb161a13a02d7",
+    "size_bytes": 2193689,
+    "role": "boundary_annotation_reference",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f2b800a6cf7efcc6",
+    "path": "malecns_research_20260914/connectome/data/A_core_edges.tsv.gz",
+    "sha256": "cddf63047fdec2a41087aadbad05d82263a90d80ea1a10a3ef9cd498d84609a9",
+    "size_bytes": 76601,
+    "role": "normalized_original_partition",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c9f79fb87fc5263e",
+    "path": "malecns_research_20260914/connectome/data/A_incoming_boundary_edges.tsv.gz",
+    "sha256": "f2df65e9ce19d27d6ece507b65716a936f212314f6e9279f41b7d6853ed97f42",
+    "size_bytes": 649790,
+    "role": "normalized_original_partition",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fbdb9e4e2a9278f3",
+    "path": "malecns_research_20260914/connectome/data/A_neurons_api.json",
+    "sha256": "2bddc49016548cbe5c49532d5946b74014a8154e4071bcd43dac39af389f4929",
+    "size_bytes": 922998,
+    "role": "selected_API_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ffa5b8e00962ef4b",
+    "path": "malecns_research_20260914/connectome/data/A_outgoing_boundary_edges.tsv.gz",
+    "sha256": "3adebe319ed2d603b77502e2160bd2c92a62707178deffb36cc00872e039742b",
+    "size_bytes": 3132507,
+    "role": "normalized_original_partition",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c1300bd3b21047f4",
+    "path": "malecns_research_20260914/connectome/data/A_roi_edges.json.gz",
+    "sha256": "3a250aadff036b786afda24b9ea3b4dc9d26a4dba1842fee0773133cb2c9b078",
+    "size_bytes": 1036523,
+    "role": "archived_partial_edge_ROI_reference",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_45266ccfbb57fee0",
+    "path": "malecns_research_20260914/connectome/data/A_selected_annotation_records.json",
+    "sha256": "56a5394717fff4d409ad34f09effa3889ac73412596557572692b14814a8f3e7",
+    "size_bytes": 228050,
+    "role": "selected_flat_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_db88baf14d33a6ad",
+    "path": "malecns_research_20260914/connectome/data/A_verification.json",
+    "sha256": "9de9a1829dc24c8a79e82af5a7a9fe95d114ae2e0f8b56dd2db7ad5df2f1624b",
+    "size_bytes": 1210,
+    "role": "prior_verification",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_10d0bae776356058",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0000.metadata.json",
+    "sha256": "0787b5d299f884238cb08e9f42b9df2cd072c70b72361aa117294b84021df9b7",
+    "size_bytes": 997,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_cb6598e8268bc57f",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0000.request.json",
+    "sha256": "08ac5162b4ec80ec9649e51a6c243da25c22cd045f072886b8740f0376f690fe",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8ab07b925bb60483",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0000.response.json",
+    "sha256": "8d2dcef000fb79344653b90eb0bffdc1a7f601cdd6451179cb0a32da3d9965a6",
+    "size_bytes": 294287,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_baa229cb2a7aa109",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0020.metadata.json",
+    "sha256": "e24f0d92fde360ac3e1146181f4f806708d29aaa24592d2a2ac7cf39e6c92c1b",
+    "size_bytes": 997,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7b1b6249df2370ec",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0020.request.json",
+    "sha256": "0baeb1df857c7b917cfd514d3776766bf5318af674c7d4b8c837f408608b6900",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6718027c8f87812f",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0020.response.json",
+    "sha256": "295f2ef9075f150fc82d67c7d18702e5c808dbec9f343551ffeb3a0c60a7efad",
+    "size_bytes": 127057,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9ead86a1c9759f24",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0040.metadata.json",
+    "sha256": "ec23cee2eb9d7d5ba769f44c0142989acf4c48814ce44983cfdf0d02c0ecf801",
+    "size_bytes": 997,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7eae7f3f0cc64a3b",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0040.request.json",
+    "sha256": "37731b9bee3314ddd48e33a1cff8a11e82432cbd828eeef94ab80b043c2dbbd9",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4f03311f80881861",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0040.response.json",
+    "sha256": "6a05f89e6679924fb7fe004cc8c9520aed0bb0732fe8dc458af6f33777a37a21",
+    "size_bytes": 167083,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8685ea1f3173f014",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0060.metadata.json",
+    "sha256": "b7f3f8f25287340c1e1e3fdba6b01cf95917cd7076a6047c44b886211ba38ff1",
+    "size_bytes": 997,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1d5fee6ac59ae375",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0060.request.json",
+    "sha256": "98ed4157d5746cd0f782e80a2ee2956f389f26534e73e555efc3eeace06bc24a",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c4ec5ea9e551b419",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0060.response.json",
+    "sha256": "240ec0c80129b440ee7003569d9a99d851d7165d22a7dfa0141f36ac1d6bd9a6",
+    "size_bytes": 199414,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4754e71f4a5b2f26",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0080.metadata.json",
+    "sha256": "20ebb1edb8e4cbfdef6e1d551c2501be32ed8292a491bc06828ca40f0892b62a",
+    "size_bytes": 997,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_52b48b10f7245c46",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0080.request.json",
+    "sha256": "80753812023054dbf5d3ad3a9c817142bac056411d0e418a3b5e900d01ccddc1",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b80119fcf45fa94b",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0080.response.json",
+    "sha256": "503a550e40cc976129c03a49fbea9430c0720dd0903fca6828b85c1516f2b117",
+    "size_bytes": 171050,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_92d439c663f5458a",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0100.metadata.json",
+    "sha256": "e4c2f066ae4faafc88441df04f9298108445ddd2bd906e0730e503bed2576ac5",
+    "size_bytes": 1002,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d5bc85e7ca31e5d4",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0100.request.json",
+    "sha256": "202b1590b895fc521113dd91626eb1cdfb6b02dc209fb1317e37976ec6b3e6c0",
+    "size_bytes": 686,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7331787c285b1fe6",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0100.response.json",
+    "sha256": "970f41ec629f5da315ea8d225adbd4bf66f356feb704c9f338cfb50b571c5f64",
+    "size_bytes": 201005,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_63bd4d7cd543576c",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0120.metadata.json",
+    "sha256": "50c6f861953dbbf2ac7719689b45911b9efa5e757c00fa241802d4320ca6076a",
+    "size_bytes": 1017,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e5dfb252b0985bf7",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0120.request.json",
+    "sha256": "deb581c22f7aceee77db880a91db4f7dfd63ffbd364f646628cbb006c9791b3e",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_ccfc5b2afac0d9e0",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0120.response.json",
+    "sha256": "0a6807b545e626ff6f3c7be3e1a5470f1179e387d6db1b22885eb732f5c74d5d",
+    "size_bytes": 161293,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7bca307bb468d4e1",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0140.metadata.json",
+    "sha256": "8f76d3b48f97b8042583a66d03080f1fb355ada511b4c8233ffe05a99f30be2b",
+    "size_bytes": 1017,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_34e67843d0eb0f59",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0140.request.json",
+    "sha256": "89f4944fb002e8e4b38eb4572958c437b2a2af06c1399f200f6b884a21846355",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_659cbfae16b2a175",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0140.response.json",
+    "sha256": "2a327e6fc6baace6838bf3b923779273c641582c56f15925e1afeac79c5659fe",
+    "size_bytes": 196537,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5c53b0fdab8dc6e7",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0160.metadata.json",
+    "sha256": "f14e7554ff3733bc590684cdb3094a2766f51cec9f611a1783277cfed14ec115",
+    "size_bytes": 1017,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1b622f72abd27abc",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0160.request.json",
+    "sha256": "732d8444636e52841ba2ed897ba46e83917d687fcfd29fcf10b54fb07f759d38",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_48348a841928aa70",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0160.response.json",
+    "sha256": "46ca6290708ec3d057c9522cc4619178961a870a5eb5a7961754b701d80f0eb4",
+    "size_bytes": 228135,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_279a49cba0a84fed",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0180.metadata.json",
+    "sha256": "ee6f79311f1be50426d3239c1791b9392481ed6dfe83b4655da502d4321087bb",
+    "size_bytes": 1017,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5d826b6b3e21fc02",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0180.request.json",
+    "sha256": "ff11b9e26d8c8843ddca008dc61cef354a0aaa5236da1cf27bbb6e2038905eea",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b2bce78cb01b58f7",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0180.response.json",
+    "sha256": "e8259c2bd0f935dfccc7f213d1edd2233ce0c58f8d72e3dc63386c232375ed56",
+    "size_bytes": 306409,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2578b1f79624fd4f",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0200.metadata.json",
+    "sha256": "c382591671ee4852e2e1523ab35852a0a7d0ebdcf10b92d99e0c837392a96f31",
+    "size_bytes": 1017,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8b58c5ad073d3a56",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0200.request.json",
+    "sha256": "0679358f00324e42568226daded339b5b319cc6a3b4876bb940d6e2c63241949",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b013e1f3313cb249",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_in_0200.response.json",
+    "sha256": "75cb94b2db8acf3f08ca84c154f33cf700b628d0233d9a54777c5ab840508dc6",
+    "size_bytes": 180193,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_16294699b6c35d55",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0000.metadata.json",
+    "sha256": "b92ddf51d868aa073bc62e77b3ccff0fc711d5c7c7b9d2d03722207f6f878c88",
+    "size_bytes": 999,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_302630660f278675",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0000.request.json",
+    "sha256": "4fe9891311eb528b596bd22d44deee1646a904762407c1a033c36205ee248ad1",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5e95d72c19af5530",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0000.response.json",
+    "sha256": "e3bef8bd6e7bbad0c40e768112f421d0f32c1485db21ae52fe1af5b18fee2368",
+    "size_bytes": 1734710,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_961ad537263ff910",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0020.metadata.json",
+    "sha256": "fa2ed4ae0457e2aa4e3e4d77ccb463ad994ba61c14df67c770c3691c1c64896b",
+    "size_bytes": 999,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_bfdecd71f4c55961",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0020.request.json",
+    "sha256": "a4ae096044cf82482eb817f34159b0bdd53d4eb41c6e362b6c4245a29bbeb779",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8f44a0ce0e305f93",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0020.response.json",
+    "sha256": "a35a1701969fb0a8c7e4cc25662171e969130a2c0b900b489a020ef4d79d280c",
+    "size_bytes": 1469409,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_82665bec69de4a30",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0040.metadata.json",
+    "sha256": "31530e2060d7f2caaf7ee0d6470ea5c700738be39dc66bacdf0f87e2196479f3",
+    "size_bytes": 999,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7c3a08890dc2ea3b",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0040.request.json",
+    "sha256": "7b4e2faa6a4ebae5fb9ac95e1840c5ecd87a0539756c647e657a6c3287fd8917",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fedd39085c11944d",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0040.response.json",
+    "sha256": "fe946c8a79b70efe17d70aee7d5eb4d331b856d4d403cd525bfb81774c559fdf",
+    "size_bytes": 1413033,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_753dfc71ab5377fe",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0060.metadata.json",
+    "sha256": "714d0c57b8becc2790da565b17c2136442e8fa2c504ed1056b69b6c7aefd7207",
+    "size_bytes": 998,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_04705cab883ea541",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0060.request.json",
+    "sha256": "0c20993891876cfbfa560f03100edeadb3307a925e023fe6323ed3cb04e378bf",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f621d89986e9aa49",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0060.response.json",
+    "sha256": "95750ea91cb35088d07d212d3815619be9437ce8418716207533be8e21f4d462",
+    "size_bytes": 836058,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_148fc2a08de8b7f3",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0080.metadata.json",
+    "sha256": "a2e18b442f0928017b5714342e2ac877f1732c0b6d54375c80f6e867ebf614e3",
+    "size_bytes": 998,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_c458c9172239219e",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0080.request.json",
+    "sha256": "9c3c9b613687de56c388a2b3dfc15b020c7a2674428fb79b35cd2001954c2147",
+    "size_bytes": 681,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_90370719a975d04b",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0080.response.json",
+    "sha256": "54b399ccecc8f2cb2253be4537b977052bc0fadd3b21e03121df0ba7966fe472",
+    "size_bytes": 479359,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_716c9cfaaa717ff5",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0100.metadata.json",
+    "sha256": "c329f8a1c1d4a0bf3220743440c01a3886122d90f7851cc2d14596847c55db77",
+    "size_bytes": 1003,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_8327c26b9a6d3d39",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0100.request.json",
+    "sha256": "f7c7d2b826d77f8fe681e150540f752fb2d256db26dc41c2285a5c3c83698fbf",
+    "size_bytes": 686,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d8da283252b705af",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0100.response.json",
+    "sha256": "263c350c89805731ccc82ba3a7e5a8aade026486ee366d60f64ddb525ca6cc5f",
+    "size_bytes": 663044,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b0e767026f677d47",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0120.metadata.json",
+    "sha256": "e632a3644e26edcf4310be32d633fcd8c0c237e99910bd30801084e4b0772627",
+    "size_bytes": 1018,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e0cee5409558f621",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0120.request.json",
+    "sha256": "28df391e15945e2d5388a213811f0254ce7538cc39efc4e1dd67efc5039afd72",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_83d18680ce014ca6",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0120.response.json",
+    "sha256": "7639035e4bd70128f5413fb0c6741f16125c71286ddba6d292970c9ed35e22e6",
+    "size_bytes": 510320,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_e8f95a730415e53a",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0140.metadata.json",
+    "sha256": "d438741b9d83a63fd9a9fbff94cf0c02161a92ec4988800c13253afc5b20d397",
+    "size_bytes": 1018,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_61b422e0c89c5d5b",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0140.request.json",
+    "sha256": "8d1f62bf1986e25122c47e67bc19ca3de11be5cda6c58273172ed37ad06d09b1",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1d49efce376d9b6d",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0140.response.json",
+    "sha256": "a4501fe21c78ff6879fbf4d417cd8f4a2dd770513b8fd93fd9cb20d7014bc043",
+    "size_bytes": 908681,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_75034f4dcf6605e0",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0160.metadata.json",
+    "sha256": "8fad42096dc9fc9c93d3abca062671887f39e05e83b8a0b8156dcd57f9b565ff",
+    "size_bytes": 1019,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_aa672be034de928b",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0160.request.json",
+    "sha256": "d95727de08139dae4c0e9a84a4aa7fcba7ed3ec8222bcfe7818a3abcedec166e",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a101e1d3e244ee76",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0160.response.json",
+    "sha256": "003b066f7f666662f905ee15a572b9f358ac8013195a27afd390fa6726b64fd7",
+    "size_bytes": 1183629,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_aabb9491a2e7f143",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0180.metadata.json",
+    "sha256": "7f2d4fa0fd6674a1cf90e8465e35bcd8597d41e2d7cb2ea96c886175ff9e0ae5",
+    "size_bytes": 1019,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_71ac77521a69d4e2",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0180.request.json",
+    "sha256": "c55859877ec598b13ef57333a39a4b073183742bc6c39e29d9f1b421cf615afb",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_2fbf3a1c3b415dcd",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0180.response.json",
+    "sha256": "0bc4c7ec7ea3806bb8c3aa66c705aa55b04d49834541e767803d5e9176a4a09f",
+    "size_bytes": 1788447,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b04f3056ec107944",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0200.metadata.json",
+    "sha256": "5b554ce6d16e346a267c28cea04c029850c64e35686aff16d4652743dcd0d18b",
+    "size_bytes": 1018,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3020fcc820e1636a",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0200.request.json",
+    "sha256": "7236683bb8536b9f689e5f6c3ec003324bef6c8cd3e0f0d3e87d0b410a81f980",
+    "size_bytes": 701,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_428d8520c7cc557e",
+    "path": "malecns_research_20260914/connectome/queries/A_edges_out_0200.response.json",
+    "sha256": "955eef6850adc6e7eaaec9f7c70e16ec3e895074efaa09a0e914e0bb96936426",
+    "size_bytes": 816450,
+    "role": "raw_incident_edges",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_273d325bb164cd74",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0000.metadata.json",
+    "sha256": "55ac659686f278197d968c08adcd68515b0e64d77792eb0c3fa93d37c6fb6acc",
+    "size_bytes": 697,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b476e005336073a3",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0000.request.json",
+    "sha256": "86d603dd2661afef170d3f425312d4bd9baa6c45381807bb0c41b1348f001f8e",
+    "size_bytes": 481,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_6020bbd569a25c58",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0000.response.json",
+    "sha256": "0e49dcd83d5181262c7142aee1d4538fb7b596dd357dcb92e0355b7a323c1a85",
+    "size_bytes": 62128,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a3bdc887a8187eec",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0020.metadata.json",
+    "sha256": "27644228e4d2131592f362f795a85a1f6ed668f02f4e2145eb9369ac1b973530",
+    "size_bytes": 697,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_4fdcf2b03d227c7b",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0020.request.json",
+    "sha256": "a0fe1e7dda1f3734d56703bac30837ccac1cfcbcfbf3ab0780f8b16666d6a58b",
+    "size_bytes": 481,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_09c0d38d3d033543",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0020.response.json",
+    "sha256": "2c543b90ed0e25a36936a6cae711295cfefaf593cf2eceec6e00c1c925cfa640",
+    "size_bytes": 58245,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_89956e1d94ace8f5",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0040.metadata.json",
+    "sha256": "24facdb52112f46d15339a3cabf8f9a41e159f1eaaea6493294312c138ef5752",
+    "size_bytes": 697,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b105f43bcf432f7d",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0040.request.json",
+    "sha256": "0a44feb7d11ac1328acbee76a7562745c27bf64c728a6c2d80dd1f0f6d95305a",
+    "size_bytes": 481,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b7b0809996fb3cf6",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0040.response.json",
+    "sha256": "435448c1b8700e35a11c5afdcec12562cb5de8c25f5482cfa5655a7b89508f51",
+    "size_bytes": 56612,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_18dbe9419318b7f9",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0060.metadata.json",
+    "sha256": "f55911d2c57f3fbff35d40da7ea10ab8cd13ee632abd808cc3a3c06c8d37cec8",
+    "size_bytes": 697,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f6294364c1c35a3d",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0060.request.json",
+    "sha256": "5d0f273255b89aa3eee99729ce8fa8cc00254e7d02806aab3b59fa532f0c52a0",
+    "size_bytes": 481,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_dfae8e9e4d26850e",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0060.response.json",
+    "sha256": "830353e3c5d53b518f56ecfaabf7e45b69c9b36750149b29107da0bc0025895b",
+    "size_bytes": 48206,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_36d4f596daa60b80",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0080.metadata.json",
+    "sha256": "ed873ca86a86b8b02278affbb6a67c273d937eb0d74e90d652769048ef28df05",
+    "size_bytes": 697,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_1450be7fc94bf6b9",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0080.request.json",
+    "sha256": "67968df153be6470009d1f44f64df42105d02a23290567dd72df67001e171d1a",
+    "size_bytes": 481,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_74e876e2de160233",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0080.response.json",
+    "sha256": "afd83bbd976356a345c20f05516b0ba818e1a09184300cd14a04ef7cc2e85578",
+    "size_bytes": 48853,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_af03ea45ae2f93f8",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0100.metadata.json",
+    "sha256": "169ff30206be566ad55fdec5c3eaf927f6810b47af3ba88cc0a53b6af99291bb",
+    "size_bytes": 702,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b0db0826a70f205c",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0100.request.json",
+    "sha256": "e9719d7f9ffde16c7708c102989f81ee91a2efa2f888cb268cc9931ce518308a",
+    "size_bytes": 486,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_9574bb6ff66ed335",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0100.response.json",
+    "sha256": "abc082d2f7501ebdd089579a1cd59ce1989ae0a76f9e7dd62aba93caad912c8f",
+    "size_bytes": 50803,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_289bcdd8ca2f6eed",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0120.metadata.json",
+    "sha256": "842cfe4c84c70c244ac94d7aa919a26776d7581552cb3dcf0b31c0ea2a30bb95",
+    "size_bytes": 717,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a7b2d30600760260",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0120.request.json",
+    "sha256": "38214256c35a5a738ca25fdb46aba2e36c4fefdb4ce7e9a07ad679506134efe1",
+    "size_bytes": 501,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_5f8518ca6a452f6c",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0120.response.json",
+    "sha256": "ff3521f0b599c78098f88023ca1ab7432110488b90a6aa02bb6fd35f632095cc",
+    "size_bytes": 50596,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a09dac5f0bfe41ac",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0140.metadata.json",
+    "sha256": "f9a714ae3eaa03d08b52984cd8ca32b0bb21422cbd14490a2fc283f4ab9cdcc0",
+    "size_bytes": 717,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7e25ee5aa49e76a0",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0140.request.json",
+    "sha256": "50d3a641cee04823a8374b1c152953d7df61568c00ae2352c9c1b58d407948db",
+    "size_bytes": 501,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7fa98022518775b2",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0140.response.json",
+    "sha256": "3210c99f062e7175f64ecf40ec1206db4f1b8eff9f79cd6ae7f3adf8e06bf399",
+    "size_bytes": 55310,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_b4879f96ac127f7c",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0160.metadata.json",
+    "sha256": "c907aece23ced0f7ce8cb5f4f73bd7d59525c3f9c8b12cb3bf943e9d39db6083",
+    "size_bytes": 717,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_d2e79933fe281afc",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0160.request.json",
+    "sha256": "0dfdfbf04e8570d7d95e4616bed51156367e7042b31c771687e4e1e418fa29a4",
+    "size_bytes": 501,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_50c9418c5c78dcd7",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0160.response.json",
+    "sha256": "cac910b6761058233767902d6fe6c5f9d556d1a30e071986b4a55598c158145b",
+    "size_bytes": 59282,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_fbc32f9702e0ca2a",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0180.metadata.json",
+    "sha256": "da4338d201a1daa760638333ac441dba8d5fef95b5cad7fc5f7b9932e2908447",
+    "size_bytes": 717,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_27f798ee42a57456",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0180.request.json",
+    "sha256": "f1c5dfa6017936a072ab77dae94030baaaa3fd32ec8d23e97023204d12ee9191",
+    "size_bytes": 501,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_7f62e448284a5211",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0180.response.json",
+    "sha256": "7654c64698b13159ed45d7354037d12043ab13ea5fe30ad7d60903e5614a3e81",
+    "size_bytes": 60520,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_a20498781dff1c9a",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0200.metadata.json",
+    "sha256": "22450200887f302fa5cc4480c4827eed08e23fd588d9a44fdf01a250a043d393",
+    "size_bytes": 717,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_99b46a6692a663cb",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0200.request.json",
+    "sha256": "964b8a953ed50d1d685a30b5c79a28dbadc715df3f6ddc41d48f359faa83779d",
+    "size_bytes": 501,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_01f24b6e14b10667",
+    "path": "malecns_research_20260914/connectome/queries/A_nodes_0200.response.json",
+    "sha256": "6fabe4a3ed745ac9fea46560721323d8d068c7edce655e6e41c65ded38dff49e",
+    "size_bytes": 52611,
+    "role": "raw_selected_node_annotations",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_52054840585812dd",
+    "path": "malecns_research_20260914/connectome/queries/meta.metadata.json",
+    "sha256": "0dec180e79d9c7d7687c01d509b8b68d6e414438a2b82ac961fa73fee7497f3f",
+    "size_bytes": 519,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_89337ece8b69a483",
+    "path": "malecns_research_20260914/connectome/queries/meta.request.json",
+    "sha256": "5c56f8f49784e7be1402a2c8e2898850ea9dd390fca8d5bc48a9ae26cf17fabb",
+    "size_bytes": 302,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_3e2944e841b1aa15",
+    "path": "malecns_research_20260914/connectome/queries/meta.response.json",
+    "sha256": "fe215e5a561f2c03ed1b47e0a38d40ba4d63d564219390869022ef25255f86ed",
+    "size_bytes": 1248433,
+    "role": "database_version",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_126a5beb2c54b5dd",
+    "path": "malecns_research_20260914/connectome/queries/meta_after.metadata.json",
+    "sha256": "afae338d602a8330994ec5f7123dc81375d77600e15392ac71cb5fa7401f0fdd",
+    "size_bytes": 684,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_f21f5f8e1a563998",
+    "path": "malecns_research_20260914/connectome/queries/meta_after.request.json",
+    "sha256": "2fdb1bc40d76586ec88953ce902890e30ae244c35664d0486a23580507440aaa",
+    "size_bytes": 409,
+    "role": "request_or_acquisition_metadata",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  },
+  {
+    "id": "src_68c4aa5c91206554",
+    "path": "malecns_research_20260914/connectome/queries/meta_after.response.json",
+    "sha256": "d6527fe405e3c8e49134d45653f58debd2a1b31092e622adf7b9f62d02e49c7c",
+    "size_bytes": 373,
+    "role": "database_version",
+    "availability": "archival_not_shipped",
+    "path_basis": "original_research_root"
+  }
+]

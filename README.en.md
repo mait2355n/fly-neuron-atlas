@@ -1,8 +1,15 @@
 # Fly Neuron Atlas
 
 An evidence and data snapshot of completed analyses of fly neural connectivity,
-activity, and motor function, covering 16 research bundles through 2026-09-15.
+activity, and motor function, selecting reusable material from 21 research bundles
+through 2026-09-16.
 The detailed findings are in Japanese; table headers and runnable tools are in English.
+
+The September 16 update adds [portable circuit operations](circuits/README.md)
+and five normalized input sets, plus [research findings and limits](research/2026-09-16/README.md)
+on experience-dependent heading representations and their possible use in an
+[artificial subject with continuing experience](docs/research-purpose.md).
+The biological findings and proposed artificial comparisons remain separate.
 
 The September 15 implementation revision rejects missing or inconsistent analyses
 and isolates voltage processing at clock resets. All 23 raw records were rerun.
@@ -19,6 +26,8 @@ original publication baseline; versioned corrected results are in `data/reanalys
 - All direct incoming and outgoing edges for **40 selected candidates**: 39,909 incoming and 323,398 outgoing edges.
 - Reanalysis tables for **23 DNa01/DNa02 voltage recordings, 33 channels**, representing 53,855 seconds of distributed voltage data. Technical eligibility after exclusions is 51,816.18 seconds; this is not a physiological quality certification.
 - Documented navigation and experience-dependent response analyses, corrections, negative results, and explicit unresolved questions.
+- Static extraction, boundary preservation, reconnection, cloning and rewiring for five selected sets of 6, 41, 131, 220 and 1,829 cells. These operations do not simulate firing, muscles or learning.
+- A decomposition of heading-alignment statistics, intervention and context-switching evidence, and falsifiable proposals for using experience across artificial tasks. Improved artificial-subject performance has not been demonstrated.
 
 ## Quick start
 
@@ -36,6 +45,10 @@ they are not recomputed from raw voltage.
 For an optional voltage rerun, see [reproduction instructions](docs/reproducing.md).
 Raw voltage files are fetched separately by immutable Dataverse file IDs and
 checked against recorded size and MD5. They are not bundled here.
+
+For circuit input verification and a reproducible extraction/reconnection example,
+see [the circuit guide](circuits/README.md). The input sets are included; the large
+collection of generated configurations is regenerated into a new output directory.
 
 ## Reading the evidence
 

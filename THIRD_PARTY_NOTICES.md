@@ -2,8 +2,18 @@
 
 Original software is MIT. Original prose and original contributions to curated
 tables are CC BY 4.0. These grants do not replace the terms of upstream material.
-The snapshot was prepared on 2026-09-15; source-specific information is in
+The initial snapshot was prepared on 2026-09-15 and expanded on 2026-09-16; source-specific information is in
 [data/sources.json](data/sources.json) and [docs/sources.md](docs/sources.md).
+
+The September 16 additions have scoped inventories in
+[circuits/PUBLICATION.json](circuits/PUBLICATION.json) and
+[research/2026-09-16/PROVENANCE.json](research/2026-09-16/PROVENANCE.json).
+Normalized circuit inputs retain the MaleCNS attribution and CC BY 4.0 terms.
+The Basnak component table retains its dataset attribution and CC BY 4.0 terms.
+Kim and Dan raw data and row-level derived tables are excluded under the existing
+packaging policy for noncommercial source datasets. Plitt notebook outputs are
+not redistributed: article terms do not establish a separate grant for the
+unlicensed source repository. Independent factual prose cites the primary works.
 
 |Material used here|Upstream terms|Credit and treatment|
 |---|---|---|

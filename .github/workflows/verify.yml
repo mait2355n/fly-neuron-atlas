@@ -15,6 +15,10 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python scripts/verify.py
       - run: python scripts/reproduce.py
+      - run: python circuits/verify_publication.py
+      - run: python circuits/tests/test_circuit_ops.py
+      - run: python -m unittest discover -s circuits/tests -p test_publication.py -v
+      - run: python research/2026-09-16/verify.py
       - run: python -m unittest discover -s tests -v
       - run: python scripts/reanalyze_ephys.py --list
   ephys-synthetic:
